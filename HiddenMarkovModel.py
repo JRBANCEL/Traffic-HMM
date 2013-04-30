@@ -11,11 +11,11 @@ class HiddenMarkovModel(object):
     """
 
     def __init__(self, Q, E, Pi, A, B):
-        self.Q = Q
-        self.E = E
-        self.Pi = Pi
-        self.A = A
-        self.B = B
+        self.Q = numpy.copy(Q)
+        self.E = numpy.copy(E)
+        self.Pi = numpy.copy(Pi)
+        self.A = numpy.copy(A)
+        self.B = numpy.copy(B)
 
         # Storing useful length for convenience
         self.n = len(Q)
@@ -29,6 +29,16 @@ class HiddenMarkovModel(object):
                 self.A[i][j] = 1/float(self.n)
             for k in range(self.m):
                 self.B[i][k] = 1/float(self.m)
+
+    def randomInitialization(self):
+        # Initialization of the parameters using a uniform distribution
+        self.Pi = numpy.random.beta(2, 2, self.n)
+        self.Pi /= numpy.linalg.norm(self.Pi, 1)
+        for i in range(self.n):
+            self.A[i] = numpy.random.beta(2, 2, self.n)
+            self.A[i] /= numpy.linalg.norm(self.A[i], 1)
+            self.B[i] = numpy.random.beta(2, 2, self.m)
+            self.B[i] /= numpy.linalg.norm(self.B[i], 1)
 
     def trainOnObservations(self, O):
         """
@@ -51,44 +61,55 @@ class HiddenMarkovModel(object):
         old_likelihood = likelihood - 1
 
         # Main Loop of updating until convergence of the likelihood
-        while abs(old_likelihood - likelihood) > 0.5:
-            # Gamma and Eta computation
-            for t in range(T-1):
-                for i in range(n):
-                    for j in range(n):
-                        eta[t][i][j] = alpha[t][i] * self.A[i][j] \
-                                       * self.B[j][O[t+1]] * beta[t+1][j] \
-                                       / likelihood
-            print("Eta", eta)
-            for t in range(T):
-                for i in range(n):
-                    gamma[t][i] = alpha[t][i] * beta[t][i] / likelihood
-            print(gamma)
-
-            # Parameters Updating
-            self.Pi = gamma[0]
+        #c = 2
+        #while c > 0:#abs(old_likelihood - likelihood) > 0.001:
+        #print("Likelihood", likelihood)
+        #print("Pi", self.Pi)
+        #print("A", self.A)
+        #print("B", self.B)
+        #print("Alpha", alpha)
+        #print("Beta", beta)
+        # Gamma and Eta computation
+        for t in range(T-1):
             for i in range(n):
-                for j in range(self.n):
-                    self.A[i][j] = sum([eta[t][i][j] for t in range(T-1)]) \
-                                   / sum([gamma[t][i] for t in range(T-1)])
-                for k in range(self.m):
-                    self.B[i][k] = sum([gamma[t][i] for t in range(T) \
-                                        if O[t] == k]) \
-                                   / sum([gamma[t][i] for t in range(T)])
+                for j in range(n):
+                    eta[t][i][j] = alpha[t][i] * self.A[i][j] \
+                                   * self.B[j][O[t+1]] * beta[t+1][j] \
+                                   / likelihood
+        #print("Eta", eta)
+        for t in range(T):
+            for i in range(n):
+                gamma[t][i] = alpha[t][i] * beta[t][i] / likelihood
+        #print(gamma)
 
-            # Recompute Alpha, Beta and Likelihood
-            alpha = self.ForwardVariable(O)
-            beta = self.BackwardVariable(O)
-            print(old_likelihood, likelihood)
-            old_likelihood = likelihood
-            likelihood = sum(alpha[-1])
+        # Parameters Updating
+        self.Pi = gamma[0]
+        for i in range(n):
+            for j in range(self.n):
+                self.A[i][j] = sum([eta[t][i][j] for t in range(T-1)]) \
+                               / sum([gamma[t][i] for t in range(T-1)])
+            for k in range(self.m):
+                self.B[i][k] = sum([gamma[t][i] for t in range(T) \
+                                    if O[t] == k]) \
+                               / sum([gamma[t][i] for t in range(T)])
+
+        # Recompute Alpha, Beta and Likelihood
+        alpha = self.ForwardVariable(O)
+        beta = self.BackwardVariable(O)
+        #print(old_likelihood, likelihood)
+        old_likelihood = likelihood
+        likelihood = sum(alpha[-1])
+        #print("Pi", self.Pi)
+        #print("A", self.A)
+        #print("B", self.B)
+        #    c -= 1
 
     def ForwardVariable(self, O):
         T = len(O)
         alpha = numpy.zeros((T, self.n))
         alpha[0] = [self.Pi[i] * self.B[i][O[0]] for i in range(self.n)]
         for t in range(1, T):
-            alpha[t] = [sum([alpha[t-1][i] * self.A[i][j] * self.B[j][O[t]]
+            alpha[t] = [self.B[j][O[t]] * sum([alpha[t-1][i] * self.A[i][j]
                         for i in range(self.n)]) for j in range(self.n)]
         return alpha
 
@@ -96,7 +117,7 @@ class HiddenMarkovModel(object):
         T = len(O)
         beta = numpy.zeros((T, self.n))
         beta[T-1] = [1.] * self.n
-        for t in range(T-2, 1, -1):
+        for t in range(T-2, -1, -1):
             beta[t] = [sum([beta[t+1][j] * self.A[i][j] * self.B[j][O[t+1]]
                        for j in range(self.n)]) for i in range(self.n)]
         return beta
@@ -118,3 +139,13 @@ class HiddenMarkovModel(object):
                      enumerate(numpy.random.multinomial(1, self.B[state]))])
             q.append(symbol)
         return q
+
+    def viterbiScore(self, O):
+        T = len(O)
+        delta = numpy.zeros((T, self.n))
+        delta[0] = [self.Pi[i] * self.B[i][O[0]] for i in range(self.n)]
+        for t in range(1, T):
+            delta[t] = [self.B[j][O[t]] * max([delta[t-1][i] * self.A[i][j]
+                        for i in range(self.n)]) for j in range(self.n)]
+        return max(delta[T-1])
+
