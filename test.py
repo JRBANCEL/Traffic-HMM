@@ -130,4 +130,4 @@ for i, observation in enumerate(observations3):
        max(HMMT2.viterbiScore(observation), HMMT1.viterbiScore(observation)):
         success += 1
     test += 1
-print("Accuracy: %.2lf%%" % (success/float(test)))
+print("Accuracy: %.2lf%%" % (success*100/float(test)))
