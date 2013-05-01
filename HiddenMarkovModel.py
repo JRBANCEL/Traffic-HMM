@@ -17,12 +17,16 @@ class HiddenMarkovModel(object):
         self.A = numpy.copy(A)
         self.B = numpy.copy(B)
 
-        # Storing useful length for convenience
+        # Storing useful lengths for convenience
         self.n = len(Q)
         self.m = len(E)
 
     def uniformInitialization(self):
-        # Initialization of the parameters using a uniform distribution
+        """
+        Initialize the parameters to a uniform distribution
+        It is kind of useless since the update process doesn't evolve
+        from an uniform distribution of the parameters
+        """
         self.Pi = [1/float(self.n)] * self.n
         for i in range(self.n):
             for j in range(self.n):
@@ -30,22 +34,27 @@ class HiddenMarkovModel(object):
             for k in range(self.m):
                 self.B[i][k] = 1/float(self.m)
 
-    def randomInitialization(self):
-        # Initialization of the parameters using a uniform distribution
-        self.Pi = numpy.random.beta(2, 2, self.n)
+    def randomInitialization(self, a=2, b=2):
+        """
+        Initialize the parameters using a beta(a,b) distribution
+        A Beta(2,2) is nice because generates parameters that are of the order
+        of magnitude
+        """
+        self.Pi = numpy.random.beta(a, b, self.n)
         self.Pi /= numpy.linalg.norm(self.Pi, 1)
         for i in range(self.n):
-            self.A[i] = numpy.random.beta(2, 2, self.n)
+            self.A[i] = numpy.random.beta(a, b, self.n)
             self.A[i] /= numpy.linalg.norm(self.A[i], 1)
-            self.B[i] = numpy.random.beta(2, 2, self.m)
+            self.B[i] = numpy.random.beta(a, b, self.m)
             self.B[i] /= numpy.linalg.norm(self.B[i], 1)
 
-    def trainOnObservations(self, O):
+    def trainOnObservations(self, O, iterations=5):
         """
         Re-estimate the parameters of the model using Baum-Welch Algorithm
         The algorithm elicit the parameters that maximize the likelihood of
         such a sequence of observations to occur.
-            O: sequence of observations - Size t
+            O: sequence of observations - Size T
+            iterations: maximal number of iterations of the update process
         """
         # Length of the sequence of observations - Using T for convenience
         T = len(O)
@@ -55,74 +64,105 @@ class HiddenMarkovModel(object):
         gamma = numpy.zeros((T, n))
 
         # Forward-Backward Variables
-        alpha = self.ForwardVariable(O)
-        beta = self.BackwardVariable(O)
-        likelihood = sum(alpha[-1])
+        alpha = self.forwardVariable(O)
+        beta = self.backwardVariable(O)
+
+        # Log likelihood
+        likelihood = -sum([numpy.log(c) for c in self.c])
         old_likelihood = likelihood - 1
 
         # Main Loop of updating until convergence of the likelihood
-        #c = 2
-        #while c > 0:#abs(old_likelihood - likelihood) > 0.001:
-        #print("Likelihood", likelihood)
-        #print("Pi", self.Pi)
-        #print("A", self.A)
-        #print("B", self.B)
-        #print("Alpha", alpha)
-        #print("Beta", beta)
-        # Gamma and Eta computation
-        for t in range(T-1):
+        while iterations > 0 and likelihood > old_likelihood:
+            # Gamma and Eta computation
+            for t in range(T-2):
+                denominator = 0
+                for i in range(n):
+                    for j in range(n):
+                        denominator += alpha[t][i] * self.A[i][j] \
+                                       * self.B[j][O[t+1]] * beta[t+1][j]
+
+                for i in range(n):
+                    gamma[t][i] = 0
+                    for j in range(n):
+                        eta[t][i][j] = alpha[t][i] * self.A[i][j] \
+                                       * self.B[j][O[t+1]] * beta[t+1][j] \
+                                       / denominator
+                        gamma[t][i] += eta[t][i][j]
+
+            # Parameters Updating
+            self.Pi = gamma[0]
             for i in range(n):
-                for j in range(n):
-                    eta[t][i][j] = alpha[t][i] * self.A[i][j] \
-                                   * self.B[j][O[t+1]] * beta[t+1][j] \
-                                   / likelihood
-        #print("Eta", eta)
-        for t in range(T):
-            for i in range(n):
-                gamma[t][i] = alpha[t][i] * beta[t][i] / likelihood
-        #print(gamma)
+                for j in range(self.n):
+                    self.A[i][j] = sum([eta[t][i][j] for t in range(T-1)]) \
+                                   / sum([gamma[t][i] for t in range(T-1)])
+                for k in range(self.m):
+                    self.B[i][k] = sum([gamma[t][i] for t in range(T) \
+                                        if O[t] == k]) \
+                                   / sum([gamma[t][i] for t in range(T)])
 
-        # Parameters Updating
-        self.Pi = gamma[0]
-        for i in range(n):
-            for j in range(self.n):
-                self.A[i][j] = sum([eta[t][i][j] for t in range(T-1)]) \
-                               / sum([gamma[t][i] for t in range(T-1)])
-            for k in range(self.m):
-                self.B[i][k] = sum([gamma[t][i] for t in range(T) \
-                                    if O[t] == k]) \
-                               / sum([gamma[t][i] for t in range(T)])
+            # Recompute Alpha, Beta and Likelihood
+            alpha = self.forwardVariable(O)
+            beta = self.backwardVariable(O)
+            old_likelihood = likelihood
+            likelihood = -sum([numpy.log(c) for c in self.c])
+            iterations -= 1
 
-        # Recompute Alpha, Beta and Likelihood
-        alpha = self.ForwardVariable(O)
-        beta = self.BackwardVariable(O)
-        #print(old_likelihood, likelihood)
-        old_likelihood = likelihood
-        likelihood = sum(alpha[-1])
-        #print("Pi", self.Pi)
-        #print("A", self.A)
-        #print("B", self.B)
-        #    c -= 1
-
-    def ForwardVariable(self, O):
+    def forwardVariable(self, O):
+        """
+        Compute the forward variable a.k.a. as alpha in the litterature
+        It relies on a recursive formula to do it in O(n^2T)
+            O: sequence of observations - Size T
+        """
         T = len(O)
         alpha = numpy.zeros((T, self.n))
+        c = numpy.zeros(T)
+
+        # Initialization
         alpha[0] = [self.Pi[i] * self.B[i][O[0]] for i in range(self.n)]
+        c[0] = sum(alpha[0])
+
+        # Scaling (avoid underflow)
+        c[0] = 1/c[0]
+        alpha[0] *= c[0]
+
+        # Recursive computation of alpha
         for t in range(1, T):
             alpha[t] = [self.B[j][O[t]] * sum([alpha[t-1][i] * self.A[i][j]
                         for i in range(self.n)]) for j in range(self.n)]
+            c[t] = sum(alpha[t])
+
+            # Scaling
+            c[t] = 1/c[t]
+            alpha[t] *= c[t]
+
+        # Exporting the scaling constants to the global scope to be used in
+        # backward computation
+        self.c = c
         return alpha
 
-    def BackwardVariable(self, O):
+    def backwardVariable(self, O):
+        """
+        Compute the backward variable a.k.a. as beta in the litterature
+        It relies on a recursive formula to do it in O(n^2T)
+        Note that forwardVariable has to be called before in order for
+        self.c to be valid.
+            O: sequence of observations - Size T
+        """
         T = len(O)
         beta = numpy.zeros((T, self.n))
-        beta[T-1] = [1.] * self.n
+        beta[T-1] = [self.c[T-1]] * self.n
         for t in range(T-2, -1, -1):
             beta[t] = [sum([beta[t+1][j] * self.A[i][j] * self.B[j][O[t+1]]
-                       for j in range(self.n)]) for i in range(self.n)]
+                       for j in range(self.n)]) for i in range(self.n)] \
+            # Scaling
+            beta[t] *= self.c[t]
         return beta
 
     def generateSequence(self, length):
+        """
+        Generate a sequence of observations of length @length
+            length: length of the sequence
+        """
         q = []
 
         # Picking initial state
@@ -141,11 +181,20 @@ class HiddenMarkovModel(object):
         return q
 
     def viterbiScore(self, O):
+        """
+        Compute the Viterbi Score of the observation
+        The Higher the score, the higher the probability of being generated by
+        this hidden markov model.
+        Note that the logarithmic variable is used to avoid underflow
+            O: sequence of observations - Size T
+        """
         T = len(O)
         delta = numpy.zeros((T, self.n))
-        delta[0] = [self.Pi[i] * self.B[i][O[0]] for i in range(self.n)]
+        delta[0] = [numpy.log(self.Pi[i]) + numpy.log(self.B[i][O[0]])
+                    for i in range(self.n)]
         for t in range(1, T):
-            delta[t] = [self.B[j][O[t]] * max([delta[t-1][i] * self.A[i][j]
+            delta[t] = [numpy.log(self.B[j][O[t]]) \
+                        + max([delta[t-1][i] + numpy.log(self.A[i][j])
                         for i in range(self.n)]) for j in range(self.n)]
         return max(delta[T-1])
 
