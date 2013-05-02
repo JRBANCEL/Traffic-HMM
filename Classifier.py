@@ -60,7 +60,13 @@ class Classifier(object):
                                       numpy.zeros((n, n)), numpy.zeros((n, m)))
 
     def resetClass(self, className):
-        pass
+        """
+        Initialize the parameters of the HMM of the class
+        """
+        if self.classes.has_key(className):
+            raise "No such class in the classifier"
+        else:
+            self.classes[className].randomInitialization()
 
     def trainClass(self, className, observations):
         pass
