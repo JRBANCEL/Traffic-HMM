@@ -26,6 +26,8 @@
 # (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 # SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
+import HiddenMarkovModel
+
 class Classifier(object):
     def __init__(self, Q, E, Pi, A, B):
     """
@@ -40,11 +42,22 @@ class Classifier(object):
         self.n = len(Q)
         self.m = len(E)
 
+        # Creating the dictionnary of classes
+        self.classes = {}
+
     def removeClass(self, className):
-        pass
+        if self.classes.has_key(className):
+            del self.classes[className]
+        else:
+            raise "No such class in the classifier"
 
     def addClass(self, className):
-        pass
+        if self.classes.has_key(className):
+            raise "Class already in the classifier"
+        else:
+            self.classes[className] = HiddenMarkovModel.HiddenMarkovModel(
+                                      self.Q, self.E, numpy.zeros(n),
+                                      numpy.zeros((n, n)), numpy.zeros((n, m)))
 
     def resetClass(self, className):
         pass
