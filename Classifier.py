@@ -64,18 +64,18 @@ class Classifier(object):
         Initialize the parameters of the HMM of the class
         """
         if self.classes.has_key(className):
-            raise "No such class in the classifier"
-        else:
             self.classes[className].randomInitialization()
+        else:
+            raise "No such class in the classifier"
 
     def trainClass(self, className, observations):
-        pass
+        """
+        Train a class with the observations
+        """
+        if self.classes.has_key(className):
+            self.classes[className].trainOnObservations(observations)
+        else:
+            raise "No such class in the classifier"
 
     def classify(self, observations):
-        pass
-
-    def save(self, filename):
-        pass
-
-    def load(self, filename):
         pass
