@@ -78,4 +78,14 @@ class Classifier(object):
             raise "No such class in the classifier"
 
     def classify(self, observations):
-        pass
+        """
+        Returns the class that is most likely to have generated the observations
+        """
+        maxScore = -numpy.inf
+        maxName = None
+        for name, hmm in self.classes.items():
+            score = hmm.viterbiScore(observations)
+            if score > maxScore:
+                maxScore = score
+                maxName = name
+        return maxName
