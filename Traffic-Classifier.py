@@ -66,14 +66,14 @@ def train(path, maxSize=1000, step=10):
                      ])
     # Delete states do not emit anything
     EM = numpy.array([
-                      numpy.ones(samples),
-                      numpy.ones(samples),
-                      numpy.ones(samples),
-                      numpy.zeros(samples),
-                      numpy.ones(samples),
-                      numpy.ones(samples),
-                      numpy.ones(samples),
-                      numpy.zeros(samples),
+                      numpy.ones(2 * samples),
+                      numpy.ones(2 * samples),
+                      numpy.ones(2 * samples),
+                      numpy.zeros(2 * samples),
+                      numpy.ones(2 * samples),
+                      numpy.ones(2 * samples),
+                      numpy.ones(2 * samples),
+                      numpy.zeros(2 * samples),
                      ])
     classifier = Classifier.Classifier(Q, E, TM=TM, EM=EM)
 
@@ -83,8 +83,21 @@ def train(path, maxSize=1000, step=10):
         print("Training class", className, "with", len(os.listdir()), "samples")
 
         # Setting random parameters before training
+        classifier.addClass(className)
         classifier.resetClass(className)
-        for observations in os.listdir():
+
+        # Training the class on all the observations in the directory
+        for obsPath in os.listdir():
+            obsFile = open(obsPath, 'r')
+            observations = []
+            for line in obsFile.readlines():
+                splitLine = line.split(' ')
+                # Discretizing the size
+                size = min(int(splitLine[2])/10, samples - 1)
+                if splitLine[1] == 'C':
+                    size += samples
+                observations.append(size)
+            obsFile.close()
             classifier.trainClass(className, observations)
         os.chdir("..")
 
