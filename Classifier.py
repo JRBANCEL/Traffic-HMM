@@ -51,14 +51,14 @@ class Classifier(object):
         self.classes = {}
 
     def removeClass(self, className):
-        if self.classes.has_key(className):
+        if className in self.classes:
             del self.classes[className]
         else:
             raise "No such class in the classifier"
 
     def addClass(self, className):
-        if self.classes.has_key(className):
-            raise "Class already in the classifier"
+        if className in self.classes:
+            raise Exception("Class already in the classifier")
         else:
             self.classes[className] = HiddenMarkovModel.HiddenMarkovModel(
                                       self.Q, self.E, PM=self.PM, TM=self.TM,
@@ -68,19 +68,19 @@ class Classifier(object):
         """
         Initialize the parameters of the HMM of the class
         """
-        if self.classes.has_key(className):
+        if className in self.classes:
             self.classes[className].randomInitialization()
         else:
-            raise "No such class in the classifier"
+            raise Exception("No such class in the classifier")
 
     def trainClass(self, className, observations):
         """
         Train a class with the observations
         """
-        if self.classes.has_key(className):
+        if className in self.classes:
             self.classes[className].trainOnObservations(observations)
         else:
-            raise "No such class in the classifier"
+            raise Exception("No such class in the classifier")
 
     def classify(self, observations):
         """
