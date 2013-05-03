@@ -1,0 +1,281 @@
+17:35:12.365560 IP ThinkPad.41228 > openbsd.informatik.uni-erlangen.de.ftp: Flags [S], seq 130886948, win 14600, options [mss 1460,sackOK,TS val 43765453 ecr 0,nop,wscale 6], length 0
+17:35:12.521380 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41228: Flags [S.], seq 3875843781, ack 130886949, win 16384, options [mss 1380,nop,nop,sackOK,nop,wscale 3,nop,nop,TS val 2789139498 ecr 43765453], length 0
+17:35:12.521421 IP ThinkPad.41228 > openbsd.informatik.uni-erlangen.de.ftp: Flags [.], ack 1, win 229, options [nop,nop,TS val 43765468 ecr 2789139498], length 0
+17:35:12.689474 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41228: Flags [P.], seq 1:8, ack 1, win 2052, options [nop,nop,TS val 2789139498 ecr 43765468], length 7
+17:35:12.689509 IP ThinkPad.41228 > openbsd.informatik.uni-erlangen.de.ftp: Flags [.], ack 8, win 229, options [nop,nop,TS val 43765485 ecr 2789139498], length 0
+17:35:12.857899 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41228: Flags [P.], seq 8:296, ack 1, win 2052, options [nop,nop,TS val 2789139498 ecr 43765485], length 288
+17:35:12.857934 IP ThinkPad.41228 > openbsd.informatik.uni-erlangen.de.ftp: Flags [.], ack 296, win 245, options [nop,nop,TS val 43765502 ecr 2789139498], length 0
+17:35:12.858123 IP ThinkPad.41228 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 1:17, ack 296, win 245, options [nop,nop,TS val 43765502 ecr 2789139498], length 16
+17:35:13.025045 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41228: Flags [P.], seq 296:354, ack 17, win 2052, options [nop,nop,TS val 2789139499 ecr 43765502], length 58
+17:35:13.025175 IP ThinkPad.41228 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 17:42, ack 354, win 245, options [nop,nop,TS val 43765519 ecr 2789139499], length 25
+17:35:13.185801 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41228: Flags [P.], seq 354:402, ack 42, win 2052, options [nop,nop,TS val 2789139499 ecr 43765519], length 48
+17:35:13.185956 IP ThinkPad.41228 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 42:48, ack 402, win 245, options [nop,nop,TS val 43765535 ecr 2789139499], length 6
+17:35:13.316249 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41228: Flags [P.], seq 402:441, ack 48, win 2052, options [nop,nop,TS val 2789139499 ecr 43765535], length 39
+17:35:13.316381 IP ThinkPad.41228 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 48:53, ack 441, win 245, options [nop,nop,TS val 43765548 ecr 2789139499], length 5
+17:35:13.440529 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41228: Flags [P.], seq 441:472, ack 53, win 2052, options [nop,nop,TS val 2789139500 ecr 43765548], length 31
+17:35:13.440702 IP ThinkPad.41228 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 53:61, ack 472, win 245, options [nop,nop,TS val 43765560 ecr 2789139500], length 8
+17:35:13.565069 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41228: Flags [P.], seq 472:492, ack 61, win 2052, options [nop,nop,TS val 2789139500 ecr 43765560], length 20
+17:35:13.565252 IP ThinkPad.41228 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 61:67, ack 492, win 245, options [nop,nop,TS val 43765573 ecr 2789139500], length 6
+17:35:13.688304 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41228: Flags [P.], seq 492:542, ack 67, win 2052, options [nop,nop,TS val 2789139500 ecr 43765573], length 50
+17:35:13.721483 IP ThinkPad.41228 > openbsd.informatik.uni-erlangen.de.ftp: Flags [.], ack 542, win 245, options [nop,nop,TS val 43765589 ecr 2789139500], length 0
+17:35:13.812821 IP ThinkPad.41228 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 67:86, ack 542, win 245, options [nop,nop,TS val 43765598 ecr 2789139500], length 19
+17:35:13.936248 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41228: Flags [P.], seq 542:579, ack 86, win 2052, options [nop,nop,TS val 2789139501 ecr 43765598], length 37
+17:35:13.936277 IP ThinkPad.41228 > openbsd.informatik.uni-erlangen.de.ftp: Flags [.], ack 579, win 245, options [nop,nop,TS val 43765610 ecr 2789139501], length 0
+17:35:13.936415 IP ThinkPad.41228 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 86:92, ack 579, win 245, options [nop,nop,TS val 43765610 ecr 2789139501], length 6
+17:35:14.075320 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41228: Flags [P.], seq 579:630, ack 92, win 2052, options [nop,nop,TS val 2789139501 ecr 43765610], length 51
+17:35:14.111475 IP ThinkPad.41228 > openbsd.informatik.uni-erlangen.de.ftp: Flags [.], ack 630, win 245, options [nop,nop,TS val 43765628 ecr 2789139501], length 0
+17:35:14.200375 IP ThinkPad.41228 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 92:111, ack 630, win 245, options [nop,nop,TS val 43765636 ecr 2789139501], length 19
+17:35:14.349118 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41228: Flags [P.], seq 630:659, ack 111, win 2052, options [nop,nop,TS val 2789139501 ecr 43765636], length 29
+17:35:14.349247 IP ThinkPad.41228 > openbsd.informatik.uni-erlangen.de.ftp: Flags [.], ack 659, win 245, options [nop,nop,TS val 43765651 ecr 2789139501], length 0
+17:35:14.349322 IP ThinkPad.41228 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 111:120, ack 659, win 245, options [nop,nop,TS val 43765651 ecr 2789139501], length 9
+17:35:14.492517 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41228: Flags [P.], seq 659:715, ack 120, win 2052, options [nop,nop,TS val 2789139502 ecr 43765651], length 56
+17:35:14.531421 IP ThinkPad.41228 > openbsd.informatik.uni-erlangen.de.ftp: Flags [.], ack 715, win 245, options [nop,nop,TS val 43765670 ecr 2789139502], length 0
+17:35:15.975172 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41228: Flags [P.], seq 659:739, ack 120, win 2052, options [nop,nop,TS val 2789139505 ecr 43765651], length 80
+17:35:15.975209 IP ThinkPad.41228 > openbsd.informatik.uni-erlangen.de.ftp: Flags [.], ack 739, win 245, options [nop,nop,TS val 43765814 ecr 2789139505,nop,nop,sack 1 {659:715}], length 0
+17:35:15.975326 IP ThinkPad.41228 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 120:126, ack 739, win 245, options [nop,nop,TS val 43765814 ecr 2789139505], length 6
+17:35:16.098098 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41228: Flags [P.], seq 739:753, ack 126, win 2052, options [nop,nop,TS val 2789139505 ecr 43765814], length 14
+17:35:16.098250 IP ThinkPad.41228 > openbsd.informatik.uni-erlangen.de.ftp: Flags [F.], seq 126, ack 753, win 245, options [nop,nop,TS val 43765826 ecr 2789139505], length 0
+17:35:16.100737 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41228: Flags [F.], seq 753, ack 126, win 2052, options [nop,nop,TS val 2789139505 ecr 43765814], length 0
+17:35:16.100760 IP ThinkPad.41228 > openbsd.informatik.uni-erlangen.de.ftp: Flags [.], ack 754, win 245, options [nop,nop,TS val 43765826 ecr 2789139505], length 0
+17:35:16.220636 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41228: Flags [F.], seq 753, ack 127, win 2052, options [nop,nop,TS val 2789139505 ecr 43765826], length 0
+17:35:18.338998 IP ThinkPad.41231 > openbsd.informatik.uni-erlangen.de.ftp: Flags [S], seq 821079191, win 14600, options [mss 1460,sackOK,TS val 43766050 ecr 0,nop,wscale 6], length 0
+17:35:18.463666 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41231: Flags [S.], seq 4059947764, ack 821079192, win 16384, options [mss 1380,nop,nop,sackOK,nop,wscale 3,nop,nop,TS val 71795782 ecr 43766050], length 0
+17:35:18.463706 IP ThinkPad.41231 > openbsd.informatik.uni-erlangen.de.ftp: Flags [.], ack 1, win 229, options [nop,nop,TS val 43766063 ecr 71795782], length 0
+17:35:18.591551 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41231: Flags [P.], seq 1:8, ack 1, win 2052, options [nop,nop,TS val 71795782 ecr 43766063], length 7
+17:35:18.591591 IP ThinkPad.41231 > openbsd.informatik.uni-erlangen.de.ftp: Flags [.], ack 8, win 229, options [nop,nop,TS val 43766076 ecr 71795782], length 0
+17:35:18.716695 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41231: Flags [P.], seq 8:296, ack 1, win 2052, options [nop,nop,TS val 71795782 ecr 43766076], length 288
+17:35:18.716724 IP ThinkPad.41231 > openbsd.informatik.uni-erlangen.de.ftp: Flags [.], ack 296, win 245, options [nop,nop,TS val 43766088 ecr 71795782], length 0
+17:35:18.716928 IP ThinkPad.41231 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 1:17, ack 296, win 245, options [nop,nop,TS val 43766088 ecr 71795782], length 16
+17:35:18.841675 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41231: Flags [P.], seq 296:354, ack 17, win 2052, options [nop,nop,TS val 71795782 ecr 43766088], length 58
+17:35:18.841852 IP ThinkPad.41231 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 17:42, ack 354, win 245, options [nop,nop,TS val 43766101 ecr 71795782], length 25
+17:35:18.968366 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41231: Flags [P.], seq 354:402, ack 42, win 2052, options [nop,nop,TS val 71795783 ecr 43766101], length 48
+17:35:18.968510 IP ThinkPad.41231 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 42:48, ack 402, win 245, options [nop,nop,TS val 43766113 ecr 71795783], length 6
+17:35:19.091956 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41231: Flags [P.], seq 402:441, ack 48, win 2052, options [nop,nop,TS val 71795783 ecr 43766113], length 39
+17:35:19.092134 IP ThinkPad.41231 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 48:53, ack 441, win 245, options [nop,nop,TS val 43766126 ecr 71795783], length 5
+17:35:19.214648 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41231: Flags [P.], seq 441:472, ack 53, win 2052, options [nop,nop,TS val 71795783 ecr 43766126], length 31
+17:35:19.214821 IP ThinkPad.41231 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 53:61, ack 472, win 245, options [nop,nop,TS val 43766138 ecr 71795783], length 8
+17:35:19.341636 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41231: Flags [P.], seq 472:492, ack 61, win 2052, options [nop,nop,TS val 71795783 ecr 43766138], length 20
+17:35:19.341784 IP ThinkPad.41231 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 61:67, ack 492, win 245, options [nop,nop,TS val 43766151 ecr 71795783], length 6
+17:35:19.467204 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41231: Flags [P.], seq 492:543, ack 67, win 2052, options [nop,nop,TS val 71795784 ecr 43766151], length 51
+17:35:19.501467 IP ThinkPad.41231 > openbsd.informatik.uni-erlangen.de.ftp: Flags [.], ack 543, win 245, options [nop,nop,TS val 43766167 ecr 71795784], length 0
+17:35:19.591124 IP ThinkPad.41231 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 67:92, ack 543, win 245, options [nop,nop,TS val 43766175 ecr 71795784], length 25
+17:35:19.713895 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41231: Flags [P.], seq 543:586, ack 92, win 2052, options [nop,nop,TS val 71795784 ecr 43766175], length 43
+17:35:19.713937 IP ThinkPad.41231 > openbsd.informatik.uni-erlangen.de.ftp: Flags [.], ack 586, win 245, options [nop,nop,TS val 43766188 ecr 71795784], length 0
+17:35:19.714109 IP ThinkPad.41231 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 92:98, ack 586, win 245, options [nop,nop,TS val 43766188 ecr 71795784], length 6
+17:35:19.836472 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41231: Flags [P.], seq 586:636, ack 98, win 2052, options [nop,nop,TS val 71795784 ecr 43766188], length 50
+17:35:19.871448 IP ThinkPad.41231 > openbsd.informatik.uni-erlangen.de.ftp: Flags [.], ack 636, win 245, options [nop,nop,TS val 43766204 ecr 71795784], length 0
+17:35:19.958716 IP ThinkPad.41231 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 98:123, ack 636, win 245, options [nop,nop,TS val 43766212 ecr 71795784], length 25
+17:35:20.080547 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41231: Flags [P.], seq 636:665, ack 123, win 2052, options [nop,nop,TS val 71795785 ecr 43766212], length 29
+17:35:20.080657 IP ThinkPad.41231 > openbsd.informatik.uni-erlangen.de.ftp: Flags [.], ack 665, win 245, options [nop,nop,TS val 43766224 ecr 71795785], length 0
+17:35:20.080747 IP ThinkPad.41231 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 123:132, ack 665, win 245, options [nop,nop,TS val 43766224 ecr 71795785], length 9
+17:35:20.231618 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41231: Flags [P.], seq 665:721, ack 132, win 2052, options [nop,nop,TS val 71795785 ecr 43766224], length 56
+17:35:20.271426 IP ThinkPad.41231 > openbsd.informatik.uni-erlangen.de.ftp: Flags [.], ack 721, win 245, options [nop,nop,TS val 43766244 ecr 71795785], length 0
+17:35:20.394143 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41231: Flags [P.], seq 721:745, ack 132, win 2052, options [nop,nop,TS val 71795785 ecr 43766244], length 24
+17:35:20.394256 IP ThinkPad.41231 > openbsd.informatik.uni-erlangen.de.ftp: Flags [.], ack 745, win 245, options [nop,nop,TS val 43766256 ecr 71795785], length 0
+17:35:20.394339 IP ThinkPad.41231 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 132:138, ack 745, win 245, options [nop,nop,TS val 43766256 ecr 71795785], length 6
+17:35:20.516166 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41231: Flags [P.], seq 745:759, ack 138, win 2052, options [nop,nop,TS val 71795786 ecr 43766256], length 14
+17:35:20.516319 IP ThinkPad.41231 > openbsd.informatik.uni-erlangen.de.ftp: Flags [F.], seq 138, ack 759, win 245, options [nop,nop,TS val 43766268 ecr 71795786], length 0
+17:35:20.518831 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41231: Flags [F.], seq 759, ack 138, win 2052, options [nop,nop,TS val 71795786 ecr 43766256], length 0
+17:35:20.518869 IP ThinkPad.41231 > openbsd.informatik.uni-erlangen.de.ftp: Flags [.], ack 760, win 245, options [nop,nop,TS val 43766268 ecr 71795786], length 0
+17:35:20.638436 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41231: Flags [F.], seq 759, ack 139, win 2052, options [nop,nop,TS val 71795786 ecr 43766268], length 0
+17:35:22.137233 IP ThinkPad.41234 > openbsd.informatik.uni-erlangen.de.ftp: Flags [S], seq 203504993, win 14600, options [mss 1460,sackOK,TS val 43766430 ecr 0,nop,wscale 6], length 0
+17:35:22.259695 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41234: Flags [S.], seq 3029501902, ack 203504994, win 16384, options [mss 1380,nop,nop,sackOK,nop,wscale 3,nop,nop,TS val 1260560047 ecr 43766430], length 0
+17:35:22.259738 IP ThinkPad.41234 > openbsd.informatik.uni-erlangen.de.ftp: Flags [.], ack 1, win 229, options [nop,nop,TS val 43766442 ecr 1260560047], length 0
+17:35:22.385364 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41234: Flags [P.], seq 1:8, ack 1, win 2052, options [nop,nop,TS val 1260560047 ecr 43766442], length 7
+17:35:22.385393 IP ThinkPad.41234 > openbsd.informatik.uni-erlangen.de.ftp: Flags [.], ack 8, win 229, options [nop,nop,TS val 43766455 ecr 1260560047], length 0
+17:35:22.511612 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41234: Flags [P.], seq 8:296, ack 1, win 2052, options [nop,nop,TS val 1260560048 ecr 43766455], length 288
+17:35:22.511634 IP ThinkPad.41234 > openbsd.informatik.uni-erlangen.de.ftp: Flags [.], ack 296, win 245, options [nop,nop,TS val 43766468 ecr 1260560048], length 0
+17:35:22.511776 IP ThinkPad.41234 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 1:17, ack 296, win 245, options [nop,nop,TS val 43766468 ecr 1260560048], length 16
+17:35:22.635656 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41234: Flags [P.], seq 296:354, ack 17, win 2052, options [nop,nop,TS val 1260560048 ecr 43766468], length 58
+17:35:22.635821 IP ThinkPad.41234 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 17:42, ack 354, win 245, options [nop,nop,TS val 43766480 ecr 1260560048], length 25
+17:35:22.763529 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41234: Flags [P.], seq 354:402, ack 42, win 2052, options [nop,nop,TS val 1260560048 ecr 43766480], length 48
+17:35:22.763699 IP ThinkPad.41234 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 42:48, ack 402, win 245, options [nop,nop,TS val 43766493 ecr 1260560048], length 6
+17:35:22.885881 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41234: Flags [P.], seq 402:441, ack 48, win 2052, options [nop,nop,TS val 1260560048 ecr 43766493], length 39
+17:35:22.886024 IP ThinkPad.41234 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 48:53, ack 441, win 245, options [nop,nop,TS val 43766505 ecr 1260560048], length 5
+17:35:23.010423 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41234: Flags [P.], seq 441:472, ack 53, win 2052, options [nop,nop,TS val 1260560049 ecr 43766505], length 31
+17:35:23.010550 IP ThinkPad.41234 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 53:61, ack 472, win 245, options [nop,nop,TS val 43766517 ecr 1260560049], length 8
+17:35:23.136129 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41234: Flags [P.], seq 472:492, ack 61, win 2052, options [nop,nop,TS val 1260560049 ecr 43766517], length 20
+17:35:23.136297 IP ThinkPad.41234 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 61:67, ack 492, win 245, options [nop,nop,TS val 43766530 ecr 1260560049], length 6
+17:35:23.258846 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41234: Flags [P.], seq 492:542, ack 67, win 2052, options [nop,nop,TS val 1260560049 ecr 43766530], length 50
+17:35:23.291488 IP ThinkPad.41234 > openbsd.informatik.uni-erlangen.de.ftp: Flags [.], ack 542, win 245, options [nop,nop,TS val 43766546 ecr 1260560049], length 0
+17:35:23.383427 IP ThinkPad.41234 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 67:86, ack 542, win 245, options [nop,nop,TS val 43766555 ecr 1260560049], length 19
+17:35:23.506252 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41234: Flags [P.], seq 542:579, ack 86, win 2052, options [nop,nop,TS val 1260560050 ecr 43766555], length 37
+17:35:23.506284 IP ThinkPad.41234 > openbsd.informatik.uni-erlangen.de.ftp: Flags [.], ack 579, win 245, options [nop,nop,TS val 43766567 ecr 1260560050], length 0
+17:35:23.506441 IP ThinkPad.41234 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 86:92, ack 579, win 245, options [nop,nop,TS val 43766567 ecr 1260560050], length 6
+17:35:23.631714 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41234: Flags [P.], seq 579:630, ack 92, win 2052, options [nop,nop,TS val 1260560050 ecr 43766567], length 51
+17:35:23.671463 IP ThinkPad.41234 > openbsd.informatik.uni-erlangen.de.ftp: Flags [.], ack 630, win 245, options [nop,nop,TS val 43766584 ecr 1260560050], length 0
+17:35:23.754595 IP ThinkPad.41234 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 92:111, ack 630, win 245, options [nop,nop,TS val 43766592 ecr 1260560050], length 19
+17:35:23.877745 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41234: Flags [P.], seq 630:659, ack 111, win 2052, options [nop,nop,TS val 1260560050 ecr 43766592], length 29
+17:35:23.877843 IP ThinkPad.41234 > openbsd.informatik.uni-erlangen.de.ftp: Flags [.], ack 659, win 245, options [nop,nop,TS val 43766604 ecr 1260560050], length 0
+17:35:23.877903 IP ThinkPad.41234 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 111:120, ack 659, win 245, options [nop,nop,TS val 43766604 ecr 1260560050], length 9
+17:35:24.001066 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41234: Flags [P.], seq 659:715, ack 120, win 2052, options [nop,nop,TS val 1260560051 ecr 43766604], length 56
+17:35:24.031459 IP ThinkPad.41234 > openbsd.informatik.uni-erlangen.de.ftp: Flags [.], ack 715, win 245, options [nop,nop,TS val 43766620 ecr 1260560051], length 0
+17:35:24.154252 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41234: Flags [P.], seq 715:739, ack 120, win 2052, options [nop,nop,TS val 1260560051 ecr 43766620], length 24
+17:35:24.154362 IP ThinkPad.41234 > openbsd.informatik.uni-erlangen.de.ftp: Flags [.], ack 739, win 245, options [nop,nop,TS val 43766632 ecr 1260560051], length 0
+17:35:24.154435 IP ThinkPad.41234 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 120:126, ack 739, win 245, options [nop,nop,TS val 43766632 ecr 1260560051], length 6
+17:35:24.276682 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41234: Flags [P.], seq 739:753, ack 126, win 2052, options [nop,nop,TS val 1260560051 ecr 43766632], length 14
+17:35:24.276851 IP ThinkPad.41234 > openbsd.informatik.uni-erlangen.de.ftp: Flags [F.], seq 126, ack 753, win 245, options [nop,nop,TS val 43766644 ecr 1260560051], length 0
+17:35:24.279380 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41234: Flags [F.], seq 753, ack 126, win 2052, options [nop,nop,TS val 1260560051 ecr 43766632], length 0
+17:35:24.279404 IP ThinkPad.41234 > openbsd.informatik.uni-erlangen.de.ftp: Flags [.], ack 754, win 245, options [nop,nop,TS val 43766644 ecr 1260560051], length 0
+17:35:24.400778 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41234: Flags [F.], seq 753, ack 127, win 2052, options [nop,nop,TS val 1260560051 ecr 43766644], length 0
+17:35:25.572344 IP ThinkPad.41237 > openbsd.informatik.uni-erlangen.de.ftp: Flags [S], seq 899134137, win 14600, options [mss 1460,sackOK,TS val 43766774 ecr 0,nop,wscale 6], length 0
+17:35:25.694158 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41237: Flags [S.], seq 2276725254, ack 899134138, win 16384, options [mss 1380,nop,nop,sackOK,nop,wscale 3,nop,nop,TS val 1508951157 ecr 43766774], length 0
+17:35:25.694214 IP ThinkPad.41237 > openbsd.informatik.uni-erlangen.de.ftp: Flags [.], ack 1, win 229, options [nop,nop,TS val 43766786 ecr 1508951157], length 0
+17:35:25.819281 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41237: Flags [P.], seq 1:8, ack 1, win 2052, options [nop,nop,TS val 1508951157 ecr 43766786], length 7
+17:35:25.819316 IP ThinkPad.41237 > openbsd.informatik.uni-erlangen.de.ftp: Flags [.], ack 8, win 229, options [nop,nop,TS val 43766798 ecr 1508951157], length 0
+17:35:25.942381 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41237: Flags [P.], seq 8:296, ack 1, win 2052, options [nop,nop,TS val 1508951158 ecr 43766798], length 288
+17:35:25.942410 IP ThinkPad.41237 > openbsd.informatik.uni-erlangen.de.ftp: Flags [.], ack 296, win 245, options [nop,nop,TS val 43766811 ecr 1508951158], length 0
+17:35:25.942588 IP ThinkPad.41237 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 1:17, ack 296, win 245, options [nop,nop,TS val 43766811 ecr 1508951158], length 16
+17:35:26.067576 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41237: Flags [P.], seq 296:354, ack 17, win 2052, options [nop,nop,TS val 1508951158 ecr 43766811], length 58
+17:35:26.067720 IP ThinkPad.41237 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 17:42, ack 354, win 245, options [nop,nop,TS val 43766823 ecr 1508951158], length 25
+17:35:26.194670 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41237: Flags [P.], seq 354:402, ack 42, win 2052, options [nop,nop,TS val 1508951158 ecr 43766823], length 48
+17:35:26.194804 IP ThinkPad.41237 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 42:48, ack 402, win 245, options [nop,nop,TS val 43766836 ecr 1508951158], length 6
+17:35:26.334464 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41237: Flags [P.], seq 402:441, ack 48, win 2052, options [nop,nop,TS val 1508951158 ecr 43766836], length 39
+17:35:26.334630 IP ThinkPad.41237 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 48:53, ack 441, win 245, options [nop,nop,TS val 43766850 ecr 1508951158], length 5
+17:35:26.459747 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41237: Flags [P.], seq 441:472, ack 53, win 2052, options [nop,nop,TS val 1508951159 ecr 43766850], length 31
+17:35:26.459892 IP ThinkPad.41237 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 53:61, ack 472, win 245, options [nop,nop,TS val 43766862 ecr 1508951159], length 8
+17:35:26.583382 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41237: Flags [P.], seq 472:492, ack 61, win 2052, options [nop,nop,TS val 1508951159 ecr 43766862], length 20
+17:35:26.583541 IP ThinkPad.41237 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 61:67, ack 492, win 245, options [nop,nop,TS val 43766875 ecr 1508951159], length 6
+17:35:26.706359 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41237: Flags [P.], seq 492:542, ack 67, win 2052, options [nop,nop,TS val 1508951159 ecr 43766875], length 50
+17:35:26.741415 IP ThinkPad.41237 > openbsd.informatik.uni-erlangen.de.ftp: Flags [.], ack 542, win 245, options [nop,nop,TS val 43766891 ecr 1508951159], length 0
+17:35:26.829376 IP ThinkPad.41237 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 67:95, ack 542, win 245, options [nop,nop,TS val 43766899 ecr 1508951159], length 28
+17:35:26.952037 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41237: Flags [P.], seq 542:588, ack 95, win 2052, options [nop,nop,TS val 1508951160 ecr 43766899], length 46
+17:35:26.952076 IP ThinkPad.41237 > openbsd.informatik.uni-erlangen.de.ftp: Flags [.], ack 588, win 245, options [nop,nop,TS val 43766912 ecr 1508951160], length 0
+17:35:26.952185 IP ThinkPad.41237 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 95:101, ack 588, win 245, options [nop,nop,TS val 43766912 ecr 1508951160], length 6
+17:35:27.074468 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41237: Flags [P.], seq 588:639, ack 101, win 2052, options [nop,nop,TS val 1508951160 ecr 43766912], length 51
+17:35:27.111463 IP ThinkPad.41237 > openbsd.informatik.uni-erlangen.de.ftp: Flags [.], ack 639, win 245, options [nop,nop,TS val 43766928 ecr 1508951160], length 0
+17:35:30.203412 IP ThinkPad.41237 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 101:129, ack 639, win 245, options [nop,nop,TS val 43767237 ecr 1508951160], length 28
+17:35:30.324929 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41237: Flags [P.], seq 639:668, ack 129, win 2052, options [nop,nop,TS val 1508951166 ecr 43767237], length 29
+17:35:30.324969 IP ThinkPad.41237 > openbsd.informatik.uni-erlangen.de.ftp: Flags [.], ack 668, win 245, options [nop,nop,TS val 43767249 ecr 1508951166], length 0
+17:35:30.325121 IP ThinkPad.41237 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 129:138, ack 668, win 245, options [nop,nop,TS val 43767249 ecr 1508951166], length 9
+17:35:30.458575 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41237: Flags [P.], seq 668:724, ack 138, win 2052, options [nop,nop,TS val 1508951167 ecr 43767249], length 56
+17:35:30.491424 IP ThinkPad.41237 > openbsd.informatik.uni-erlangen.de.ftp: Flags [.], ack 724, win 245, options [nop,nop,TS val 43767266 ecr 1508951167], length 0
+17:35:30.613301 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41237: Flags [P.], seq 724:748, ack 138, win 2052, options [nop,nop,TS val 1508951167 ecr 43767266], length 24
+17:35:30.613330 IP ThinkPad.41237 > openbsd.informatik.uni-erlangen.de.ftp: Flags [.], ack 748, win 245, options [nop,nop,TS val 43767278 ecr 1508951167], length 0
+17:35:30.613503 IP ThinkPad.41237 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 138:144, ack 748, win 245, options [nop,nop,TS val 43767278 ecr 1508951167], length 6
+17:35:30.735705 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41237: Flags [P.], seq 748:762, ack 144, win 2052, options [nop,nop,TS val 1508951167 ecr 43767278], length 14
+17:35:30.735887 IP ThinkPad.41237 > openbsd.informatik.uni-erlangen.de.ftp: Flags [F.], seq 144, ack 762, win 245, options [nop,nop,TS val 43767290 ecr 1508951167], length 0
+17:35:30.738449 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41237: Flags [F.], seq 762, ack 144, win 2052, options [nop,nop,TS val 1508951167 ecr 43767278], length 0
+17:35:30.738472 IP ThinkPad.41237 > openbsd.informatik.uni-erlangen.de.ftp: Flags [.], ack 763, win 245, options [nop,nop,TS val 43767290 ecr 1508951167], length 0
+17:35:30.857074 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41237: Flags [F.], seq 762, ack 145, win 2052, options [nop,nop,TS val 1508951167 ecr 43767290], length 0
+17:35:32.289286 IP ThinkPad.41240 > openbsd.informatik.uni-erlangen.de.ftp: Flags [S], seq 2816058804, win 14600, options [mss 1460,sackOK,TS val 43767445 ecr 0,nop,wscale 6], length 0
+17:35:32.410879 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41240: Flags [S.], seq 1278194075, ack 2816058805, win 16384, options [mss 1380,nop,nop,sackOK,nop,wscale 3,nop,nop,TS val 588304594 ecr 43767445], length 0
+17:35:32.410927 IP ThinkPad.41240 > openbsd.informatik.uni-erlangen.de.ftp: Flags [.], ack 1, win 229, options [nop,nop,TS val 43767457 ecr 588304594], length 0
+17:35:32.536235 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41240: Flags [P.], seq 1:8, ack 1, win 2052, options [nop,nop,TS val 588304595 ecr 43767457], length 7
+17:35:32.536267 IP ThinkPad.41240 > openbsd.informatik.uni-erlangen.de.ftp: Flags [.], ack 8, win 229, options [nop,nop,TS val 43767470 ecr 588304595], length 0
+17:35:32.658190 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41240: Flags [P.], seq 8:296, ack 1, win 2052, options [nop,nop,TS val 588304595 ecr 43767470], length 288
+17:35:32.658223 IP ThinkPad.41240 > openbsd.informatik.uni-erlangen.de.ftp: Flags [.], ack 296, win 245, options [nop,nop,TS val 43767482 ecr 588304595], length 0
+17:35:32.658399 IP ThinkPad.41240 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 1:17, ack 296, win 245, options [nop,nop,TS val 43767482 ecr 588304595], length 16
+17:35:32.783435 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41240: Flags [P.], seq 296:354, ack 17, win 2052, options [nop,nop,TS val 588304595 ecr 43767482], length 58
+17:35:32.783781 IP ThinkPad.41240 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 17:42, ack 354, win 245, options [nop,nop,TS val 43767495 ecr 588304595], length 25
+17:35:32.910182 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41240: Flags [P.], seq 354:402, ack 42, win 2052, options [nop,nop,TS val 588304595 ecr 43767495], length 48
+17:35:32.910318 IP ThinkPad.41240 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 42:48, ack 402, win 245, options [nop,nop,TS val 43767507 ecr 588304595], length 6
+17:35:33.032331 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41240: Flags [P.], seq 402:441, ack 48, win 2052, options [nop,nop,TS val 588304596 ecr 43767507], length 39
+17:35:33.032510 IP ThinkPad.41240 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 48:53, ack 441, win 245, options [nop,nop,TS val 43767520 ecr 588304596], length 5
+17:35:33.155640 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41240: Flags [P.], seq 441:472, ack 53, win 2052, options [nop,nop,TS val 588304596 ecr 43767520], length 31
+17:35:33.155771 IP ThinkPad.41240 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 53:61, ack 472, win 245, options [nop,nop,TS val 43767532 ecr 588304596], length 8
+17:35:33.278175 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41240: Flags [P.], seq 472:492, ack 61, win 2052, options [nop,nop,TS val 588304596 ecr 43767532], length 20
+17:35:33.278277 IP ThinkPad.41240 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 61:67, ack 492, win 245, options [nop,nop,TS val 43767544 ecr 588304596], length 6
+17:35:33.401295 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41240: Flags [P.], seq 492:542, ack 67, win 2052, options [nop,nop,TS val 588304596 ecr 43767544], length 50
+17:35:33.431465 IP ThinkPad.41240 > openbsd.informatik.uni-erlangen.de.ftp: Flags [.], ack 542, win 245, options [nop,nop,TS val 43767560 ecr 588304596], length 0
+17:35:33.525997 IP ThinkPad.41240 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 67:104, ack 542, win 245, options [nop,nop,TS val 43767569 ecr 588304596], length 37
+17:35:33.648000 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41240: Flags [P.], seq 542:597, ack 104, win 2052, options [nop,nop,TS val 588304597 ecr 43767569], length 55
+17:35:33.648040 IP ThinkPad.41240 > openbsd.informatik.uni-erlangen.de.ftp: Flags [.], ack 597, win 245, options [nop,nop,TS val 43767581 ecr 588304597], length 0
+17:35:33.648221 IP ThinkPad.41240 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 104:110, ack 597, win 245, options [nop,nop,TS val 43767581 ecr 588304597], length 6
+17:35:33.773875 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41240: Flags [P.], seq 597:648, ack 110, win 2052, options [nop,nop,TS val 588304597 ecr 43767581], length 51
+17:35:33.811484 IP ThinkPad.41240 > openbsd.informatik.uni-erlangen.de.ftp: Flags [.], ack 648, win 245, options [nop,nop,TS val 43767598 ecr 588304597], length 0
+17:35:36.906143 IP ThinkPad.41240 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 110:147, ack 648, win 245, options [nop,nop,TS val 43767907 ecr 588304597], length 37
+17:35:37.029849 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41240: Flags [P.], seq 648:677, ack 147, win 2052, options [nop,nop,TS val 588304604 ecr 43767907], length 29
+17:35:37.029877 IP ThinkPad.41240 > openbsd.informatik.uni-erlangen.de.ftp: Flags [.], ack 677, win 245, options [nop,nop,TS val 43767919 ecr 588304604], length 0
+17:35:37.030003 IP ThinkPad.41240 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 147:156, ack 677, win 245, options [nop,nop,TS val 43767919 ecr 588304604], length 9
+17:35:37.173162 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41240: Flags [P.], seq 677:733, ack 156, win 2052, options [nop,nop,TS val 588304604 ecr 43767919], length 56
+17:35:37.211442 IP ThinkPad.41240 > openbsd.informatik.uni-erlangen.de.ftp: Flags [.], ack 733, win 245, options [nop,nop,TS val 43767938 ecr 588304604], length 0
+17:35:37.335968 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41240: Flags [P.], seq 733:757, ack 156, win 2052, options [nop,nop,TS val 588304604 ecr 43767938], length 24
+17:35:37.335993 IP ThinkPad.41240 > openbsd.informatik.uni-erlangen.de.ftp: Flags [.], ack 757, win 245, options [nop,nop,TS val 43767950 ecr 588304604], length 0
+17:35:37.336143 IP ThinkPad.41240 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 156:162, ack 757, win 245, options [nop,nop,TS val 43767950 ecr 588304604], length 6
+17:35:37.463228 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41240: Flags [P.], seq 757:771, ack 162, win 2052, options [nop,nop,TS val 588304605 ecr 43767950], length 14
+17:35:37.463357 IP ThinkPad.41240 > openbsd.informatik.uni-erlangen.de.ftp: Flags [F.], seq 162, ack 771, win 245, options [nop,nop,TS val 43767963 ecr 588304605], length 0
+17:35:37.465884 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41240: Flags [F.], seq 771, ack 162, win 2052, options [nop,nop,TS val 588304605 ecr 43767950], length 0
+17:35:37.465918 IP ThinkPad.41240 > openbsd.informatik.uni-erlangen.de.ftp: Flags [.], ack 772, win 245, options [nop,nop,TS val 43767963 ecr 588304605], length 0
+17:35:37.588764 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41240: Flags [F.], seq 771, ack 163, win 2052, options [nop,nop,TS val 588304605 ecr 43767963], length 0
+17:35:38.516362 IP ThinkPad.41243 > openbsd.informatik.uni-erlangen.de.ftp: Flags [S], seq 896475549, win 14600, options [mss 1460,sackOK,TS val 43768068 ecr 0,nop,wscale 6], length 0
+17:35:38.647803 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41243: Flags [S.], seq 2088176003, ack 896475550, win 16384, options [mss 1380,nop,nop,sackOK,nop,wscale 3,nop,nop,TS val 3298534975 ecr 43768068], length 0
+17:35:38.647855 IP ThinkPad.41243 > openbsd.informatik.uni-erlangen.de.ftp: Flags [.], ack 1, win 229, options [nop,nop,TS val 43768081 ecr 3298534975], length 0
+17:35:38.781494 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41243: Flags [P.], seq 1:8, ack 1, win 2052, options [nop,nop,TS val 3298534975 ecr 43768081], length 7
+17:35:38.781533 IP ThinkPad.41243 > openbsd.informatik.uni-erlangen.de.ftp: Flags [.], ack 8, win 229, options [nop,nop,TS val 43768095 ecr 3298534975], length 0
+17:35:38.916117 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41243: Flags [P.], seq 8:296, ack 1, win 2052, options [nop,nop,TS val 3298534975 ecr 43768095], length 288
+17:35:38.916149 IP ThinkPad.41243 > openbsd.informatik.uni-erlangen.de.ftp: Flags [.], ack 296, win 245, options [nop,nop,TS val 43768108 ecr 3298534975], length 0
+17:35:38.916319 IP ThinkPad.41243 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 1:17, ack 296, win 245, options [nop,nop,TS val 43768108 ecr 3298534975], length 16
+17:35:39.054206 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41243: Flags [P.], seq 296:354, ack 17, win 2052, options [nop,nop,TS val 3298534976 ecr 43768108], length 58
+17:35:39.054377 IP ThinkPad.41243 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 17:42, ack 354, win 245, options [nop,nop,TS val 43768122 ecr 3298534976], length 25
+17:35:39.199267 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41243: Flags [P.], seq 354:402, ack 42, win 2052, options [nop,nop,TS val 3298534976 ecr 43768122], length 48
+17:35:39.199399 IP ThinkPad.41243 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 42:48, ack 402, win 245, options [nop,nop,TS val 43768136 ecr 3298534976], length 6
+17:35:39.345656 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41243: Flags [P.], seq 402:441, ack 48, win 2052, options [nop,nop,TS val 3298534976 ecr 43768136], length 39
+17:35:39.345817 IP ThinkPad.41243 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 48:53, ack 441, win 245, options [nop,nop,TS val 43768151 ecr 3298534976], length 5
+17:35:39.492747 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41243: Flags [P.], seq 441:472, ack 53, win 2052, options [nop,nop,TS val 3298534977 ecr 43768151], length 31
+17:35:39.492914 IP ThinkPad.41243 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 53:61, ack 472, win 245, options [nop,nop,TS val 43768166 ecr 3298534977], length 8
+17:35:39.627082 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41243: Flags [P.], seq 472:492, ack 61, win 2052, options [nop,nop,TS val 3298534977 ecr 43768166], length 20
+17:35:39.627240 IP ThinkPad.41243 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 61:67, ack 492, win 245, options [nop,nop,TS val 43768179 ecr 3298534977], length 6
+17:35:39.756837 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41243: Flags [P.], seq 492:542, ack 67, win 2052, options [nop,nop,TS val 3298534977 ecr 43768179], length 50
+17:35:39.791462 IP ThinkPad.41243 > openbsd.informatik.uni-erlangen.de.ftp: Flags [.], ack 542, win 245, options [nop,nop,TS val 43768196 ecr 3298534977], length 0
+17:35:39.883647 IP ThinkPad.41243 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 67:95, ack 542, win 245, options [nop,nop,TS val 43768205 ecr 3298534977], length 28
+17:35:40.009569 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41243: Flags [P.], seq 542:588, ack 95, win 2052, options [nop,nop,TS val 3298534978 ecr 43768205], length 46
+17:35:40.009595 IP ThinkPad.41243 > openbsd.informatik.uni-erlangen.de.ftp: Flags [.], ack 588, win 245, options [nop,nop,TS val 43768217 ecr 3298534978], length 0
+17:35:40.009717 IP ThinkPad.41243 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 95:101, ack 588, win 245, options [nop,nop,TS val 43768217 ecr 3298534978], length 6
+17:35:40.136755 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41243: Flags [P.], seq 588:639, ack 101, win 2052, options [nop,nop,TS val 3298534978 ecr 43768217], length 51
+17:35:40.171478 IP ThinkPad.41243 > openbsd.informatik.uni-erlangen.de.ftp: Flags [.], ack 639, win 245, options [nop,nop,TS val 43768234 ecr 3298534978], length 0
+17:35:40.268464 IP ThinkPad.41243 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 101:129, ack 639, win 245, options [nop,nop,TS val 43768243 ecr 3298534978], length 28
+17:35:40.403091 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41243: Flags [P.], seq 639:668, ack 129, win 2052, options [nop,nop,TS val 3298534978 ecr 43768243], length 29
+17:35:40.403196 IP ThinkPad.41243 > openbsd.informatik.uni-erlangen.de.ftp: Flags [.], ack 668, win 245, options [nop,nop,TS val 43768257 ecr 3298534978], length 0
+17:35:40.403268 IP ThinkPad.41243 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 129:138, ack 668, win 245, options [nop,nop,TS val 43768257 ecr 3298534978], length 9
+17:35:40.538022 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41243: Flags [P.], seq 668:724, ack 138, win 2052, options [nop,nop,TS val 3298534979 ecr 43768257], length 56
+17:35:40.571423 IP ThinkPad.41243 > openbsd.informatik.uni-erlangen.de.ftp: Flags [.], ack 724, win 245, options [nop,nop,TS val 43768274 ecr 3298534979], length 0
+17:35:40.701149 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41243: Flags [P.], seq 724:748, ack 138, win 2052, options [nop,nop,TS val 3298534979 ecr 43768274], length 24
+17:35:40.701256 IP ThinkPad.41243 > openbsd.informatik.uni-erlangen.de.ftp: Flags [.], ack 748, win 245, options [nop,nop,TS val 43768286 ecr 3298534979], length 0
+17:35:40.701343 IP ThinkPad.41243 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 138:144, ack 748, win 245, options [nop,nop,TS val 43768286 ecr 3298534979], length 6
+17:35:40.825122 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41243: Flags [P.], seq 748:762, ack 144, win 2052, options [nop,nop,TS val 3298534979 ecr 43768286], length 14
+17:35:40.825274 IP ThinkPad.41243 > openbsd.informatik.uni-erlangen.de.ftp: Flags [F.], seq 144, ack 762, win 245, options [nop,nop,TS val 43768299 ecr 3298534979], length 0
+17:35:40.827559 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41243: Flags [F.], seq 762, ack 144, win 2052, options [nop,nop,TS val 3298534979 ecr 43768286], length 0
+17:35:40.827585 IP ThinkPad.41243 > openbsd.informatik.uni-erlangen.de.ftp: Flags [.], ack 763, win 245, options [nop,nop,TS val 43768299 ecr 3298534979], length 0
+17:35:40.950160 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41243: Flags [F.], seq 762, ack 145, win 2052, options [nop,nop,TS val 3298534980 ecr 43768299], length 0
+17:35:42.817203 IP ThinkPad.41246 > openbsd.informatik.uni-erlangen.de.ftp: Flags [S], seq 4031501864, win 14600, options [mss 1460,sackOK,TS val 43768498 ecr 0,nop,wscale 6], length 0
+17:35:42.940704 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41246: Flags [S.], seq 3468882654, ack 4031501865, win 16384, options [mss 1380,nop,nop,sackOK,nop,wscale 3,nop,nop,TS val 2596418200 ecr 43768498], length 0
+17:35:42.940748 IP ThinkPad.41246 > openbsd.informatik.uni-erlangen.de.ftp: Flags [.], ack 1, win 229, options [nop,nop,TS val 43768510 ecr 2596418200], length 0
+17:35:43.069086 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41246: Flags [P.], seq 1:8, ack 1, win 2052, options [nop,nop,TS val 2596418200 ecr 43768510], length 7
+17:35:43.069123 IP ThinkPad.41246 > openbsd.informatik.uni-erlangen.de.ftp: Flags [.], ack 8, win 229, options [nop,nop,TS val 43768523 ecr 2596418200], length 0
+17:35:43.193924 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41246: Flags [P.], seq 8:296, ack 1, win 2052, options [nop,nop,TS val 2596418200 ecr 43768523], length 288
+17:35:43.193946 IP ThinkPad.41246 > openbsd.informatik.uni-erlangen.de.ftp: Flags [.], ack 296, win 245, options [nop,nop,TS val 43768536 ecr 2596418200], length 0
+17:35:43.194090 IP ThinkPad.41246 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 1:17, ack 296, win 245, options [nop,nop,TS val 43768536 ecr 2596418200], length 16
+17:35:43.320575 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41246: Flags [P.], seq 296:354, ack 17, win 2052, options [nop,nop,TS val 2596418200 ecr 43768536], length 58
+17:35:43.320718 IP ThinkPad.41246 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 17:42, ack 354, win 245, options [nop,nop,TS val 43768548 ecr 2596418200], length 25
+17:35:43.449626 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41246: Flags [P.], seq 354:402, ack 42, win 2052, options [nop,nop,TS val 2596418201 ecr 43768548], length 48
+17:35:43.449785 IP ThinkPad.41246 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 42:48, ack 402, win 245, options [nop,nop,TS val 43768561 ecr 2596418201], length 6
+17:35:43.579883 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41246: Flags [P.], seq 402:441, ack 48, win 2052, options [nop,nop,TS val 2596418201 ecr 43768561], length 39
+17:35:43.580054 IP ThinkPad.41246 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 48:53, ack 441, win 245, options [nop,nop,TS val 43768574 ecr 2596418201], length 5
+17:35:43.700538 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41246: Flags [P.], seq 441:472, ack 53, win 2052, options [nop,nop,TS val 2596418201 ecr 43768574], length 31
+17:35:43.700724 IP ThinkPad.41246 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 53:61, ack 472, win 245, options [nop,nop,TS val 43768586 ecr 2596418201], length 8
+17:35:43.823195 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41246: Flags [P.], seq 472:492, ack 61, win 2052, options [nop,nop,TS val 2596418201 ecr 43768586], length 20
+17:35:43.823337 IP ThinkPad.41246 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 61:67, ack 492, win 245, options [nop,nop,TS val 43768599 ecr 2596418201], length 6
+17:35:44.009199 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41246: Flags [P.], seq 492:542, ack 67, win 2052, options [nop,nop,TS val 2596418202 ecr 43768599], length 50
+17:35:44.041447 IP ThinkPad.41246 > openbsd.informatik.uni-erlangen.de.ftp: Flags [.], ack 542, win 245, options [nop,nop,TS val 43768621 ecr 2596418202], length 0
+17:35:44.131391 IP ThinkPad.41246 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 67:86, ack 542, win 245, options [nop,nop,TS val 43768629 ecr 2596418202], length 19
+17:35:44.253668 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41246: Flags [P.], seq 542:579, ack 86, win 2052, options [nop,nop,TS val 2596418202 ecr 43768629], length 37
+17:35:44.253706 IP ThinkPad.41246 > openbsd.informatik.uni-erlangen.de.ftp: Flags [.], ack 579, win 245, options [nop,nop,TS val 43768642 ecr 2596418202], length 0
+17:35:44.253835 IP ThinkPad.41246 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 86:92, ack 579, win 245, options [nop,nop,TS val 43768642 ecr 2596418202], length 6
+17:35:44.377883 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41246: Flags [P.], seq 579:629, ack 92, win 2052, options [nop,nop,TS val 2596418202 ecr 43768642], length 50
+17:35:44.411443 IP ThinkPad.41246 > openbsd.informatik.uni-erlangen.de.ftp: Flags [.], ack 629, win 245, options [nop,nop,TS val 43768658 ecr 2596418202], length 0
+17:35:44.500230 IP ThinkPad.41246 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 92:111, ack 629, win 245, options [nop,nop,TS val 43768666 ecr 2596418202], length 19
+17:35:44.622639 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41246: Flags [P.], seq 629:658, ack 111, win 2052, options [nop,nop,TS val 2596418203 ecr 43768666], length 29
+17:35:44.622742 IP ThinkPad.41246 > openbsd.informatik.uni-erlangen.de.ftp: Flags [.], ack 658, win 245, options [nop,nop,TS val 43768679 ecr 2596418203], length 0
+17:35:44.622818 IP ThinkPad.41246 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 111:120, ack 658, win 245, options [nop,nop,TS val 43768679 ecr 2596418203], length 9
+17:35:44.750199 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41246: Flags [P.], seq 658:714, ack 120, win 2052, options [nop,nop,TS val 2596418203 ecr 43768679], length 56
+17:35:44.781423 IP ThinkPad.41246 > openbsd.informatik.uni-erlangen.de.ftp: Flags [.], ack 714, win 245, options [nop,nop,TS val 43768695 ecr 2596418203], length 0
+17:35:44.918235 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41246: Flags [P.], seq 714:738, ack 120, win 2052, options [nop,nop,TS val 2596418203 ecr 43768695], length 24
+17:35:44.918344 IP ThinkPad.41246 > openbsd.informatik.uni-erlangen.de.ftp: Flags [.], ack 738, win 245, options [nop,nop,TS val 43768708 ecr 2596418203], length 0
+17:35:44.918430 IP ThinkPad.41246 > openbsd.informatik.uni-erlangen.de.ftp: Flags [P.], seq 120:126, ack 738, win 245, options [nop,nop,TS val 43768708 ecr 2596418203], length 6
+17:35:45.041127 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41246: Flags [P.], seq 738:752, ack 126, win 2052, options [nop,nop,TS val 2596418204 ecr 43768708], length 14
+17:35:45.041254 IP ThinkPad.41246 > openbsd.informatik.uni-erlangen.de.ftp: Flags [F.], seq 126, ack 752, win 245, options [nop,nop,TS val 43768720 ecr 2596418204], length 0
+17:35:45.044335 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41246: Flags [F.], seq 752, ack 126, win 2052, options [nop,nop,TS val 2596418204 ecr 43768708], length 0
+17:35:45.044363 IP ThinkPad.41246 > openbsd.informatik.uni-erlangen.de.ftp: Flags [.], ack 753, win 245, options [nop,nop,TS val 43768721 ecr 2596418204], length 0
+17:35:45.165717 IP openbsd.informatik.uni-erlangen.de.ftp > ThinkPad.41246: Flags [F.], seq 752, ack 127, win 2052, options [nop,nop,TS val 2596418204 ecr 43768720], length 0
+

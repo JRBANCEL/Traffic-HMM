@@ -1,0 +1,661 @@
+17:36:41.266021 IP ThinkPad.56255 > ftp-prod-srv04.it.su.se.ftp: Flags [S], seq 3572387167, win 14600, options [mss 1460,sackOK,TS val 43774343 ecr 0,nop,wscale 6], length 0
+17:36:41.388465 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56255: Flags [S.], seq 2136184502, ack 3572387168, win 5792, options [mss 1380,sackOK,TS val 700372831 ecr 43774343,nop,wscale 6], length 0
+17:36:41.388510 IP ThinkPad.56255 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 1, win 229, options [nop,nop,TS val 43774355 ecr 700372831], length 0
+17:36:41.564926 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56255: Flags [P.], seq 1:48, ack 1, win 91, options [nop,nop,TS val 700372876 ecr 43774355], length 47
+17:36:41.564962 IP ThinkPad.56255 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 48, win 229, options [nop,nop,TS val 43774373 ecr 700372876], length 0
+17:36:41.565057 IP ThinkPad.56255 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 1:17, ack 48, win 229, options [nop,nop,TS val 43774373 ecr 700372876], length 16
+17:36:41.690957 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56255: Flags [.], ack 17, win 91, options [nop,nop,TS val 700372907 ecr 43774373], length 0
+17:36:41.690988 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56255: Flags [P.], seq 48:82, ack 17, win 91, options [nop,nop,TS val 700372907 ecr 43774373], length 34
+17:36:41.691132 IP ThinkPad.56255 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 17:42, ack 82, win 229, options [nop,nop,TS val 43774385 ecr 700372907], length 25
+17:36:41.857097 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56255: Flags [.], ack 42, win 91, options [nop,nop,TS val 700372949 ecr 43774385], length 0
+17:36:43.082958 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56255: Flags [P.], seq 82:105, ack 42, win 91, options [nop,nop,TS val 700373255 ecr 43774385], length 23
+17:36:43.083077 IP ThinkPad.56255 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 42:48, ack 105, win 229, options [nop,nop,TS val 43774525 ecr 700373255], length 6
+17:36:43.206937 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56255: Flags [.], ack 48, win 91, options [nop,nop,TS val 700373286 ecr 43774525], length 0
+17:36:43.206966 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56255: Flags [P.], seq 105:124, ack 48, win 91, options [nop,nop,TS val 700373286 ecr 43774525], length 19
+17:36:43.207088 IP ThinkPad.56255 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 48:53, ack 124, win 229, options [nop,nop,TS val 43774537 ecr 700373286], length 5
+17:36:43.330448 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56255: Flags [P.], seq 124:133, ack 53, win 91, options [nop,nop,TS val 700373317 ecr 43774537], length 9
+17:36:43.330574 IP ThinkPad.56255 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 53:61, ack 133, win 229, options [nop,nop,TS val 43774549 ecr 700373317], length 8
+17:36:43.456971 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56255: Flags [P.], seq 133:164, ack 61, win 91, options [nop,nop,TS val 700373348 ecr 43774549], length 31
+17:36:43.457110 IP ThinkPad.56255 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 61:67, ack 164, win 229, options [nop,nop,TS val 43774562 ecr 700373348], length 6
+17:36:43.587958 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56255: Flags [P.], seq 164:215, ack 67, win 91, options [nop,nop,TS val 700373381 ecr 43774562], length 51
+17:36:43.621464 IP ThinkPad.56255 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 215, win 229, options [nop,nop,TS val 43774579 ecr 700373381], length 0
+17:36:43.714772 IP ThinkPad.56255 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 67:86, ack 215, win 229, options [nop,nop,TS val 43774588 ecr 700373381], length 19
+17:36:43.838014 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56255: Flags [P.], seq 215:245, ack 86, win 91, options [nop,nop,TS val 700373444 ecr 43774588], length 30
+17:36:43.838046 IP ThinkPad.56255 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 245, win 229, options [nop,nop,TS val 43774600 ecr 700373444], length 0
+17:36:43.838193 IP ThinkPad.56255 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 86:92, ack 245, win 229, options [nop,nop,TS val 43774600 ecr 700373444], length 6
+17:36:43.966054 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56255: Flags [P.], seq 245:296, ack 92, win 91, options [nop,nop,TS val 700373475 ecr 43774600], length 51
+17:36:44.001469 IP ThinkPad.56255 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 296, win 229, options [nop,nop,TS val 43774617 ecr 700373475], length 0
+17:36:44.093013 IP ThinkPad.56255 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 92:111, ack 296, win 229, options [nop,nop,TS val 43774626 ecr 700373475], length 19
+17:36:44.227787 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56255: Flags [P.], seq 296:302, ack 111, win 91, options [nop,nop,TS val 700373541 ecr 43774626], length 6
+17:36:44.227814 IP ThinkPad.56255 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 302, win 229, options [nop,nop,TS val 43774639 ecr 700373541], length 0
+17:36:44.227842 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56255: Flags [P.], seq 302:339, ack 111, win 91, options [nop,nop,TS val 700373541 ecr 43774626], length 37
+17:36:44.227853 IP ThinkPad.56255 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 339, win 229, options [nop,nop,TS val 43774639 ecr 700373541], length 0
+17:36:44.227872 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56255: Flags [P.], seq 339:381, ack 111, win 91, options [nop,nop,TS val 700373541 ecr 43774626], length 42
+17:36:44.227884 IP ThinkPad.56255 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 381, win 229, options [nop,nop,TS val 43774639 ecr 700373541], length 0
+17:36:44.227901 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56255: Flags [P.], seq 381:412, ack 111, win 91, options [nop,nop,TS val 700373541 ecr 43774626], length 31
+17:36:44.227914 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56255: Flags [P.], seq 412:479, ack 111, win 91, options [nop,nop,TS val 700373541 ecr 43774626], length 67
+17:36:44.227918 IP ThinkPad.56255 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 412, win 229, options [nop,nop,TS val 43774639 ecr 700373541], length 0
+17:36:44.227945 IP ThinkPad.56255 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 479, win 229, options [nop,nop,TS val 43774639 ecr 700373541], length 0
+17:36:44.356402 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56255: Flags [.], seq 479:1847, ack 111, win 91, options [nop,nop,TS val 700373574 ecr 43774639], length 1368
+17:36:44.356429 IP ThinkPad.56255 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 1847, win 274, options [nop,nop,TS val 43774652 ecr 700373574], length 0
+17:36:44.356456 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56255: Flags [P.], seq 1847:1998, ack 111, win 91, options [nop,nop,TS val 700373574 ecr 43774639], length 151
+17:36:44.356469 IP ThinkPad.56255 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 1998, win 317, options [nop,nop,TS val 43774652 ecr 700373574], length 0
+17:36:44.356614 IP ThinkPad.56255 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 111:120, ack 1998, win 317, options [nop,nop,TS val 43774652 ecr 700373574], length 9
+17:36:44.492218 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56255: Flags [P.], seq 1998:2037, ack 120, win 91, options [nop,nop,TS val 700373606 ecr 43774652], length 39
+17:36:44.531476 IP ThinkPad.56255 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 2037, win 317, options [nop,nop,TS val 43774670 ecr 700373606], length 0
+17:36:44.799679 IP ThinkPad.56255 > ftp-prod-srv04.it.su.se.ftp: Flags [F.], seq 120, ack 2037, win 317, options [nop,nop,TS val 43774696 ecr 700373606], length 0
+17:36:44.924980 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56255: Flags [P.], seq 2037:2061, ack 121, win 91, options [nop,nop,TS val 700373715 ecr 43774696], length 24
+17:36:44.925008 IP ThinkPad.56255 > ftp-prod-srv04.it.su.se.ftp: Flags [R], seq 3572387288, win 0, length 0
+17:36:44.927931 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56255: Flags [P.], seq 2061:2071, ack 121, win 91, options [nop,nop,TS val 700373715 ecr 43774696], length 10
+17:36:44.927947 IP ThinkPad.56255 > ftp-prod-srv04.it.su.se.ftp: Flags [R], seq 3572387288, win 0, length 0
+17:36:44.927966 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56255: Flags [P.], seq 2071:2101, ack 121, win 91, options [nop,nop,TS val 700373715 ecr 43774696], length 30
+17:36:44.927974 IP ThinkPad.56255 > ftp-prod-srv04.it.su.se.ftp: Flags [R], seq 3572387288, win 0, length 0
+17:36:44.927989 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56255: Flags [P.], seq 2101:2103, ack 121, win 91, options [nop,nop,TS val 700373715 ecr 43774696], length 2
+17:36:44.927997 IP ThinkPad.56255 > ftp-prod-srv04.it.su.se.ftp: Flags [R], seq 3572387288, win 0, length 0
+17:36:44.928011 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56255: Flags [FP.], seq 2103:2135, ack 121, win 91, options [nop,nop,TS val 700373715 ecr 43774696], length 32
+17:36:44.928018 IP ThinkPad.56255 > ftp-prod-srv04.it.su.se.ftp: Flags [R], seq 3572387288, win 0, length 0
+17:36:46.808475 IP ThinkPad.56258 > ftp-prod-srv04.it.su.se.ftp: Flags [S], seq 4047825231, win 14600, options [mss 1460,sackOK,TS val 43774897 ecr 0,nop,wscale 6], length 0
+17:36:46.935974 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56258: Flags [S.], seq 492499513, ack 4047825232, win 5792, options [mss 1380,sackOK,TS val 700374218 ecr 43774897,nop,wscale 6], length 0
+17:36:46.936017 IP ThinkPad.56258 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 1, win 229, options [nop,nop,TS val 43774910 ecr 700374218], length 0
+17:36:47.073729 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56258: Flags [P.], seq 1:48, ack 1, win 91, options [nop,nop,TS val 700374253 ecr 43774910], length 47
+17:36:47.073771 IP ThinkPad.56258 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 48, win 229, options [nop,nop,TS val 43774924 ecr 700374253], length 0
+17:36:47.073883 IP ThinkPad.56258 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 1:17, ack 48, win 229, options [nop,nop,TS val 43774924 ecr 700374253], length 16
+17:36:47.199116 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56258: Flags [.], ack 17, win 91, options [nop,nop,TS val 700374284 ecr 43774924], length 0
+17:36:47.199144 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56258: Flags [P.], seq 48:82, ack 17, win 91, options [nop,nop,TS val 700374284 ecr 43774924], length 34
+17:36:47.199271 IP ThinkPad.56258 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 17:42, ack 82, win 229, options [nop,nop,TS val 43774936 ecr 700374284], length 25
+17:36:47.368715 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56258: Flags [.], ack 42, win 91, options [nop,nop,TS val 700374326 ecr 43774936], length 0
+17:36:47.569765 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56258: Flags [P.], seq 82:105, ack 42, win 91, options [nop,nop,TS val 700374377 ecr 43774936], length 23
+17:36:47.569910 IP ThinkPad.56258 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 42:48, ack 105, win 229, options [nop,nop,TS val 43774973 ecr 700374377], length 6
+17:36:47.696461 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56258: Flags [.], ack 48, win 91, options [nop,nop,TS val 700374409 ecr 43774973], length 0
+17:36:47.696487 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56258: Flags [P.], seq 105:124, ack 48, win 91, options [nop,nop,TS val 700374409 ecr 43774973], length 19
+17:36:47.696606 IP ThinkPad.56258 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 48:53, ack 124, win 229, options [nop,nop,TS val 43774986 ecr 700374409], length 5
+17:36:47.821878 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56258: Flags [P.], seq 124:133, ack 53, win 91, options [nop,nop,TS val 700374439 ecr 43774986], length 9
+17:36:47.822006 IP ThinkPad.56258 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 53:61, ack 133, win 229, options [nop,nop,TS val 43774999 ecr 700374439], length 8
+17:36:47.946939 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56258: Flags [P.], seq 133:164, ack 61, win 91, options [nop,nop,TS val 700374471 ecr 43774999], length 31
+17:36:47.947109 IP ThinkPad.56258 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 61:67, ack 164, win 229, options [nop,nop,TS val 43775011 ecr 700374471], length 6
+17:36:48.073819 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56258: Flags [P.], seq 164:215, ack 67, win 91, options [nop,nop,TS val 700374503 ecr 43775011], length 51
+17:36:48.111436 IP ThinkPad.56258 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 215, win 229, options [nop,nop,TS val 43775028 ecr 700374503], length 0
+17:36:48.194417 IP ThinkPad.56258 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 67:90, ack 215, win 229, options [nop,nop,TS val 43775036 ecr 700374503], length 23
+17:36:48.319871 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56258: Flags [P.], seq 215:245, ack 90, win 91, options [nop,nop,TS val 700374565 ecr 43775036], length 30
+17:36:48.319911 IP ThinkPad.56258 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 245, win 229, options [nop,nop,TS val 43775048 ecr 700374565], length 0
+17:36:48.320090 IP ThinkPad.56258 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 90:96, ack 245, win 229, options [nop,nop,TS val 43775048 ecr 700374565], length 6
+17:36:48.440880 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56258: Flags [P.], seq 245:296, ack 96, win 91, options [nop,nop,TS val 700374595 ecr 43775048], length 51
+17:36:48.471464 IP ThinkPad.56258 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 296, win 229, options [nop,nop,TS val 43775064 ecr 700374595], length 0
+17:36:48.570034 IP ThinkPad.56258 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 96:119, ack 296, win 229, options [nop,nop,TS val 43775073 ecr 700374595], length 23
+17:36:48.719080 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56258: Flags [P.], seq 296:333, ack 119, win 91, options [nop,nop,TS val 700374664 ecr 43775073], length 37
+17:36:48.719201 IP ThinkPad.56258 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 333, win 229, options [nop,nop,TS val 43775088 ecr 700374664], length 0
+17:36:48.719271 IP ThinkPad.56258 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 119:128, ack 333, win 229, options [nop,nop,TS val 43775088 ecr 700374664], length 9
+17:36:48.843266 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56258: Flags [P.], seq 333:372, ack 128, win 91, options [nop,nop,TS val 700374696 ecr 43775088], length 39
+17:36:48.882059 IP ThinkPad.56258 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 372, win 229, options [nop,nop,TS val 43775105 ecr 700374696], length 0
+17:36:48.973334 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56258: Flags [P.], seq 372:396, ack 128, win 91, options [nop,nop,TS val 700374728 ecr 43775088], length 24
+17:36:48.973425 IP ThinkPad.56258 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 396, win 229, options [nop,nop,TS val 43775114 ecr 700374728], length 0
+17:36:48.973495 IP ThinkPad.56258 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 128:134, ack 396, win 229, options [nop,nop,TS val 43775114 ecr 700374728], length 6
+17:36:49.094975 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56258: Flags [P.], seq 396:410, ack 134, win 91, options [nop,nop,TS val 700374758 ecr 43775114], length 14
+17:36:49.095014 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56258: Flags [F.], seq 410, ack 134, win 91, options [nop,nop,TS val 700374758 ecr 43775114], length 0
+17:36:49.095118 IP ThinkPad.56258 > ftp-prod-srv04.it.su.se.ftp: Flags [F.], seq 134, ack 411, win 229, options [nop,nop,TS val 43775126 ecr 700374758], length 0
+17:36:49.218499 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56258: Flags [.], ack 135, win 91, options [nop,nop,TS val 700374789 ecr 43775126], length 0
+17:36:50.061246 IP ThinkPad.56261 > ftp-prod-srv04.it.su.se.ftp: Flags [S], seq 1536699439, win 14600, options [mss 1460,sackOK,TS val 43775222 ecr 0,nop,wscale 6], length 0
+17:36:50.190538 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56261: Flags [S.], seq 1448070892, ack 1536699440, win 5792, options [mss 1380,sackOK,TS val 700375031 ecr 43775222,nop,wscale 6], length 0
+17:36:50.190584 IP ThinkPad.56261 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 1, win 229, options [nop,nop,TS val 43775235 ecr 700375031], length 0
+17:36:50.330907 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56261: Flags [P.], seq 1:48, ack 1, win 91, options [nop,nop,TS val 700375067 ecr 43775235], length 47
+17:36:50.330937 IP ThinkPad.56261 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 48, win 229, options [nop,nop,TS val 43775249 ecr 700375067], length 0
+17:36:50.331049 IP ThinkPad.56261 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 1:17, ack 48, win 229, options [nop,nop,TS val 43775249 ecr 700375067], length 16
+17:36:50.455641 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56261: Flags [.], ack 17, win 91, options [nop,nop,TS val 700375098 ecr 43775249], length 0
+17:36:50.459251 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56261: Flags [P.], seq 48:82, ack 17, win 91, options [nop,nop,TS val 700375099 ecr 43775249], length 34
+17:36:50.459379 IP ThinkPad.56261 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 17:42, ack 82, win 229, options [nop,nop,TS val 43775262 ecr 700375099], length 25
+17:36:50.628122 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56261: Flags [.], ack 42, win 91, options [nop,nop,TS val 700375141 ecr 43775262], length 0
+17:36:51.573690 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56261: Flags [P.], seq 82:105, ack 42, win 91, options [nop,nop,TS val 700375378 ecr 43775262], length 23
+17:36:51.573848 IP ThinkPad.56261 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 42:48, ack 105, win 229, options [nop,nop,TS val 43775374 ecr 700375378], length 6
+17:36:51.695537 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56261: Flags [.], ack 48, win 91, options [nop,nop,TS val 700375408 ecr 43775374], length 0
+17:36:51.695563 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56261: Flags [P.], seq 105:124, ack 48, win 91, options [nop,nop,TS val 700375409 ecr 43775374], length 19
+17:36:51.695684 IP ThinkPad.56261 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 48:53, ack 124, win 229, options [nop,nop,TS val 43775386 ecr 700375409], length 5
+17:36:51.818752 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56261: Flags [P.], seq 124:133, ack 53, win 91, options [nop,nop,TS val 700375439 ecr 43775386], length 9
+17:36:51.818902 IP ThinkPad.56261 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 53:61, ack 133, win 229, options [nop,nop,TS val 43775398 ecr 700375439], length 8
+17:36:51.944203 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56261: Flags [P.], seq 133:164, ack 61, win 91, options [nop,nop,TS val 700375470 ecr 43775398], length 31
+17:36:51.944361 IP ThinkPad.56261 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 61:67, ack 164, win 229, options [nop,nop,TS val 43775411 ecr 700375470], length 6
+17:36:52.074583 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56261: Flags [P.], seq 164:215, ack 67, win 91, options [nop,nop,TS val 700375502 ecr 43775411], length 51
+17:36:52.111462 IP ThinkPad.56261 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 215, win 229, options [nop,nop,TS val 43775428 ecr 700375502], length 0
+17:36:52.195612 IP ThinkPad.56261 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 67:94, ack 215, win 229, options [nop,nop,TS val 43775436 ecr 700375502], length 27
+17:36:52.367361 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56261: Flags [P.], seq 215:245, ack 94, win 91, options [nop,nop,TS val 700375577 ecr 43775436], length 30
+17:36:52.367391 IP ThinkPad.56261 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 245, win 229, options [nop,nop,TS val 43775453 ecr 700375577], length 0
+17:36:52.367524 IP ThinkPad.56261 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 94:100, ack 245, win 229, options [nop,nop,TS val 43775453 ecr 700375577], length 6
+17:36:52.492998 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56261: Flags [P.], seq 245:296, ack 100, win 91, options [nop,nop,TS val 700375608 ecr 43775453], length 51
+17:36:52.531416 IP ThinkPad.56261 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 296, win 229, options [nop,nop,TS val 43775470 ecr 700375608], length 0
+17:36:52.620444 IP ThinkPad.56261 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 100:127, ack 296, win 229, options [nop,nop,TS val 43775478 ecr 700375608], length 27
+17:36:52.779382 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56261: Flags [.], ack 127, win 91, options [nop,nop,TS val 700375680 ecr 43775478], length 0
+17:36:54.323517 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56261: Flags [P.], seq 296:333, ack 127, win 91, options [nop,nop,TS val 700376065 ecr 43775478], length 37
+17:36:54.323551 IP ThinkPad.56261 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 333, win 229, options [nop,nop,TS val 43775649 ecr 700376065], length 0
+17:36:54.323730 IP ThinkPad.56261 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 127:136, ack 333, win 229, options [nop,nop,TS val 43775649 ecr 700376065], length 9
+17:36:54.448971 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56261: Flags [.], ack 136, win 91, options [nop,nop,TS val 700376097 ecr 43775649], length 0
+17:36:54.449008 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56261: Flags [P.], seq 333:372, ack 136, win 91, options [nop,nop,TS val 700376097 ecr 43775649], length 39
+17:36:54.481422 IP ThinkPad.56261 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 372, win 229, options [nop,nop,TS val 43775665 ecr 700376097], length 0
+17:36:54.654602 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56261: Flags [P.], seq 372:396, ack 136, win 91, options [nop,nop,TS val 700376148 ecr 43775665], length 24
+17:36:54.654624 IP ThinkPad.56261 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 396, win 229, options [nop,nop,TS val 43775682 ecr 700376148], length 0
+17:36:54.654782 IP ThinkPad.56261 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 136:142, ack 396, win 229, options [nop,nop,TS val 43775682 ecr 700376148], length 6
+17:36:54.780365 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56261: Flags [P.], seq 396:410, ack 142, win 91, options [nop,nop,TS val 700376180 ecr 43775682], length 14
+17:36:54.780413 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56261: Flags [F.], seq 410, ack 142, win 91, options [nop,nop,TS val 700376180 ecr 43775682], length 0
+17:36:54.780516 IP ThinkPad.56261 > ftp-prod-srv04.it.su.se.ftp: Flags [F.], seq 142, ack 411, win 229, options [nop,nop,TS val 43775694 ecr 700376180], length 0
+17:36:54.908303 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56261: Flags [.], ack 143, win 91, options [nop,nop,TS val 700376212 ecr 43775694], length 0
+17:36:56.200988 IP ThinkPad.56264 > ftp-prod-srv04.it.su.se.ftp: Flags [S], seq 2631326114, win 14600, options [mss 1460,sackOK,TS val 43775836 ecr 0,nop,wscale 6], length 0
+17:36:56.325764 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56264: Flags [S.], seq 1760312601, ack 2631326115, win 5792, options [mss 1380,sackOK,TS val 700376566 ecr 43775836,nop,wscale 6], length 0
+17:36:56.325806 IP ThinkPad.56264 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 1, win 229, options [nop,nop,TS val 43775849 ecr 700376566], length 0
+17:36:56.457448 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56264: Flags [P.], seq 1:48, ack 1, win 91, options [nop,nop,TS val 700376598 ecr 43775849], length 47
+17:36:56.457480 IP ThinkPad.56264 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 48, win 229, options [nop,nop,TS val 43775862 ecr 700376598], length 0
+17:36:56.457603 IP ThinkPad.56264 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 1:17, ack 48, win 229, options [nop,nop,TS val 43775862 ecr 700376598], length 16
+17:36:56.581190 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56264: Flags [.], ack 17, win 91, options [nop,nop,TS val 700376630 ecr 43775862], length 0
+17:36:56.581225 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56264: Flags [P.], seq 48:82, ack 17, win 91, options [nop,nop,TS val 700376630 ecr 43775862], length 34
+17:36:56.581376 IP ThinkPad.56264 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 17:42, ack 82, win 229, options [nop,nop,TS val 43775874 ecr 700376630], length 25
+17:36:56.749863 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56264: Flags [.], ack 42, win 91, options [nop,nop,TS val 700376672 ecr 43775874], length 0
+17:36:58.003192 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56264: Flags [P.], seq 82:105, ack 42, win 91, options [nop,nop,TS val 700376985 ecr 43775874], length 23
+17:36:58.003351 IP ThinkPad.56264 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 42:48, ack 105, win 229, options [nop,nop,TS val 43776017 ecr 700376985], length 6
+17:36:58.124117 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56264: Flags [.], ack 48, win 91, options [nop,nop,TS val 700377016 ecr 43776017], length 0
+17:36:58.124148 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56264: Flags [P.], seq 105:124, ack 48, win 91, options [nop,nop,TS val 700377016 ecr 43776017], length 19
+17:36:58.124289 IP ThinkPad.56264 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 48:53, ack 124, win 229, options [nop,nop,TS val 43776029 ecr 700377016], length 5
+17:36:58.245837 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56264: Flags [P.], seq 124:133, ack 53, win 91, options [nop,nop,TS val 700377046 ecr 43776029], length 9
+17:36:58.246013 IP ThinkPad.56264 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 53:61, ack 133, win 229, options [nop,nop,TS val 43776041 ecr 700377046], length 8
+17:36:58.371108 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56264: Flags [P.], seq 133:164, ack 61, win 91, options [nop,nop,TS val 700377077 ecr 43776041], length 31
+17:36:58.371257 IP ThinkPad.56264 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 61:67, ack 164, win 229, options [nop,nop,TS val 43776053 ecr 700377077], length 6
+17:36:58.497115 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56264: Flags [P.], seq 164:214, ack 67, win 91, options [nop,nop,TS val 700377108 ecr 43776053], length 50
+17:36:58.531479 IP ThinkPad.56264 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 214, win 229, options [nop,nop,TS val 43776070 ecr 700377108], length 0
+17:36:58.623920 IP ThinkPad.56264 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 67:102, ack 214, win 229, options [nop,nop,TS val 43776079 ecr 700377108], length 35
+17:36:58.786946 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56264: Flags [.], ack 102, win 91, options [nop,nop,TS val 700377182 ecr 43776079], length 0
+17:36:58.817245 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56264: Flags [P.], seq 214:244, ack 102, win 91, options [nop,nop,TS val 700377189 ecr 43776079], length 30
+17:36:58.817267 IP ThinkPad.56264 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 244, win 229, options [nop,nop,TS val 43776098 ecr 700377189], length 0
+17:36:58.817410 IP ThinkPad.56264 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 102:108, ack 244, win 229, options [nop,nop,TS val 43776098 ecr 700377189], length 6
+17:36:58.941445 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56264: Flags [.], ack 108, win 91, options [nop,nop,TS val 700377220 ecr 43776098], length 0
+17:36:58.941465 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56264: Flags [P.], seq 244:295, ack 108, win 91, options [nop,nop,TS val 700377220 ecr 43776098], length 51
+17:36:58.981439 IP ThinkPad.56264 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 295, win 229, options [nop,nop,TS val 43776115 ecr 700377220], length 0
+17:36:59.063842 IP ThinkPad.56264 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 108:143, ack 295, win 229, options [nop,nop,TS val 43776123 ecr 700377220], length 35
+17:36:59.206777 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56264: Flags [P.], seq 295:332, ack 143, win 91, options [nop,nop,TS val 700377286 ecr 43776123], length 37
+17:36:59.206812 IP ThinkPad.56264 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 332, win 229, options [nop,nop,TS val 43776137 ecr 700377286], length 0
+17:36:59.206951 IP ThinkPad.56264 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 143:152, ack 332, win 229, options [nop,nop,TS val 43776137 ecr 700377286], length 9
+17:36:59.332418 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56264: Flags [P.], seq 332:371, ack 152, win 91, options [nop,nop,TS val 700377317 ecr 43776137], length 39
+17:36:59.371448 IP ThinkPad.56264 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 371, win 229, options [nop,nop,TS val 43776154 ecr 700377317], length 0
+17:36:59.463764 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56264: Flags [P.], seq 371:395, ack 152, win 91, options [nop,nop,TS val 700377350 ecr 43776137], length 24
+17:36:59.463825 IP ThinkPad.56264 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 395, win 229, options [nop,nop,TS val 43776163 ecr 700377350], length 0
+17:36:59.463899 IP ThinkPad.56264 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 152:158, ack 395, win 229, options [nop,nop,TS val 43776163 ecr 700377350], length 6
+17:36:59.590185 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56264: Flags [P.], seq 395:409, ack 158, win 91, options [nop,nop,TS val 700377382 ecr 43776163], length 14
+17:36:59.590236 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56264: Flags [F.], seq 409, ack 158, win 91, options [nop,nop,TS val 700377382 ecr 43776163], length 0
+17:36:59.590419 IP ThinkPad.56264 > ftp-prod-srv04.it.su.se.ftp: Flags [F.], seq 158, ack 410, win 229, options [nop,nop,TS val 43776175 ecr 700377382], length 0
+17:36:59.716070 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56264: Flags [.], ack 159, win 91, options [nop,nop,TS val 700377413 ecr 43776175], length 0
+17:37:01.662481 IP ThinkPad.56267 > ftp-prod-srv04.it.su.se.ftp: Flags [S], seq 1325970171, win 14600, options [mss 1460,sackOK,TS val 43776383 ecr 0,nop,wscale 6], length 0
+17:37:01.788797 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56267: Flags [S.], seq 358025833, ack 1325970172, win 5792, options [mss 1380,sackOK,TS val 700377931 ecr 43776383,nop,wscale 6], length 0
+17:37:01.788845 IP ThinkPad.56267 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 1, win 229, options [nop,nop,TS val 43776395 ecr 700377931], length 0
+17:37:01.929352 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56267: Flags [P.], seq 1:48, ack 1, win 91, options [nop,nop,TS val 700377966 ecr 43776395], length 47
+17:37:01.929391 IP ThinkPad.56267 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 48, win 229, options [nop,nop,TS val 43776409 ecr 700377966], length 0
+17:37:01.929492 IP ThinkPad.56267 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 1:17, ack 48, win 229, options [nop,nop,TS val 43776409 ecr 700377966], length 16
+17:37:02.050204 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56267: Flags [.], ack 17, win 91, options [nop,nop,TS val 700377997 ecr 43776409], length 0
+17:37:02.050239 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56267: Flags [P.], seq 48:82, ack 17, win 91, options [nop,nop,TS val 700377997 ecr 43776409], length 34
+17:37:02.050364 IP ThinkPad.56267 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 17:42, ack 82, win 229, options [nop,nop,TS val 43776421 ecr 700377997], length 25
+17:37:02.173154 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56267: Flags [P.], seq 82:105, ack 42, win 91, options [nop,nop,TS val 700378028 ecr 43776421], length 23
+17:37:02.173319 IP ThinkPad.56267 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 42:48, ack 105, win 229, options [nop,nop,TS val 43776434 ecr 700378028], length 6
+17:37:02.295183 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56267: Flags [P.], seq 105:124, ack 48, win 91, options [nop,nop,TS val 700378058 ecr 43776434], length 19
+17:37:02.295341 IP ThinkPad.56267 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 48:53, ack 124, win 229, options [nop,nop,TS val 43776446 ecr 700378058], length 5
+17:37:02.421527 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56267: Flags [P.], seq 124:133, ack 53, win 91, options [nop,nop,TS val 700378089 ecr 43776446], length 9
+17:37:02.421686 IP ThinkPad.56267 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 53:61, ack 133, win 229, options [nop,nop,TS val 43776459 ecr 700378089], length 8
+17:37:02.545230 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56267: Flags [P.], seq 133:164, ack 61, win 91, options [nop,nop,TS val 700378121 ecr 43776459], length 31
+17:37:02.545380 IP ThinkPad.56267 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 61:67, ack 164, win 229, options [nop,nop,TS val 43776471 ecr 700378121], length 6
+17:37:02.674291 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56267: Flags [P.], seq 164:215, ack 67, win 91, options [nop,nop,TS val 700378152 ecr 43776471], length 51
+17:37:02.711414 IP ThinkPad.56267 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 215, win 229, options [nop,nop,TS val 43776488 ecr 700378152], length 0
+17:37:02.801127 IP ThinkPad.56267 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 67:109, ack 215, win 229, options [nop,nop,TS val 43776496 ecr 700378152], length 42
+17:37:02.931493 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56267: Flags [P.], seq 215:224, ack 109, win 91, options [nop,nop,TS val 700378217 ecr 43776496], length 9
+17:37:02.931529 IP ThinkPad.56267 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 224, win 229, options [nop,nop,TS val 43776510 ecr 700378217], length 0
+17:37:02.931705 IP ThinkPad.56267 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 109:150, ack 224, win 229, options [nop,nop,TS val 43776510 ecr 700378217], length 41
+17:37:03.053062 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56267: Flags [P.], seq 224:257, ack 150, win 91, options [nop,nop,TS val 700378248 ecr 43776510], length 33
+17:37:03.053213 IP ThinkPad.56267 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 150:156, ack 257, win 229, options [nop,nop,TS val 43776522 ecr 700378248], length 6
+17:37:03.179294 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56267: Flags [P.], seq 257:308, ack 156, win 91, options [nop,nop,TS val 700378279 ecr 43776522], length 51
+17:37:03.211450 IP ThinkPad.56267 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 308, win 229, options [nop,nop,TS val 43776538 ecr 700378279], length 0
+17:37:03.301598 IP ThinkPad.56267 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 156:198, ack 308, win 229, options [nop,nop,TS val 43776547 ecr 700378279], length 42
+17:37:03.441689 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56267: Flags [P.], seq 308:402, ack 198, win 91, options [nop,nop,TS val 700378344 ecr 43776547], length 94
+17:37:03.441795 IP ThinkPad.56267 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 402, win 229, options [nop,nop,TS val 43776561 ecr 700378344], length 0
+17:37:03.593401 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56267: Flags [P.], seq 402:426, ack 198, win 91, options [nop,nop,TS val 700378382 ecr 43776561], length 24
+17:37:03.593555 IP ThinkPad.56267 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 426, win 229, options [nop,nop,TS val 43776576 ecr 700378382], length 0
+17:37:03.593642 IP ThinkPad.56267 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 198:204, ack 426, win 229, options [nop,nop,TS val 43776576 ecr 700378382], length 6
+17:37:03.721480 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56267: Flags [P.], seq 426:440, ack 204, win 91, options [nop,nop,TS val 700378415 ecr 43776576], length 14
+17:37:03.721528 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56267: Flags [F.], seq 440, ack 204, win 91, options [nop,nop,TS val 700378415 ecr 43776576], length 0
+17:37:03.721609 IP ThinkPad.56267 > ftp-prod-srv04.it.su.se.ftp: Flags [F.], seq 204, ack 441, win 229, options [nop,nop,TS val 43776589 ecr 700378415], length 0
+17:37:03.845254 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56267: Flags [.], ack 205, win 91, options [nop,nop,TS val 700378446 ecr 43776589], length 0
+17:37:05.946626 IP ThinkPad.56270 > ftp-prod-srv04.it.su.se.ftp: Flags [S], seq 2581245641, win 14600, options [mss 1460,sackOK,TS val 43776811 ecr 0,nop,wscale 6], length 0
+17:37:06.067455 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56270: Flags [S.], seq 1026576161, ack 2581245642, win 5792, options [mss 1380,sackOK,TS val 700379002 ecr 43776811,nop,wscale 6], length 0
+17:37:06.067503 IP ThinkPad.56270 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 1, win 229, options [nop,nop,TS val 43776823 ecr 700379002], length 0
+17:37:06.601298 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56270: Flags [P.], seq 1:48, ack 1, win 91, options [nop,nop,TS val 700379135 ecr 43776823], length 47
+17:37:06.601336 IP ThinkPad.56270 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 48, win 229, options [nop,nop,TS val 43776876 ecr 700379135], length 0
+17:37:06.601450 IP ThinkPad.56270 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 1:17, ack 48, win 229, options [nop,nop,TS val 43776877 ecr 700379135], length 16
+17:37:06.726873 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56270: Flags [.], ack 17, win 91, options [nop,nop,TS val 700379166 ecr 43776877], length 0
+17:37:06.726913 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56270: Flags [P.], seq 48:82, ack 17, win 91, options [nop,nop,TS val 700379166 ecr 43776877], length 34
+17:37:06.727117 IP ThinkPad.56270 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 17:42, ack 82, win 229, options [nop,nop,TS val 43776889 ecr 700379166], length 25
+17:37:06.853617 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56270: Flags [P.], seq 82:105, ack 42, win 91, options [nop,nop,TS val 700379198 ecr 43776889], length 23
+17:37:06.853775 IP ThinkPad.56270 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 42:48, ack 105, win 229, options [nop,nop,TS val 43776902 ecr 700379198], length 6
+17:37:06.978003 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56270: Flags [P.], seq 105:124, ack 48, win 91, options [nop,nop,TS val 700379229 ecr 43776902], length 19
+17:37:06.978171 IP ThinkPad.56270 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 48:53, ack 124, win 229, options [nop,nop,TS val 43776914 ecr 700379229], length 5
+17:37:07.105852 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56270: Flags [P.], seq 124:133, ack 53, win 91, options [nop,nop,TS val 700379261 ecr 43776914], length 9
+17:37:07.106034 IP ThinkPad.56270 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 53:61, ack 133, win 229, options [nop,nop,TS val 43776927 ecr 700379261], length 8
+17:37:07.227564 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56270: Flags [P.], seq 133:164, ack 61, win 91, options [nop,nop,TS val 700379292 ecr 43776927], length 31
+17:37:07.227730 IP ThinkPad.56270 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 61:67, ack 164, win 229, options [nop,nop,TS val 43776939 ecr 700379292], length 6
+17:37:07.372417 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56270: Flags [P.], seq 164:215, ack 67, win 91, options [nop,nop,TS val 700379322 ecr 43776939], length 51
+17:37:07.411485 IP ThinkPad.56270 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 215, win 229, options [nop,nop,TS val 43776958 ecr 700379322], length 0
+17:37:07.498923 IP ThinkPad.56270 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 67:102, ack 215, win 229, options [nop,nop,TS val 43776966 ecr 700379322], length 35
+17:37:07.628693 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56270: Flags [P.], seq 215:245, ack 102, win 91, options [nop,nop,TS val 700379391 ecr 43776966], length 30
+17:37:07.628722 IP ThinkPad.56270 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 245, win 229, options [nop,nop,TS val 43776979 ecr 700379391], length 0
+17:37:07.628866 IP ThinkPad.56270 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 102:108, ack 245, win 229, options [nop,nop,TS val 43776979 ecr 700379391], length 6
+17:37:07.756177 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56270: Flags [P.], seq 245:295, ack 108, win 91, options [nop,nop,TS val 700379423 ecr 43776979], length 50
+17:37:07.791448 IP ThinkPad.56270 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 295, win 229, options [nop,nop,TS val 43776996 ecr 700379423], length 0
+17:37:07.881129 IP ThinkPad.56270 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 108:143, ack 295, win 229, options [nop,nop,TS val 43777004 ecr 700379423], length 35
+17:37:08.008053 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56270: Flags [P.], seq 295:332, ack 143, win 91, options [nop,nop,TS val 700379487 ecr 43777004], length 37
+17:37:08.008173 IP ThinkPad.56270 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 332, win 229, options [nop,nop,TS val 43777017 ecr 700379487], length 0
+17:37:08.008254 IP ThinkPad.56270 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 143:152, ack 332, win 229, options [nop,nop,TS val 43777017 ecr 700379487], length 9
+17:37:08.136080 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56270: Flags [P.], seq 332:371, ack 152, win 91, options [nop,nop,TS val 700379518 ecr 43777017], length 39
+17:37:08.138835 IP ThinkPad.56270 > ftp-prod-srv04.it.su.se.ftp: Flags [F.], seq 152, ack 371, win 229, options [nop,nop,TS val 43777030 ecr 700379518], length 0
+17:37:08.263351 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56270: Flags [P.], seq 371:395, ack 152, win 91, options [nop,nop,TS val 700379551 ecr 43777017], length 24
+17:37:08.263377 IP ThinkPad.56270 > ftp-prod-srv04.it.su.se.ftp: Flags [R], seq 2581245793, win 0, length 0
+17:37:08.263405 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56270: Flags [P.], seq 395:405, ack 153, win 91, options [nop,nop,TS val 700379551 ecr 43777030], length 10
+17:37:08.263414 IP ThinkPad.56270 > ftp-prod-srv04.it.su.se.ftp: Flags [R], seq 2581245794, win 0, length 0
+17:37:08.263427 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56270: Flags [P.], seq 405:435, ack 153, win 91, options [nop,nop,TS val 700379551 ecr 43777030], length 30
+17:37:08.263433 IP ThinkPad.56270 > ftp-prod-srv04.it.su.se.ftp: Flags [R], seq 2581245794, win 0, length 0
+17:37:08.263997 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56270: Flags [P.], seq 435:437, ack 153, win 91, options [nop,nop,TS val 700379551 ecr 43777030], length 2
+17:37:08.264013 IP ThinkPad.56270 > ftp-prod-srv04.it.su.se.ftp: Flags [R], seq 2581245794, win 0, length 0
+17:37:08.720814 IP ThinkPad.56273 > ftp-prod-srv04.it.su.se.ftp: Flags [S], seq 1325461550, win 14600, options [mss 1460,sackOK,TS val 43777088 ecr 0,nop,wscale 6], length 0
+17:37:08.850991 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56273: Flags [S.], seq 2559690740, ack 1325461551, win 5792, options [mss 1380,sackOK,TS val 700379696 ecr 43777088,nop,wscale 6], length 0
+17:37:08.851032 IP ThinkPad.56273 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 1, win 229, options [nop,nop,TS val 43777101 ecr 700379696], length 0
+17:37:08.986684 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56273: Flags [P.], seq 1:48, ack 1, win 91, options [nop,nop,TS val 700379731 ecr 43777101], length 47
+17:37:08.986723 IP ThinkPad.56273 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 48, win 229, options [nop,nop,TS val 43777115 ecr 700379731], length 0
+17:37:08.986882 IP ThinkPad.56273 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 1:17, ack 48, win 229, options [nop,nop,TS val 43777115 ecr 700379731], length 16
+17:37:09.112373 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56273: Flags [.], ack 17, win 91, options [nop,nop,TS val 700379763 ecr 43777115], length 0
+17:37:09.112411 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56273: Flags [P.], seq 48:82, ack 17, win 91, options [nop,nop,TS val 700379763 ecr 43777115], length 34
+17:37:09.112516 IP ThinkPad.56273 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 17:42, ack 82, win 229, options [nop,nop,TS val 43777128 ecr 700379763], length 25
+17:37:09.256977 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56273: Flags [P.], seq 82:105, ack 42, win 91, options [nop,nop,TS val 700379799 ecr 43777128], length 23
+17:37:09.257158 IP ThinkPad.56273 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 42:48, ack 105, win 229, options [nop,nop,TS val 43777142 ecr 700379799], length 6
+17:37:09.383109 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56273: Flags [P.], seq 105:124, ack 48, win 91, options [nop,nop,TS val 700379830 ecr 43777142], length 19
+17:37:09.383248 IP ThinkPad.56273 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 48:53, ack 124, win 229, options [nop,nop,TS val 43777155 ecr 700379830], length 5
+17:37:09.507146 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56273: Flags [P.], seq 124:133, ack 53, win 91, options [nop,nop,TS val 700379861 ecr 43777155], length 9
+17:37:09.507298 IP ThinkPad.56273 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 53:61, ack 133, win 229, options [nop,nop,TS val 43777167 ecr 700379861], length 8
+17:37:09.632032 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56273: Flags [P.], seq 133:164, ack 61, win 91, options [nop,nop,TS val 700379893 ecr 43777167], length 31
+17:37:09.632186 IP ThinkPad.56273 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 61:67, ack 164, win 229, options [nop,nop,TS val 43777180 ecr 700379893], length 6
+17:37:09.761362 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56273: Flags [P.], seq 164:215, ack 67, win 91, options [nop,nop,TS val 700379924 ecr 43777180], length 51
+17:37:09.801475 IP ThinkPad.56273 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 215, win 229, options [nop,nop,TS val 43777197 ecr 700379924], length 0
+17:37:09.892263 IP ThinkPad.56273 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 67:94, ack 215, win 229, options [nop,nop,TS val 43777206 ecr 700379924], length 27
+17:37:10.013585 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56273: Flags [P.], seq 215:245, ack 94, win 91, options [nop,nop,TS val 700379988 ecr 43777206], length 30
+17:37:10.013613 IP ThinkPad.56273 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 245, win 229, options [nop,nop,TS val 43777218 ecr 700379988], length 0
+17:37:10.013735 IP ThinkPad.56273 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 94:100, ack 245, win 229, options [nop,nop,TS val 43777218 ecr 700379988], length 6
+17:37:10.135858 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56273: Flags [P.], seq 245:296, ack 100, win 91, options [nop,nop,TS val 700380019 ecr 43777218], length 51
+17:37:10.181467 IP ThinkPad.56273 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 296, win 229, options [nop,nop,TS val 43777235 ecr 700380019], length 0
+17:37:10.262526 IP ThinkPad.56273 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 100:127, ack 296, win 229, options [nop,nop,TS val 43777243 ecr 700380019], length 27
+17:37:10.387950 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56273: Flags [P.], seq 296:333, ack 127, win 91, options [nop,nop,TS val 700380081 ecr 43777243], length 37
+17:37:10.388039 IP ThinkPad.56273 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 333, win 229, options [nop,nop,TS val 43777255 ecr 700380081], length 0
+17:37:10.388086 IP ThinkPad.56273 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 127:136, ack 333, win 229, options [nop,nop,TS val 43777255 ecr 700380081], length 9
+17:37:10.515607 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56273: Flags [P.], seq 333:372, ack 136, win 91, options [nop,nop,TS val 700380113 ecr 43777255], length 39
+17:37:10.551433 IP ThinkPad.56273 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 372, win 229, options [nop,nop,TS val 43777272 ecr 700380113], length 0
+17:37:10.641886 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56273: Flags [P.], seq 372:396, ack 136, win 91, options [nop,nop,TS val 700380144 ecr 43777255], length 24
+17:37:10.641976 IP ThinkPad.56273 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 396, win 229, options [nop,nop,TS val 43777281 ecr 700380144], length 0
+17:37:10.642053 IP ThinkPad.56273 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 136:142, ack 396, win 229, options [nop,nop,TS val 43777281 ecr 700380144], length 6
+17:37:10.769829 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56273: Flags [P.], seq 396:410, ack 142, win 91, options [nop,nop,TS val 700380177 ecr 43777281], length 14
+17:37:10.769862 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56273: Flags [F.], seq 410, ack 142, win 91, options [nop,nop,TS val 700380177 ecr 43777281], length 0
+17:37:10.769954 IP ThinkPad.56273 > ftp-prod-srv04.it.su.se.ftp: Flags [F.], seq 142, ack 411, win 229, options [nop,nop,TS val 43777293 ecr 700380177], length 0
+17:37:10.895936 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56273: Flags [.], ack 143, win 91, options [nop,nop,TS val 700380208 ecr 43777293], length 0
+17:37:10.952665 IP ThinkPad.56276 > ftp-prod-srv04.it.su.se.ftp: Flags [S], seq 211078093, win 14600, options [mss 1460,sackOK,TS val 43777312 ecr 0,nop,wscale 6], length 0
+17:37:11.077715 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56276: Flags [S.], seq 1161139200, ack 211078094, win 5792, options [mss 1380,sackOK,TS val 700380254 ecr 43777312,nop,wscale 6], length 0
+17:37:11.077756 IP ThinkPad.56276 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 1, win 229, options [nop,nop,TS val 43777324 ecr 700380254], length 0
+17:37:11.217497 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56276: Flags [P.], seq 1:48, ack 1, win 91, options [nop,nop,TS val 700380288 ecr 43777324], length 47
+17:37:11.217535 IP ThinkPad.56276 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 48, win 229, options [nop,nop,TS val 43777338 ecr 700380288], length 0
+17:37:11.217654 IP ThinkPad.56276 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 1:17, ack 48, win 229, options [nop,nop,TS val 43777338 ecr 700380288], length 16
+17:37:11.345164 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56276: Flags [.], ack 17, win 91, options [nop,nop,TS val 700380321 ecr 43777338], length 0
+17:37:11.345205 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56276: Flags [P.], seq 48:82, ack 17, win 91, options [nop,nop,TS val 700380321 ecr 43777338], length 34
+17:37:11.345375 IP ThinkPad.56276 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 17:42, ack 82, win 229, options [nop,nop,TS val 43777351 ecr 700380321], length 25
+17:37:11.472657 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56276: Flags [P.], seq 82:105, ack 42, win 91, options [nop,nop,TS val 700380353 ecr 43777351], length 23
+17:37:11.472841 IP ThinkPad.56276 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 42:48, ack 105, win 229, options [nop,nop,TS val 43777364 ecr 700380353], length 6
+17:37:11.596504 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56276: Flags [P.], seq 105:124, ack 48, win 91, options [nop,nop,TS val 700380383 ecr 43777364], length 19
+17:37:11.596650 IP ThinkPad.56276 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 48:53, ack 124, win 229, options [nop,nop,TS val 43777376 ecr 700380383], length 5
+17:37:11.724271 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56276: Flags [P.], seq 124:133, ack 53, win 91, options [nop,nop,TS val 700380415 ecr 43777376], length 9
+17:37:11.724412 IP ThinkPad.56276 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 53:61, ack 133, win 229, options [nop,nop,TS val 43777389 ecr 700380415], length 8
+17:37:11.849851 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56276: Flags [P.], seq 133:164, ack 61, win 91, options [nop,nop,TS val 700380447 ecr 43777389], length 31
+17:37:11.850002 IP ThinkPad.56276 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 61:67, ack 164, win 229, options [nop,nop,TS val 43777401 ecr 700380447], length 6
+17:37:11.975389 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56276: Flags [P.], seq 164:214, ack 67, win 91, options [nop,nop,TS val 700380478 ecr 43777401], length 50
+17:37:12.011461 IP ThinkPad.56276 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 214, win 229, options [nop,nop,TS val 43777418 ecr 700380478], length 0
+17:37:12.103265 IP ThinkPad.56276 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 67:90, ack 214, win 229, options [nop,nop,TS val 43777427 ecr 700380478], length 23
+17:37:12.237913 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56276: Flags [P.], seq 214:244, ack 90, win 91, options [nop,nop,TS val 700380543 ecr 43777427], length 30
+17:37:12.237946 IP ThinkPad.56276 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 244, win 229, options [nop,nop,TS val 43777440 ecr 700380543], length 0
+17:37:12.238104 IP ThinkPad.56276 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 90:96, ack 244, win 229, options [nop,nop,TS val 43777440 ecr 700380543], length 6
+17:37:12.363314 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56276: Flags [P.], seq 244:295, ack 96, win 91, options [nop,nop,TS val 700380576 ecr 43777440], length 51
+17:37:12.404926 IP ThinkPad.56276 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 295, win 229, options [nop,nop,TS val 43777457 ecr 700380576], length 0
+17:37:12.488186 IP ThinkPad.56276 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 96:119, ack 295, win 229, options [nop,nop,TS val 43777465 ecr 700380576], length 23
+17:37:12.614037 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56276: Flags [P.], seq 295:332, ack 119, win 91, options [nop,nop,TS val 700380638 ecr 43777465], length 37
+17:37:12.614170 IP ThinkPad.56276 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 332, win 229, options [nop,nop,TS val 43777478 ecr 700380638], length 0
+17:37:12.614260 IP ThinkPad.56276 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 119:128, ack 332, win 229, options [nop,nop,TS val 43777478 ecr 700380638], length 9
+17:37:12.737401 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56276: Flags [P.], seq 332:371, ack 128, win 91, options [nop,nop,TS val 700380669 ecr 43777478], length 39
+17:37:12.771428 IP ThinkPad.56276 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 371, win 229, options [nop,nop,TS val 43777494 ecr 700380669], length 0
+17:37:12.859103 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56276: Flags [P.], seq 371:395, ack 128, win 91, options [nop,nop,TS val 700380699 ecr 43777478], length 24
+17:37:12.859202 IP ThinkPad.56276 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 395, win 229, options [nop,nop,TS val 43777502 ecr 700380699], length 0
+17:37:12.859294 IP ThinkPad.56276 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 128:134, ack 395, win 229, options [nop,nop,TS val 43777502 ecr 700380699], length 6
+17:37:12.985064 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56276: Flags [P.], seq 395:409, ack 134, win 91, options [nop,nop,TS val 700380730 ecr 43777502], length 14
+17:37:12.985108 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56276: Flags [F.], seq 409, ack 134, win 91, options [nop,nop,TS val 700380730 ecr 43777502], length 0
+17:37:12.985193 IP ThinkPad.56276 > ftp-prod-srv04.it.su.se.ftp: Flags [F.], seq 134, ack 410, win 229, options [nop,nop,TS val 43777515 ecr 700380730], length 0
+17:37:13.112211 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56276: Flags [.], ack 135, win 91, options [nop,nop,TS val 700380763 ecr 43777515], length 0
+17:37:15.026255 IP ThinkPad.56279 > ftp-prod-srv04.it.su.se.ftp: Flags [S], seq 3164354371, win 14600, options [mss 1460,sackOK,TS val 43777719 ecr 0,nop,wscale 6], length 0
+17:37:15.152514 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56279: Flags [S.], seq 1330454835, ack 3164354372, win 5792, options [mss 1380,sackOK,TS val 700381272 ecr 43777719,nop,wscale 6], length 0
+17:37:15.152563 IP ThinkPad.56279 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 1, win 229, options [nop,nop,TS val 43777732 ecr 700381272], length 0
+17:37:15.287978 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56279: Flags [P.], seq 1:48, ack 1, win 91, options [nop,nop,TS val 700381306 ecr 43777732], length 47
+17:37:15.288016 IP ThinkPad.56279 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 48, win 229, options [nop,nop,TS val 43777745 ecr 700381306], length 0
+17:37:15.288169 IP ThinkPad.56279 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 1:17, ack 48, win 229, options [nop,nop,TS val 43777745 ecr 700381306], length 16
+17:37:15.410519 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56279: Flags [.], ack 17, win 91, options [nop,nop,TS val 700381337 ecr 43777745], length 0
+17:37:15.410547 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56279: Flags [P.], seq 48:82, ack 17, win 91, options [nop,nop,TS val 700381337 ecr 43777745], length 34
+17:37:15.410672 IP ThinkPad.56279 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 17:42, ack 82, win 229, options [nop,nop,TS val 43777757 ecr 700381337], length 25
+17:37:15.543614 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56279: Flags [P.], seq 82:105, ack 42, win 91, options [nop,nop,TS val 700381371 ecr 43777757], length 23
+17:37:15.543763 IP ThinkPad.56279 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 42:48, ack 105, win 229, options [nop,nop,TS val 43777771 ecr 700381371], length 6
+17:37:15.666251 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56279: Flags [P.], seq 105:124, ack 48, win 91, options [nop,nop,TS val 700381401 ecr 43777771], length 19
+17:37:15.666396 IP ThinkPad.56279 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 48:53, ack 124, win 229, options [nop,nop,TS val 43777783 ecr 700381401], length 5
+17:37:15.787842 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56279: Flags [P.], seq 124:133, ack 53, win 91, options [nop,nop,TS val 700381431 ecr 43777783], length 9
+17:37:15.787985 IP ThinkPad.56279 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 53:61, ack 133, win 229, options [nop,nop,TS val 43777795 ecr 700381431], length 8
+17:37:15.909391 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56279: Flags [P.], seq 133:164, ack 61, win 91, options [nop,nop,TS val 700381462 ecr 43777795], length 31
+17:37:15.909558 IP ThinkPad.56279 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 61:67, ack 164, win 229, options [nop,nop,TS val 43777807 ecr 700381462], length 6
+17:37:16.032663 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56279: Flags [P.], seq 164:214, ack 67, win 91, options [nop,nop,TS val 700381492 ecr 43777807], length 50
+17:37:16.071437 IP ThinkPad.56279 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 214, win 229, options [nop,nop,TS val 43777824 ecr 700381492], length 0
+17:37:16.158493 IP ThinkPad.56279 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 67:86, ack 214, win 229, options [nop,nop,TS val 43777832 ecr 700381492], length 19
+17:37:16.284802 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56279: Flags [P.], seq 214:244, ack 86, win 91, options [nop,nop,TS val 700381556 ecr 43777832], length 30
+17:37:16.284827 IP ThinkPad.56279 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 244, win 229, options [nop,nop,TS val 43777845 ecr 700381556], length 0
+17:37:16.284966 IP ThinkPad.56279 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 86:92, ack 244, win 229, options [nop,nop,TS val 43777845 ecr 700381556], length 6
+17:37:16.411072 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56279: Flags [P.], seq 244:295, ack 92, win 91, options [nop,nop,TS val 700381586 ecr 43777845], length 51
+17:37:16.441444 IP ThinkPad.56279 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 295, win 229, options [nop,nop,TS val 43777861 ecr 700381586], length 0
+17:37:16.537889 IP ThinkPad.56279 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 92:111, ack 295, win 229, options [nop,nop,TS val 43777870 ecr 700381586], length 19
+17:37:16.664756 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56279: Flags [P.], seq 295:301, ack 111, win 91, options [nop,nop,TS val 700381651 ecr 43777870], length 6
+17:37:16.664799 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56279: Flags [P.], seq 301:338, ack 111, win 91, options [nop,nop,TS val 700381651 ecr 43777870], length 37
+17:37:16.664816 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56279: Flags [P.], seq 338:380, ack 111, win 91, options [nop,nop,TS val 700381651 ecr 43777870], length 42
+17:37:16.664831 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56279: Flags [P.], seq 380:411, ack 111, win 91, options [nop,nop,TS val 700381651 ecr 43777870], length 31
+17:37:16.664832 IP ThinkPad.56279 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 338, win 229, options [nop,nop,TS val 43777883 ecr 700381651], length 0
+17:37:16.664844 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56279: Flags [P.], seq 411:478, ack 111, win 91, options [nop,nop,TS val 700381651 ecr 43777870], length 67
+17:37:16.664901 IP ThinkPad.56279 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 478, win 229, options [nop,nop,TS val 43777883 ecr 700381651], length 0
+17:37:16.790384 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56279: Flags [.], seq 478:1846, ack 111, win 91, options [nop,nop,TS val 700381682 ecr 43777883], length 1368
+17:37:16.790413 IP ThinkPad.56279 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 1846, win 274, options [nop,nop,TS val 43777895 ecr 700381682], length 0
+17:37:16.790440 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56279: Flags [P.], seq 1846:1997, ack 111, win 91, options [nop,nop,TS val 700381682 ecr 43777883], length 151
+17:37:16.790449 IP ThinkPad.56279 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 1997, win 317, options [nop,nop,TS val 43777895 ecr 700381682], length 0
+17:37:16.790598 IP ThinkPad.56279 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 111:120, ack 1997, win 317, options [nop,nop,TS val 43777895 ecr 700381682], length 9
+17:37:16.916337 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56279: Flags [P.], seq 1997:2036, ack 120, win 91, options [nop,nop,TS val 700381714 ecr 43777895], length 39
+17:37:16.951422 IP ThinkPad.56279 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 2036, win 317, options [nop,nop,TS val 43777912 ecr 700381714], length 0
+17:37:17.042115 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56279: Flags [P.], seq 2036:2060, ack 120, win 91, options [nop,nop,TS val 700381745 ecr 43777895], length 24
+17:37:17.042199 IP ThinkPad.56279 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 2060, win 317, options [nop,nop,TS val 43777921 ecr 700381745], length 0
+17:37:17.042281 IP ThinkPad.56279 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 120:126, ack 2060, win 317, options [nop,nop,TS val 43777921 ecr 700381745], length 6
+17:37:17.163967 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56279: Flags [P.], seq 2060:2074, ack 126, win 91, options [nop,nop,TS val 700381775 ecr 43777921], length 14
+17:37:17.164010 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56279: Flags [F.], seq 2074, ack 126, win 91, options [nop,nop,TS val 700381775 ecr 43777921], length 0
+17:37:17.164140 IP ThinkPad.56279 > ftp-prod-srv04.it.su.se.ftp: Flags [F.], seq 126, ack 2075, win 317, options [nop,nop,TS val 43777933 ecr 700381775], length 0
+17:37:17.286704 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56279: Flags [.], ack 127, win 91, options [nop,nop,TS val 700381806 ecr 43777933], length 0
+17:37:21.049891 IP ThinkPad.56282 > ftp-prod-srv04.it.su.se.ftp: Flags [S], seq 3628734869, win 14600, options [mss 1460,sackOK,TS val 43778321 ecr 0,nop,wscale 6], length 0
+17:37:21.175276 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56282: Flags [S.], seq 2336613954, ack 3628734870, win 5792, options [mss 1380,sackOK,TS val 700382778 ecr 43778321,nop,wscale 6], length 0
+17:37:21.175327 IP ThinkPad.56282 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 1, win 229, options [nop,nop,TS val 43778334 ecr 700382778], length 0
+17:37:21.357118 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56282: Flags [P.], seq 1:48, ack 1, win 91, options [nop,nop,TS val 700382824 ecr 43778334], length 47
+17:37:21.357155 IP ThinkPad.56282 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 48, win 229, options [nop,nop,TS val 43778352 ecr 700382824], length 0
+17:37:21.357280 IP ThinkPad.56282 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 1:17, ack 48, win 229, options [nop,nop,TS val 43778352 ecr 700382824], length 16
+17:37:21.485270 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56282: Flags [.], ack 17, win 91, options [nop,nop,TS val 700382856 ecr 43778352], length 0
+17:37:21.485310 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56282: Flags [P.], seq 48:82, ack 17, win 91, options [nop,nop,TS val 700382856 ecr 43778352], length 34
+17:37:21.485441 IP ThinkPad.56282 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 17:42, ack 82, win 229, options [nop,nop,TS val 43778365 ecr 700382856], length 25
+17:37:21.612534 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56282: Flags [P.], seq 82:105, ack 42, win 91, options [nop,nop,TS val 700382887 ecr 43778365], length 23
+17:37:21.612713 IP ThinkPad.56282 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 42:48, ack 105, win 229, options [nop,nop,TS val 43778378 ecr 700382887], length 6
+17:37:21.739234 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56282: Flags [P.], seq 105:124, ack 48, win 91, options [nop,nop,TS val 700382919 ecr 43778378], length 19
+17:37:21.739402 IP ThinkPad.56282 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 48:53, ack 124, win 229, options [nop,nop,TS val 43778390 ecr 700382919], length 5
+17:37:21.863682 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56282: Flags [P.], seq 124:133, ack 53, win 91, options [nop,nop,TS val 700382950 ecr 43778390], length 9
+17:37:21.863856 IP ThinkPad.56282 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 53:61, ack 133, win 229, options [nop,nop,TS val 43778403 ecr 700382950], length 8
+17:37:21.986342 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56282: Flags [P.], seq 133:164, ack 61, win 91, options [nop,nop,TS val 700382981 ecr 43778403], length 31
+17:37:21.986561 IP ThinkPad.56282 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 61:67, ack 164, win 229, options [nop,nop,TS val 43778415 ecr 700382981], length 6
+17:37:22.114530 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56282: Flags [P.], seq 164:214, ack 67, win 91, options [nop,nop,TS val 700383013 ecr 43778415], length 50
+17:37:22.151451 IP ThinkPad.56282 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 214, win 229, options [nop,nop,TS val 43778432 ecr 700383013], length 0
+17:37:22.238711 IP ThinkPad.56282 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 67:97, ack 214, win 229, options [nop,nop,TS val 43778440 ecr 700383013], length 30
+17:37:22.363315 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56282: Flags [P.], seq 214:244, ack 97, win 91, options [nop,nop,TS val 700383075 ecr 43778440], length 30
+17:37:22.363349 IP ThinkPad.56282 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 244, win 229, options [nop,nop,TS val 43778453 ecr 700383075], length 0
+17:37:22.363437 IP ThinkPad.56282 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 97:103, ack 244, win 229, options [nop,nop,TS val 43778453 ecr 700383075], length 6
+17:37:22.490539 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56282: Flags [P.], seq 244:295, ack 103, win 91, options [nop,nop,TS val 700383107 ecr 43778453], length 51
+17:37:22.521463 IP ThinkPad.56282 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 295, win 229, options [nop,nop,TS val 43778469 ecr 700383107], length 0
+17:37:22.616399 IP ThinkPad.56282 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 103:133, ack 295, win 229, options [nop,nop,TS val 43778478 ecr 700383107], length 30
+17:37:22.737023 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56282: Flags [P.], seq 295:332, ack 133, win 91, options [nop,nop,TS val 700383169 ecr 43778478], length 37
+17:37:22.737125 IP ThinkPad.56282 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 332, win 229, options [nop,nop,TS val 43778490 ecr 700383169], length 0
+17:37:22.737188 IP ThinkPad.56282 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 133:142, ack 332, win 229, options [nop,nop,TS val 43778490 ecr 700383169], length 9
+17:37:22.858286 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56282: Flags [P.], seq 332:371, ack 142, win 91, options [nop,nop,TS val 700383199 ecr 43778490], length 39
+17:37:22.891425 IP ThinkPad.56282 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 371, win 229, options [nop,nop,TS val 43778506 ecr 700383199], length 0
+17:37:22.984430 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56282: Flags [P.], seq 371:395, ack 142, win 91, options [nop,nop,TS val 700383230 ecr 43778490], length 24
+17:37:22.984527 IP ThinkPad.56282 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 395, win 229, options [nop,nop,TS val 43778515 ecr 700383230], length 0
+17:37:22.984603 IP ThinkPad.56282 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 142:148, ack 395, win 229, options [nop,nop,TS val 43778515 ecr 700383230], length 6
+17:37:23.110158 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56282: Flags [P.], seq 395:409, ack 148, win 91, options [nop,nop,TS val 700383262 ecr 43778515], length 14
+17:37:23.110200 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56282: Flags [F.], seq 409, ack 148, win 91, options [nop,nop,TS val 700383262 ecr 43778515], length 0
+17:37:23.110382 IP ThinkPad.56282 > ftp-prod-srv04.it.su.se.ftp: Flags [F.], seq 148, ack 410, win 229, options [nop,nop,TS val 43778527 ecr 700383262], length 0
+17:37:23.234128 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56282: Flags [.], ack 149, win 91, options [nop,nop,TS val 700383293 ecr 43778527], length 0
+17:37:24.614834 IP ThinkPad.56285 > ftp-prod-srv04.it.su.se.ftp: Flags [S], seq 3141267837, win 14600, options [mss 1460,sackOK,TS val 43778678 ecr 0,nop,wscale 6], length 0
+17:37:24.737989 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56285: Flags [S.], seq 816471808, ack 3141267838, win 5792, options [mss 1380,sackOK,TS val 700383669 ecr 43778678,nop,wscale 6], length 0
+17:37:24.738029 IP ThinkPad.56285 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 1, win 229, options [nop,nop,TS val 43778690 ecr 700383669], length 0
+17:37:24.875351 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56285: Flags [P.], seq 1:48, ack 1, win 91, options [nop,nop,TS val 700383703 ecr 43778690], length 47
+17:37:24.875392 IP ThinkPad.56285 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 48, win 229, options [nop,nop,TS val 43778704 ecr 700383703], length 0
+17:37:24.875503 IP ThinkPad.56285 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 1:17, ack 48, win 229, options [nop,nop,TS val 43778704 ecr 700383703], length 16
+17:37:25.003028 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56285: Flags [.], ack 17, win 91, options [nop,nop,TS val 700383735 ecr 43778704], length 0
+17:37:25.003070 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56285: Flags [P.], seq 48:82, ack 17, win 91, options [nop,nop,TS val 700383735 ecr 43778704], length 34
+17:37:25.003243 IP ThinkPad.56285 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 17:42, ack 82, win 229, options [nop,nop,TS val 43778717 ecr 700383735], length 25
+17:37:25.131069 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56285: Flags [P.], seq 82:105, ack 42, win 91, options [nop,nop,TS val 700383767 ecr 43778717], length 23
+17:37:25.131218 IP ThinkPad.56285 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 42:48, ack 105, win 229, options [nop,nop,TS val 43778729 ecr 700383767], length 6
+17:37:25.259803 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56285: Flags [P.], seq 105:124, ack 48, win 91, options [nop,nop,TS val 700383799 ecr 43778729], length 19
+17:37:25.259962 IP ThinkPad.56285 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 48:53, ack 124, win 229, options [nop,nop,TS val 43778742 ecr 700383799], length 5
+17:37:25.391677 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56285: Flags [P.], seq 124:133, ack 53, win 91, options [nop,nop,TS val 700383831 ecr 43778742], length 9
+17:37:25.391826 IP ThinkPad.56285 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 53:61, ack 133, win 229, options [nop,nop,TS val 43778756 ecr 700383831], length 8
+17:37:25.516047 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56285: Flags [P.], seq 133:164, ack 61, win 91, options [nop,nop,TS val 700383864 ecr 43778756], length 31
+17:37:25.516210 IP ThinkPad.56285 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 61:67, ack 164, win 229, options [nop,nop,TS val 43778768 ecr 700383864], length 6
+17:37:25.639310 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56285: Flags [P.], seq 164:214, ack 67, win 91, options [nop,nop,TS val 700383894 ecr 43778768], length 50
+17:37:25.671436 IP ThinkPad.56285 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 214, win 229, options [nop,nop,TS val 43778784 ecr 700383894], length 0
+17:37:25.772295 IP ThinkPad.56285 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 67:86, ack 214, win 229, options [nop,nop,TS val 43778794 ecr 700383894], length 19
+17:37:25.894729 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56285: Flags [P.], seq 214:244, ack 86, win 91, options [nop,nop,TS val 700383958 ecr 43778794], length 30
+17:37:25.894765 IP ThinkPad.56285 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 244, win 229, options [nop,nop,TS val 43778806 ecr 700383958], length 0
+17:37:25.894917 IP ThinkPad.56285 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 86:92, ack 244, win 229, options [nop,nop,TS val 43778806 ecr 700383958], length 6
+17:37:26.018162 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56285: Flags [P.], seq 244:295, ack 92, win 91, options [nop,nop,TS val 700383989 ecr 43778806], length 51
+17:37:26.051443 IP ThinkPad.56285 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 295, win 229, options [nop,nop,TS val 43778822 ecr 700383989], length 0
+17:37:26.141217 IP ThinkPad.56285 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 92:111, ack 295, win 229, options [nop,nop,TS val 43778830 ecr 700383989], length 19
+17:37:26.265616 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56285: Flags [P.], seq 295:301, ack 111, win 91, options [nop,nop,TS val 700384051 ecr 43778830], length 6
+17:37:26.265655 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56285: Flags [P.], seq 301:338, ack 111, win 91, options [nop,nop,TS val 700384051 ecr 43778830], length 37
+17:37:26.265668 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56285: Flags [P.], seq 338:380, ack 111, win 91, options [nop,nop,TS val 700384051 ecr 43778830], length 42
+17:37:26.265679 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56285: Flags [P.], seq 380:411, ack 111, win 91, options [nop,nop,TS val 700384051 ecr 43778830], length 31
+17:37:26.265688 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56285: Flags [P.], seq 411:478, ack 111, win 91, options [nop,nop,TS val 700384051 ecr 43778830], length 67
+17:37:26.265809 IP ThinkPad.56285 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 478, win 229, options [nop,nop,TS val 43778843 ecr 700384051], length 0
+17:37:26.388819 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56285: Flags [.], seq 478:1846, ack 111, win 91, options [nop,nop,TS val 700384082 ecr 43778843], length 1368
+17:37:26.388846 IP ThinkPad.56285 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 1846, win 274, options [nop,nop,TS val 43778855 ecr 700384082], length 0
+17:37:26.388871 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56285: Flags [P.], seq 1846:1997, ack 111, win 91, options [nop,nop,TS val 700384082 ecr 43778843], length 151
+17:37:26.388881 IP ThinkPad.56285 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 1997, win 317, options [nop,nop,TS val 43778855 ecr 700384082], length 0
+17:37:26.389079 IP ThinkPad.56285 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 111:120, ack 1997, win 317, options [nop,nop,TS val 43778855 ecr 700384082], length 9
+17:37:26.510949 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56285: Flags [P.], seq 1997:2036, ack 120, win 91, options [nop,nop,TS val 700384112 ecr 43778855], length 39
+17:37:26.541424 IP ThinkPad.56285 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 2036, win 317, options [nop,nop,TS val 43778871 ecr 700384112], length 0
+17:37:26.639019 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56285: Flags [P.], seq 2036:2060, ack 120, win 91, options [nop,nop,TS val 700384144 ecr 43778855], length 24
+17:37:26.639106 IP ThinkPad.56285 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 2060, win 317, options [nop,nop,TS val 43778880 ecr 700384144], length 0
+17:37:26.639191 IP ThinkPad.56285 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 120:126, ack 2060, win 317, options [nop,nop,TS val 43778880 ecr 700384144], length 6
+17:37:26.766147 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56285: Flags [P.], seq 2060:2074, ack 126, win 91, options [nop,nop,TS val 700384175 ecr 43778880], length 14
+17:37:26.766189 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56285: Flags [F.], seq 2074, ack 126, win 91, options [nop,nop,TS val 700384175 ecr 43778880], length 0
+17:37:26.766297 IP ThinkPad.56285 > ftp-prod-srv04.it.su.se.ftp: Flags [F.], seq 126, ack 2075, win 317, options [nop,nop,TS val 43778893 ecr 700384175], length 0
+17:37:26.895549 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56285: Flags [.], ack 127, win 91, options [nop,nop,TS val 700384209 ecr 43778893], length 0
+17:37:28.138389 IP ThinkPad.56288 > ftp-prod-srv04.it.su.se.ftp: Flags [S], seq 1152192339, win 14600, options [mss 1460,sackOK,TS val 43779030 ecr 0,nop,wscale 6], length 0
+17:37:28.260585 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56288: Flags [S.], seq 2565377726, ack 1152192340, win 5792, options [mss 1380,sackOK,TS val 700384550 ecr 43779030,nop,wscale 6], length 0
+17:37:28.260629 IP ThinkPad.56288 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 1, win 229, options [nop,nop,TS val 43779042 ecr 700384550], length 0
+17:37:28.397847 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56288: Flags [P.], seq 1:48, ack 1, win 91, options [nop,nop,TS val 700384584 ecr 43779042], length 47
+17:37:28.397879 IP ThinkPad.56288 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 48, win 229, options [nop,nop,TS val 43779056 ecr 700384584], length 0
+17:37:28.397970 IP ThinkPad.56288 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 1:17, ack 48, win 229, options [nop,nop,TS val 43779056 ecr 700384584], length 16
+17:37:28.523084 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56288: Flags [.], ack 17, win 91, options [nop,nop,TS val 700384615 ecr 43779056], length 0
+17:37:28.523126 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56288: Flags [P.], seq 48:82, ack 17, win 91, options [nop,nop,TS val 700384615 ecr 43779056], length 34
+17:37:28.523260 IP ThinkPad.56288 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 17:42, ack 82, win 229, options [nop,nop,TS val 43779069 ecr 700384615], length 25
+17:37:28.655011 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56288: Flags [P.], seq 82:105, ack 42, win 91, options [nop,nop,TS val 700384648 ecr 43779069], length 23
+17:37:28.655181 IP ThinkPad.56288 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 42:48, ack 105, win 229, options [nop,nop,TS val 43779082 ecr 700384648], length 6
+17:37:28.775534 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56288: Flags [P.], seq 105:124, ack 48, win 91, options [nop,nop,TS val 700384679 ecr 43779082], length 19
+17:37:28.775671 IP ThinkPad.56288 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 48:53, ack 124, win 229, options [nop,nop,TS val 43779094 ecr 700384679], length 5
+17:37:28.897085 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56288: Flags [P.], seq 124:133, ack 53, win 91, options [nop,nop,TS val 700384709 ecr 43779094], length 9
+17:37:28.897257 IP ThinkPad.56288 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 53:61, ack 133, win 229, options [nop,nop,TS val 43779106 ecr 700384709], length 8
+17:37:29.019427 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56288: Flags [P.], seq 133:164, ack 61, win 91, options [nop,nop,TS val 700384739 ecr 43779106], length 31
+17:37:29.019576 IP ThinkPad.56288 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 61:67, ack 164, win 229, options [nop,nop,TS val 43779118 ecr 700384739], length 6
+17:37:29.150218 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56288: Flags [P.], seq 164:215, ack 67, win 91, options [nop,nop,TS val 700384771 ecr 43779118], length 51
+17:37:29.181419 IP ThinkPad.56288 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 215, win 229, options [nop,nop,TS val 43779135 ecr 700384771], length 0
+17:37:29.276273 IP ThinkPad.56288 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 67:90, ack 215, win 229, options [nop,nop,TS val 43779144 ecr 700384771], length 23
+17:37:29.396481 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56288: Flags [P.], seq 215:245, ack 90, win 91, options [nop,nop,TS val 700384834 ecr 43779144], length 30
+17:37:29.396519 IP ThinkPad.56288 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 245, win 229, options [nop,nop,TS val 43779156 ecr 700384834], length 0
+17:37:29.396676 IP ThinkPad.56288 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 90:96, ack 245, win 229, options [nop,nop,TS val 43779156 ecr 700384834], length 6
+17:37:29.518087 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56288: Flags [P.], seq 245:295, ack 96, win 91, options [nop,nop,TS val 700384864 ecr 43779156], length 50
+17:37:29.551467 IP ThinkPad.56288 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 295, win 229, options [nop,nop,TS val 43779172 ecr 700384864], length 0
+17:37:29.639191 IP ThinkPad.56288 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 96:119, ack 295, win 229, options [nop,nop,TS val 43779180 ecr 700384864], length 23
+17:37:29.767463 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56288: Flags [P.], seq 295:332, ack 119, win 91, options [nop,nop,TS val 700384926 ecr 43779180], length 37
+17:37:29.767567 IP ThinkPad.56288 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 332, win 229, options [nop,nop,TS val 43779193 ecr 700384926], length 0
+17:37:29.767635 IP ThinkPad.56288 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 119:128, ack 332, win 229, options [nop,nop,TS val 43779193 ecr 700384926], length 9
+17:37:29.889648 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56288: Flags [P.], seq 332:371, ack 128, win 91, options [nop,nop,TS val 700384957 ecr 43779193], length 39
+17:37:29.921446 IP ThinkPad.56288 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 371, win 229, options [nop,nop,TS val 43779209 ecr 700384957], length 0
+17:37:30.019879 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56288: Flags [P.], seq 371:395, ack 128, win 91, options [nop,nop,TS val 700384990 ecr 43779193], length 24
+17:37:30.019994 IP ThinkPad.56288 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 395, win 229, options [nop,nop,TS val 43779218 ecr 700384990], length 0
+17:37:30.020065 IP ThinkPad.56288 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 128:134, ack 395, win 229, options [nop,nop,TS val 43779218 ecr 700384990], length 6
+17:37:30.146812 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56288: Flags [P.], seq 395:409, ack 134, win 91, options [nop,nop,TS val 700385021 ecr 43779218], length 14
+17:37:30.146852 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56288: Flags [F.], seq 409, ack 134, win 91, options [nop,nop,TS val 700385021 ecr 43779218], length 0
+17:37:30.146966 IP ThinkPad.56288 > ftp-prod-srv04.it.su.se.ftp: Flags [F.], seq 134, ack 410, win 229, options [nop,nop,TS val 43779231 ecr 700385021], length 0
+17:37:30.274288 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56288: Flags [.], ack 135, win 91, options [nop,nop,TS val 700385053 ecr 43779231], length 0
+17:37:31.818786 IP ThinkPad.56291 > ftp-prod-srv04.it.su.se.ftp: Flags [S], seq 750229084, win 14600, options [mss 1460,sackOK,TS val 43779398 ecr 0,nop,wscale 6], length 0
+17:37:31.946502 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56291: Flags [S.], seq 3918855555, ack 750229085, win 5792, options [mss 1380,sackOK,TS val 700385471 ecr 43779398,nop,wscale 6], length 0
+17:37:31.946552 IP ThinkPad.56291 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 1, win 229, options [nop,nop,TS val 43779411 ecr 700385471], length 0
+17:37:32.145741 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56291: Flags [P.], seq 1:48, ack 1, win 91, options [nop,nop,TS val 700385521 ecr 43779411], length 47
+17:37:32.145782 IP ThinkPad.56291 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 48, win 229, options [nop,nop,TS val 43779431 ecr 700385521], length 0
+17:37:32.145892 IP ThinkPad.56291 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 1:17, ack 48, win 229, options [nop,nop,TS val 43779431 ecr 700385521], length 16
+17:37:32.267300 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56291: Flags [.], ack 17, win 91, options [nop,nop,TS val 700385551 ecr 43779431], length 0
+17:37:32.267341 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56291: Flags [P.], seq 48:82, ack 17, win 91, options [nop,nop,TS val 700385551 ecr 43779431], length 34
+17:37:32.267486 IP ThinkPad.56291 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 17:42, ack 82, win 229, options [nop,nop,TS val 43779443 ecr 700385551], length 25
+17:37:32.393443 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56291: Flags [P.], seq 82:105, ack 42, win 91, options [nop,nop,TS val 700385583 ecr 43779443], length 23
+17:37:32.393603 IP ThinkPad.56291 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 42:48, ack 105, win 229, options [nop,nop,TS val 43779456 ecr 700385583], length 6
+17:37:32.518279 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56291: Flags [P.], seq 105:124, ack 48, win 91, options [nop,nop,TS val 700385614 ecr 43779456], length 19
+17:37:32.518418 IP ThinkPad.56291 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 48:53, ack 124, win 229, options [nop,nop,TS val 43779468 ecr 700385614], length 5
+17:37:32.644767 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56291: Flags [P.], seq 124:133, ack 53, win 91, options [nop,nop,TS val 700385646 ecr 43779468], length 9
+17:37:32.644922 IP ThinkPad.56291 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 53:61, ack 133, win 229, options [nop,nop,TS val 43779481 ecr 700385646], length 8
+17:37:32.772018 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56291: Flags [P.], seq 133:164, ack 61, win 91, options [nop,nop,TS val 700385677 ecr 43779481], length 31
+17:37:32.772192 IP ThinkPad.56291 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 61:67, ack 164, win 229, options [nop,nop,TS val 43779494 ecr 700385677], length 6
+17:37:32.902681 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56291: Flags [P.], seq 164:215, ack 67, win 91, options [nop,nop,TS val 700385710 ecr 43779494], length 51
+17:37:32.941413 IP ThinkPad.56291 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 215, win 229, options [nop,nop,TS val 43779511 ecr 700385710], length 0
+17:37:33.030893 IP ThinkPad.56291 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 67:98, ack 215, win 229, options [nop,nop,TS val 43779519 ecr 700385710], length 31
+17:37:33.159605 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56291: Flags [P.], seq 215:245, ack 98, win 91, options [nop,nop,TS val 700385774 ecr 43779519], length 30
+17:37:33.159636 IP ThinkPad.56291 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 245, win 229, options [nop,nop,TS val 43779532 ecr 700385774], length 0
+17:37:33.159768 IP ThinkPad.56291 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 98:104, ack 245, win 229, options [nop,nop,TS val 43779532 ecr 700385774], length 6
+17:37:33.294035 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56291: Flags [P.], seq 245:296, ack 104, win 91, options [nop,nop,TS val 700385808 ecr 43779532], length 51
+17:37:33.331463 IP ThinkPad.56291 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 296, win 229, options [nop,nop,TS val 43779550 ecr 700385808], length 0
+17:37:33.425721 IP ThinkPad.56291 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 104:135, ack 296, win 229, options [nop,nop,TS val 43779559 ecr 700385808], length 31
+17:37:33.580373 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56291: Flags [P.], seq 296:333, ack 135, win 91, options [nop,nop,TS val 700385879 ecr 43779559], length 37
+17:37:33.580488 IP ThinkPad.56291 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 333, win 229, options [nop,nop,TS val 43779574 ecr 700385879], length 0
+17:37:33.580561 IP ThinkPad.56291 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 135:144, ack 333, win 229, options [nop,nop,TS val 43779574 ecr 700385879], length 9
+17:37:33.708597 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56291: Flags [P.], seq 333:372, ack 144, win 91, options [nop,nop,TS val 700385912 ecr 43779574], length 39
+17:37:33.741434 IP ThinkPad.56291 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 372, win 229, options [nop,nop,TS val 43779591 ecr 700385912], length 0
+17:37:33.863566 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56291: Flags [P.], seq 372:396, ack 144, win 91, options [nop,nop,TS val 700385951 ecr 43779574], length 24
+17:37:33.863683 IP ThinkPad.56291 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 396, win 229, options [nop,nop,TS val 43779603 ecr 700385951], length 0
+17:37:33.863767 IP ThinkPad.56291 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 144:150, ack 396, win 229, options [nop,nop,TS val 43779603 ecr 700385951], length 6
+17:37:33.988212 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56291: Flags [P.], seq 396:410, ack 150, win 91, options [nop,nop,TS val 700385982 ecr 43779603], length 14
+17:37:33.988425 IP ThinkPad.56291 > ftp-prod-srv04.it.su.se.ftp: Flags [F.], seq 150, ack 410, win 229, options [nop,nop,TS val 43779615 ecr 700385982], length 0
+17:37:33.990462 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56291: Flags [F.], seq 410, ack 150, win 91, options [nop,nop,TS val 700385982 ecr 43779603], length 0
+17:37:33.990487 IP ThinkPad.56291 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 411, win 229, options [nop,nop,TS val 43779615 ecr 700385982], length 0
+17:37:34.117152 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56291: Flags [.], ack 151, win 91, options [nop,nop,TS val 700386013 ecr 43779615], length 0
+17:37:34.982539 IP ThinkPad.56294 > ftp-prod-srv04.it.su.se.ftp: Flags [S], seq 1252624222, win 14600, options [mss 1460,sackOK,TS val 43779715 ecr 0,nop,wscale 6], length 0
+17:37:35.105281 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56294: Flags [S.], seq 1874592020, ack 1252624223, win 5792, options [mss 1380,sackOK,TS val 700386261 ecr 43779715,nop,wscale 6], length 0
+17:37:35.105328 IP ThinkPad.56294 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 1, win 229, options [nop,nop,TS val 43779727 ecr 700386261], length 0
+17:37:35.263799 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56294: Flags [P.], seq 1:48, ack 1, win 91, options [nop,nop,TS val 700386301 ecr 43779727], length 47
+17:37:35.263842 IP ThinkPad.56294 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 48, win 229, options [nop,nop,TS val 43779743 ecr 700386301], length 0
+17:37:35.263941 IP ThinkPad.56294 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 1:17, ack 48, win 229, options [nop,nop,TS val 43779743 ecr 700386301], length 16
+17:37:35.388031 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56294: Flags [.], ack 17, win 91, options [nop,nop,TS val 700386331 ecr 43779743], length 0
+17:37:35.388066 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56294: Flags [P.], seq 48:82, ack 17, win 91, options [nop,nop,TS val 700386331 ecr 43779743], length 34
+17:37:35.388183 IP ThinkPad.56294 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 17:42, ack 82, win 229, options [nop,nop,TS val 43779755 ecr 700386331], length 25
+17:37:35.519943 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56294: Flags [P.], seq 82:105, ack 42, win 91, options [nop,nop,TS val 700386364 ecr 43779755], length 23
+17:37:35.520091 IP ThinkPad.56294 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 42:48, ack 105, win 229, options [nop,nop,TS val 43779768 ecr 700386364], length 6
+17:37:35.646911 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56294: Flags [P.], seq 105:124, ack 48, win 91, options [nop,nop,TS val 700386396 ecr 43779768], length 19
+17:37:35.647064 IP ThinkPad.56294 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 48:53, ack 124, win 229, options [nop,nop,TS val 43779781 ecr 700386396], length 5
+17:37:35.776000 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56294: Flags [P.], seq 124:133, ack 53, win 91, options [nop,nop,TS val 700386428 ecr 43779781], length 9
+17:37:35.776145 IP ThinkPad.56294 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 53:61, ack 133, win 229, options [nop,nop,TS val 43779794 ecr 700386428], length 8
+17:37:35.901715 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56294: Flags [P.], seq 133:164, ack 61, win 91, options [nop,nop,TS val 700386460 ecr 43779794], length 31
+17:37:35.901910 IP ThinkPad.56294 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 61:67, ack 164, win 229, options [nop,nop,TS val 43779807 ecr 700386460], length 6
+17:37:36.030715 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56294: Flags [P.], seq 164:215, ack 67, win 91, options [nop,nop,TS val 700386492 ecr 43779807], length 51
+17:37:36.061437 IP ThinkPad.56294 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 215, win 229, options [nop,nop,TS val 43779823 ecr 700386492], length 0
+17:37:36.154450 IP ThinkPad.56294 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 67:90, ack 215, win 229, options [nop,nop,TS val 43779832 ecr 700386492], length 23
+17:37:36.280946 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56294: Flags [P.], seq 215:245, ack 90, win 91, options [nop,nop,TS val 700386555 ecr 43779832], length 30
+17:37:36.280986 IP ThinkPad.56294 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 245, win 229, options [nop,nop,TS val 43779844 ecr 700386555], length 0
+17:37:36.281159 IP ThinkPad.56294 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 90:96, ack 245, win 229, options [nop,nop,TS val 43779844 ecr 700386555], length 6
+17:37:36.427853 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56294: Flags [P.], seq 245:295, ack 96, win 91, options [nop,nop,TS val 700386592 ecr 43779844], length 50
+17:37:36.461440 IP ThinkPad.56294 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 295, win 229, options [nop,nop,TS val 43779863 ecr 700386592], length 0
+17:37:36.568449 IP ThinkPad.56294 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 96:119, ack 295, win 229, options [nop,nop,TS val 43779873 ecr 700386592], length 23
+17:37:36.691091 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56294: Flags [P.], seq 295:332, ack 119, win 91, options [nop,nop,TS val 700386657 ecr 43779873], length 37
+17:37:36.691186 IP ThinkPad.56294 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 332, win 229, options [nop,nop,TS val 43779885 ecr 700386657], length 0
+17:37:36.691267 IP ThinkPad.56294 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 119:128, ack 332, win 229, options [nop,nop,TS val 43779885 ecr 700386657], length 9
+17:37:36.812888 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56294: Flags [P.], seq 332:371, ack 128, win 91, options [nop,nop,TS val 700386688 ecr 43779885], length 39
+17:37:36.851444 IP ThinkPad.56294 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 371, win 229, options [nop,nop,TS val 43779902 ecr 700386688], length 0
+17:37:36.948239 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56294: Flags [P.], seq 371:395, ack 128, win 91, options [nop,nop,TS val 700386721 ecr 43779885], length 24
+17:37:36.948299 IP ThinkPad.56294 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 395, win 229, options [nop,nop,TS val 43779911 ecr 700386721], length 0
+17:37:36.948365 IP ThinkPad.56294 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 128:134, ack 395, win 229, options [nop,nop,TS val 43779911 ecr 700386721], length 6
+17:37:37.076596 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56294: Flags [P.], seq 395:409, ack 134, win 91, options [nop,nop,TS val 700386754 ecr 43779911], length 14
+17:37:37.076641 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56294: Flags [F.], seq 409, ack 134, win 91, options [nop,nop,TS val 700386754 ecr 43779911], length 0
+17:37:37.076723 IP ThinkPad.56294 > ftp-prod-srv04.it.su.se.ftp: Flags [F.], seq 134, ack 410, win 229, options [nop,nop,TS val 43779924 ecr 700386754], length 0
+17:37:37.258829 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56294: Flags [.], ack 135, win 91, options [nop,nop,TS val 700386785 ecr 43779924], length 0
+17:37:38.376360 IP ThinkPad.56297 > ftp-prod-srv04.it.su.se.ftp: Flags [S], seq 1327895541, win 14600, options [mss 1460,sackOK,TS val 43780054 ecr 0,nop,wscale 6], length 0
+17:37:38.499175 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56297: Flags [S.], seq 1221629220, ack 1327895542, win 5792, options [mss 1380,sackOK,TS val 700387110 ecr 43780054,nop,wscale 6], length 0
+17:37:38.499226 IP ThinkPad.56297 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 1, win 229, options [nop,nop,TS val 43780066 ecr 700387110], length 0
+17:37:38.632690 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56297: Flags [P.], seq 1:48, ack 1, win 91, options [nop,nop,TS val 700387143 ecr 43780066], length 47
+17:37:38.632728 IP ThinkPad.56297 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 48, win 229, options [nop,nop,TS val 43780080 ecr 700387143], length 0
+17:37:38.632891 IP ThinkPad.56297 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 1:17, ack 48, win 229, options [nop,nop,TS val 43780080 ecr 700387143], length 16
+17:37:38.760410 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56297: Flags [.], ack 17, win 91, options [nop,nop,TS val 700387174 ecr 43780080], length 0
+17:37:38.760439 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56297: Flags [P.], seq 48:82, ack 17, win 91, options [nop,nop,TS val 700387174 ecr 43780080], length 34
+17:37:38.760620 IP ThinkPad.56297 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 17:42, ack 82, win 229, options [nop,nop,TS val 43780092 ecr 700387174], length 25
+17:37:39.121420 IP ThinkPad.56297 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 17:42, ack 82, win 229, options [nop,nop,TS val 43780129 ecr 700387174], length 25
+17:37:39.259345 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56297: Flags [P.], seq 82:105, ack 42, win 91, options [nop,nop,TS val 700387299 ecr 43780129], length 23
+17:37:39.259396 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56297: Flags [.], ack 42, win 91, options [nop,nop,TS val 700387299 ecr 43780129,nop,nop,sack 1 {17:42}], length 0
+17:37:39.259534 IP ThinkPad.56297 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 42:48, ack 105, win 229, options [nop,nop,TS val 43780142 ecr 700387299], length 6
+17:37:39.370233 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56297: Flags [.], ack 42, win 91, options [nop,nop,TS val 700387327 ecr 43780129], length 0
+17:37:39.386779 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56297: Flags [.], ack 48, win 91, options [nop,nop,TS val 700387331 ecr 43780142], length 0
+17:37:39.386811 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56297: Flags [P.], seq 105:124, ack 48, win 91, options [nop,nop,TS val 700387331 ecr 43780142], length 19
+17:37:39.386975 IP ThinkPad.56297 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 48:53, ack 124, win 229, options [nop,nop,TS val 43780155 ecr 700387331], length 5
+17:37:39.507913 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56297: Flags [P.], seq 124:133, ack 53, win 91, options [nop,nop,TS val 700387361 ecr 43780155], length 9
+17:37:39.508061 IP ThinkPad.56297 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 53:61, ack 133, win 229, options [nop,nop,TS val 43780167 ecr 700387361], length 8
+17:37:39.628499 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56297: Flags [P.], seq 133:164, ack 61, win 91, options [nop,nop,TS val 700387392 ecr 43780167], length 31
+17:37:39.628639 IP ThinkPad.56297 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 61:67, ack 164, win 229, options [nop,nop,TS val 43780179 ecr 700387392], length 6
+17:37:39.750670 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56297: Flags [P.], seq 164:215, ack 67, win 91, options [nop,nop,TS val 700387422 ecr 43780179], length 51
+17:37:39.781412 IP ThinkPad.56297 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 215, win 229, options [nop,nop,TS val 43780195 ecr 700387422], length 0
+17:37:39.874645 IP ThinkPad.56297 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 67:99, ack 215, win 229, options [nop,nop,TS val 43780204 ecr 700387422], length 32
+17:37:40.005057 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56297: Flags [P.], seq 215:245, ack 99, win 91, options [nop,nop,TS val 700387485 ecr 43780204], length 30
+17:37:40.005089 IP ThinkPad.56297 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 245, win 229, options [nop,nop,TS val 43780217 ecr 700387485], length 0
+17:37:40.005241 IP ThinkPad.56297 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 99:105, ack 245, win 229, options [nop,nop,TS val 43780217 ecr 700387485], length 6
+17:37:40.129833 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56297: Flags [P.], seq 245:295, ack 105, win 91, options [nop,nop,TS val 700387517 ecr 43780217], length 50
+17:37:40.161449 IP ThinkPad.56297 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 295, win 229, options [nop,nop,TS val 43780233 ecr 700387517], length 0
+17:37:40.252923 IP ThinkPad.56297 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 105:137, ack 295, win 229, options [nop,nop,TS val 43780242 ecr 700387517], length 32
+17:37:40.392182 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56297: Flags [P.], seq 295:332, ack 137, win 91, options [nop,nop,TS val 700387582 ecr 43780242], length 37
+17:37:40.392300 IP ThinkPad.56297 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 332, win 229, options [nop,nop,TS val 43780256 ecr 700387582], length 0
+17:37:40.392395 IP ThinkPad.56297 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 137:146, ack 332, win 229, options [nop,nop,TS val 43780256 ecr 700387582], length 9
+17:37:40.523144 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56297: Flags [P.], seq 332:371, ack 146, win 91, options [nop,nop,TS val 700387614 ecr 43780256], length 39
+17:37:40.561425 IP ThinkPad.56297 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 371, win 229, options [nop,nop,TS val 43780273 ecr 700387614], length 0
+17:37:40.657416 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56297: Flags [P.], seq 371:395, ack 146, win 91, options [nop,nop,TS val 700387649 ecr 43780256], length 24
+17:37:40.657511 IP ThinkPad.56297 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 395, win 229, options [nop,nop,TS val 43780282 ecr 700387649], length 0
+17:37:40.657588 IP ThinkPad.56297 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 146:152, ack 395, win 229, options [nop,nop,TS val 43780282 ecr 700387649], length 6
+17:37:40.784337 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56297: Flags [P.], seq 395:409, ack 152, win 91, options [nop,nop,TS val 700387681 ecr 43780282], length 14
+17:37:40.784392 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56297: Flags [F.], seq 409, ack 152, win 91, options [nop,nop,TS val 700387681 ecr 43780282], length 0
+17:37:40.784456 IP ThinkPad.56297 > ftp-prod-srv04.it.su.se.ftp: Flags [F.], seq 152, ack 410, win 229, options [nop,nop,TS val 43780295 ecr 700387681], length 0
+17:37:40.907270 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56297: Flags [.], ack 153, win 91, options [nop,nop,TS val 700387711 ecr 43780295], length 0
+17:37:42.505984 IP ThinkPad.56300 > ftp-prod-srv04.it.su.se.ftp: Flags [S], seq 2827893595, win 14600, options [mss 1460,sackOK,TS val 43780467 ecr 0,nop,wscale 6], length 0
+17:37:42.627529 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56300: Flags [S.], seq 318049466, ack 2827893596, win 5792, options [mss 1380,sackOK,TS val 700388141 ecr 43780467,nop,wscale 6], length 0
+17:37:42.627574 IP ThinkPad.56300 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 1, win 229, options [nop,nop,TS val 43780479 ecr 700388141], length 0
+17:37:42.774736 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56300: Flags [P.], seq 1:48, ack 1, win 91, options [nop,nop,TS val 700388178 ecr 43780479], length 47
+17:37:42.774766 IP ThinkPad.56300 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 48, win 229, options [nop,nop,TS val 43780494 ecr 700388178], length 0
+17:37:42.774866 IP ThinkPad.56300 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 1:17, ack 48, win 229, options [nop,nop,TS val 43780494 ecr 700388178], length 16
+17:37:42.930017 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56300: Flags [.], ack 17, win 91, options [nop,nop,TS val 700388217 ecr 43780494], length 0
+17:37:42.933715 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56300: Flags [P.], seq 48:82, ack 17, win 91, options [nop,nop,TS val 700388217 ecr 43780494], length 34
+17:37:42.933842 IP ThinkPad.56300 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 17:42, ack 82, win 229, options [nop,nop,TS val 43780510 ecr 700388217], length 25
+17:37:43.061228 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56300: Flags [P.], seq 82:105, ack 42, win 91, options [nop,nop,TS val 700388250 ecr 43780510], length 23
+17:37:43.061391 IP ThinkPad.56300 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 42:48, ack 105, win 229, options [nop,nop,TS val 43780522 ecr 700388250], length 6
+17:37:43.186198 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56300: Flags [P.], seq 105:124, ack 48, win 91, options [nop,nop,TS val 700388281 ecr 43780522], length 19
+17:37:43.186337 IP ThinkPad.56300 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 48:53, ack 124, win 229, options [nop,nop,TS val 43780535 ecr 700388281], length 5
+17:37:43.314441 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56300: Flags [P.], seq 124:133, ack 53, win 91, options [nop,nop,TS val 700388313 ecr 43780535], length 9
+17:37:43.314629 IP ThinkPad.56300 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 53:61, ack 133, win 229, options [nop,nop,TS val 43780548 ecr 700388313], length 8
+17:37:43.441071 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56300: Flags [P.], seq 133:164, ack 61, win 91, options [nop,nop,TS val 700388345 ecr 43780548], length 31
+17:37:43.441267 IP ThinkPad.56300 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 61:67, ack 164, win 229, options [nop,nop,TS val 43780560 ecr 700388345], length 6
+17:37:43.566804 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56300: Flags [P.], seq 164:215, ack 67, win 91, options [nop,nop,TS val 700388376 ecr 43780560], length 51
+17:37:43.601417 IP ThinkPad.56300 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 215, win 229, options [nop,nop,TS val 43780577 ecr 700388376], length 0
+17:37:43.691232 IP ThinkPad.56300 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 67:107, ack 215, win 229, options [nop,nop,TS val 43780585 ecr 700388376], length 40
+17:37:43.815730 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56300: Flags [P.], seq 215:245, ack 107, win 91, options [nop,nop,TS val 700388438 ecr 43780585], length 30
+17:37:43.815769 IP ThinkPad.56300 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 245, win 229, options [nop,nop,TS val 43780598 ecr 700388438], length 0
+17:37:43.815904 IP ThinkPad.56300 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 107:113, ack 245, win 229, options [nop,nop,TS val 43780598 ecr 700388438], length 6
+17:37:43.943365 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56300: Flags [P.], seq 245:295, ack 113, win 91, options [nop,nop,TS val 700388470 ecr 43780598], length 50
+17:37:43.981442 IP ThinkPad.56300 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 295, win 229, options [nop,nop,TS val 43780615 ecr 700388470], length 0
+17:37:44.068504 IP ThinkPad.56300 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 113:153, ack 295, win 229, options [nop,nop,TS val 43780623 ecr 700388470], length 40
+17:37:44.236923 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56300: Flags [.], ack 153, win 91, options [nop,nop,TS val 700388544 ecr 43780623], length 0
+17:37:44.694070 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56300: Flags [P.], seq 295:332, ack 153, win 91, options [nop,nop,TS val 700388657 ecr 43780623], length 37
+17:37:44.694106 IP ThinkPad.56300 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 332, win 229, options [nop,nop,TS val 43780686 ecr 700388657], length 0
+17:37:44.694224 IP ThinkPad.56300 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 153:162, ack 332, win 229, options [nop,nop,TS val 43780686 ecr 700388657], length 9
+17:37:44.819318 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56300: Flags [.], ack 162, win 91, options [nop,nop,TS val 700388690 ecr 43780686], length 0
+17:37:44.823224 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56300: Flags [P.], seq 332:371, ack 162, win 91, options [nop,nop,TS val 700388690 ecr 43780686], length 39
+17:37:44.861422 IP ThinkPad.56300 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 371, win 229, options [nop,nop,TS val 43780703 ecr 700388690], length 0
+17:38:00.896108 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56300: Flags [P.], seq 371:395, ack 162, win 91, options [nop,nop,TS val 700392708 ecr 43780703], length 24
+17:38:00.896130 IP ThinkPad.56300 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 395, win 229, options [nop,nop,TS val 43782306 ecr 700392708], length 0
+17:38:00.896223 IP ThinkPad.56300 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 162:168, ack 395, win 229, options [nop,nop,TS val 43782306 ecr 700392708], length 6
+17:38:01.020813 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56300: Flags [P.], seq 395:409, ack 168, win 91, options [nop,nop,TS val 700392740 ecr 43782306], length 14
+17:38:01.020845 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56300: Flags [F.], seq 409, ack 168, win 91, options [nop,nop,TS val 700392740 ecr 43782306], length 0
+17:38:01.020978 IP ThinkPad.56300 > ftp-prod-srv04.it.su.se.ftp: Flags [F.], seq 168, ack 410, win 229, options [nop,nop,TS val 43782318 ecr 700392740], length 0
+17:38:01.147587 IP ftp-prod-srv04.it.su.se.ftp > ThinkPad.56300: Flags [.], ack 169, win 91, options [nop,nop,TS val 700392771 ecr 43782318], length 0
+
