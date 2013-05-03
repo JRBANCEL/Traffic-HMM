@@ -36,31 +36,44 @@ class HiddenMarkovModel(object):
         Pi: the initial distribution of states - Size n
         A: transition probabilities            - Size n * n
         B: emission probabilities              - Size n * m
+        TM: transition mask                    - Size n * n
+        PM: Pi mask                            - Size n
+        EM: emission mask                      - Size n * m
     """
 
-    def __init__(self, Q, E, Pi, A, B):
+    def __init__(self, Q, E, Pi=None, A=None, B=None, TM=None, PM=None, EM=None):
         self.Q = numpy.copy(Q)
         self.E = numpy.copy(E)
-        self.Pi = numpy.copy(Pi)
-        self.A = numpy.copy(A)
-        self.B = numpy.copy(B)
 
         # Storing useful lengths for convenience
-        self.n = len(Q)
-        self.m = len(E)
+        n = self.n = len(Q)
+        m = self.m = len(E)
 
-    def uniformInitialization(self):
-        """
-        Initialize the parameters to a uniform distribution
-        It is kind of useless since the update process doesn't evolve
-        from an uniform distribution of the parameters
-        """
-        self.Pi = [1/float(self.n)] * self.n
-        for i in range(self.n):
-            for j in range(self.n):
-                self.A[i][j] = 1/float(self.n)
-            for k in range(self.m):
-                self.B[i][k] = 1/float(self.m)
+        if Pi != None:
+            self.Pi = numpy.copy(Pi)
+        else:
+            self.Pi = numpy.zeros(n)
+        if A != None:
+            self.A = numpy.copy(A)
+        else:
+            self.A = numpy.zeros((n, n))
+        if B != None:
+            self.B = numpy.copy(B)
+        else:
+            self.B = numpy.zeros((n, m))
+        if TM != None:
+            self.TM = numpy.copy(TM)
+        else:
+            self.TM = numpy.ones((n, n))
+        if PM != None:
+            self.PM = numpy.copy(PM)
+        else:
+            self.PM = numpy.ones(n)
+        if EM != None:
+            self.EM = numpy.copy(EM)
+        else:
+            self.EM = numpy.ones((n, m))
+
 
     def randomInitialization(self, a=2, b=2):
         """
@@ -68,13 +81,24 @@ class HiddenMarkovModel(object):
         A Beta(2,2) is nice because generates parameters that are of the order
         of magnitude
         """
-        self.Pi = numpy.random.beta(a, b, self.n)
-        self.Pi /= numpy.linalg.norm(self.Pi, 1)
         for i in range(self.n):
-            self.A[i] = numpy.random.beta(a, b, self.n)
+            if self.PM[i] != 0:
+                self.Pi[i] = numpy.random.beta(a, b)
+            else:
+                self.Pi[i] = 0
+            for j in range(self.n):
+                if self.TM[i][j] != 0:
+                    self.A[i][j] = numpy.random.beta(a, b)
+                else:
+                    self.A[i][j] = 0
             self.A[i] /= numpy.linalg.norm(self.A[i], 1)
-            self.B[i] = numpy.random.beta(a, b, self.m)
+            for j in range(self.m):
+                if self.EM[i][j] != 0:
+                    self.B[i][j] = numpy.random.beta(a, b)
+                else:
+                    self.B[i][j] = 0
             self.B[i] /= numpy.linalg.norm(self.B[i], 1)
+        self.Pi /= numpy.linalg.norm(self.Pi, 1)
 
     def trainOnObservations(self, O, iterations=5):
         """
@@ -118,15 +142,24 @@ class HiddenMarkovModel(object):
                         gamma[t][i] += eta[t][i][j]
 
             # Parameters Updating
-            self.Pi = gamma[0]
+            self.Pi = [gamma[0][i] * self.PM[i] for i in range(self.n)]
+            self.Pi /= numpy.linalg.norm(self.Pi, 1)
             for i in range(n):
                 for j in range(self.n):
-                    self.A[i][j] = sum([eta[t][i][j] for t in range(T-1)]) \
-                                   / sum([gamma[t][i] for t in range(T-1)])
+                    if self.TM[i][j] != 0:
+                        self.A[i][j] = sum([eta[t][i][j] for t in range(T-1)]) \
+                                       / sum([gamma[t][i] for t in range(T-1)])
+                    else:
+                        self.A[i][j] = 0
+                self.A[i] /= numpy.linalg.norm(self.A, 1)
                 for k in range(self.m):
-                    self.B[i][k] = sum([gamma[t][i] for t in range(T) \
-                                        if O[t] == k]) \
-                                   / sum([gamma[t][i] for t in range(T)])
+                    if self.EM[i][k] != 0:
+                        self.B[i][k] = sum([gamma[t][i] for t in range(T) \
+                                            if O[t] == k]) \
+                                       / sum([gamma[t][i] for t in range(T)])
+                    else:
+                        self.B[i][k] = 0
+                self.B[i] /= numpy.linalg.norm(self.B, 1)
 
             # Recompute Alpha, Beta and Likelihood
             alpha = self.forwardVariable(O)

@@ -26,17 +26,22 @@
 # (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 # SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
+import numpy
+
 import HiddenMarkovModel
 
 class Classifier(object):
-    def __init__(self, Q, E, Pi, A, B):
-    """
-    Create a classifier with the following parameters
-        Q: set of states (hidden) - Size n
-        E: the output alphabet    - Size m
-    """
+    def __init__(self, Q, E, PM=None, TM=None, EM=None):
+        """
+        Create a classifier with the following parameters
+            Q: set of states (hidden) - Size n
+            E: the output alphabet    - Size m
+        """
         self.Q = numpy.copy(Q)
         self.E = numpy.copy(E)
+        self.PM = PM
+        self.TM = TM
+        self.EM = EM
 
         # Storing useful lengths for convenience
         self.n = len(Q)
@@ -56,8 +61,8 @@ class Classifier(object):
             raise "Class already in the classifier"
         else:
             self.classes[className] = HiddenMarkovModel.HiddenMarkovModel(
-                                      self.Q, self.E, numpy.zeros(n),
-                                      numpy.zeros((n, n)), numpy.zeros((n, m)))
+                                      self.Q, self.E, PM=self.PM, TM=self.TM,
+                                      EM=self.EM)
 
     def resetClass(self, className):
         """
