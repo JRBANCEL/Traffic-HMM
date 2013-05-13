@@ -39,9 +39,11 @@ class HiddenMarkovModel(object):
         TM: transition mask                    - Size n * n
         PM: Pi mask                            - Size n
         EM: emission mask                      - Size n * m
+        S: silent states                       - Size m
     """
 
-    def __init__(self, Q, E, Pi=None, A=None, B=None, TM=None, PM=None, EM=None):
+    def __init__(self, Q, E, Pi=None, A=None, B=None, TM=None, PM=None,
+                 EM=None, S=None):
         self.Q = numpy.copy(Q)
         self.E = numpy.copy(E)
 
@@ -73,6 +75,10 @@ class HiddenMarkovModel(object):
             self.EM = numpy.copy(EM)
         else:
             self.EM = numpy.ones((n, m))
+        if S != None:
+            self.S = numpy.copy(S)
+        else:
+            self.S = [False] * n
 
 
     def randomInitialization(self, a=2, b=2):
@@ -91,13 +97,15 @@ class HiddenMarkovModel(object):
                     self.A[i][j] = numpy.random.beta(a, b)
                 else:
                     self.A[i][j] = 0
-            self.A[i] /= numpy.linalg.norm(self.A[i], 1)
+            if numpy.linalg.norm(self.A[i], 1) > 0:
+                self.A[i] /= numpy.linalg.norm(self.A[i], 1)
             for j in range(self.m):
                 if self.EM[i][j] != 0:
                     self.B[i][j] = numpy.random.beta(a, b)
                 else:
                     self.B[i][j] = 0
-            self.B[i] /= numpy.linalg.norm(self.B[i], 1)
+            if numpy.linalg.norm(self.B[i], 1) > 0:
+                self.B[i] /= numpy.linalg.norm(self.B[i], 1)
         self.Pi /= numpy.linalg.norm(self.Pi, 1)
 
     def trainOnObservations(self, O, iterations=5):
@@ -121,25 +129,41 @@ class HiddenMarkovModel(object):
 
         # Log likelihood
         likelihood = -sum([numpy.log(c) for c in self.c])
+        #print(self.c)
+        #likelihood = 0
+        #for c in self.c:
+        #    if c == 0:
+        #        print("Problem!!!!")
+        #    else:
+        #        likelihood -= numpy.log(c)
         old_likelihood = likelihood - 1
 
         # Main Loop of updating until convergence of the likelihood
         while iterations > 0 and likelihood > old_likelihood:
+            print("Likelihood:", likelihood)
+            #print("Alpha:", alpha)
+            print("Beta:", beta)
+            #print("B:", self.B)
             # Gamma and Eta computation
-            for t in range(T-2):
+            for t in range(T-1):
                 denominator = 0
                 for i in range(n):
                     for j in range(n):
                         denominator += alpha[t][i] * self.A[i][j] \
                                        * self.B[j][O[t+1]] * beta[t+1][j]
 
+                #print("Denominator(t=", t, ")=", denominator)
                 for i in range(n):
                     gamma[t][i] = 0
                     for j in range(n):
-                        eta[t][i][j] = alpha[t][i] * self.A[i][j] \
-                                       * self.B[j][O[t+1]] * beta[t+1][j] \
-                                       / denominator
-                        gamma[t][i] += eta[t][i][j]
+                        if denominator > 0:
+                            eta[t][i][j] = alpha[t][i] * self.A[i][j] \
+                                           * self.B[j][O[t+1]] * beta[t+1][j] \
+                                           / denominator
+                            gamma[t][i] += eta[t][i][j]
+                        else:
+                            eta[t][i][j] = 0.
+                            gamma[t][i] = 0.
 
             # Parameters Updating
             self.Pi = [gamma[0][i] * self.PM[i] for i in range(self.n)]
@@ -147,11 +171,14 @@ class HiddenMarkovModel(object):
             for i in range(n):
                 for j in range(self.n):
                     if self.TM[i][j] != 0:
-                        self.A[i][j] = sum([eta[t][i][j] for t in range(T-1)]) \
-                                       / sum([gamma[t][i] for t in range(T-1)])
+                        if sum([gamma[t][i] for t in range(T-1)]) > 0:
+                            self.A[i][j] = sum([eta[t][i][j] for t in range(T-1)]) \
+                                           / sum([gamma[t][i] for t in range(T-1)])
+                        else:
+                            self.A[i][j] = 0
                     else:
                         self.A[i][j] = 0
-                self.A[i] /= numpy.linalg.norm(self.A, 1)
+                self.A[i] /= numpy.linalg.norm(self.A[i], 1)
                 for k in range(self.m):
                     if self.EM[i][k] != 0:
                         self.B[i][k] = sum([gamma[t][i] for t in range(T) \
@@ -159,7 +186,8 @@ class HiddenMarkovModel(object):
                                        / sum([gamma[t][i] for t in range(T)])
                     else:
                         self.B[i][k] = 0
-                self.B[i] /= numpy.linalg.norm(self.B, 1)
+                if not self.S[i]:
+                    self.B[i] /= numpy.linalg.norm(self.B[i], 1)
 
             # Recompute Alpha, Beta and Likelihood
             alpha = self.forwardVariable(O)
@@ -188,13 +216,18 @@ class HiddenMarkovModel(object):
 
         # Recursive computation of alpha
         for t in range(1, T):
-            alpha[t] = [self.B[j][O[t]] * sum([alpha[t-1][i] * self.A[i][j]
+            alpha[t] = [(self.B[j][O[t]] if not self.S[j] else 1) *
+                        sum([alpha[t-1][i] * self.A[i][j]
                         for i in range(self.n)]) for j in range(self.n)]
             c[t] = sum(alpha[t])
 
             # Scaling
-            c[t] = 1/c[t]
-            alpha[t] *= c[t]
+            if c[t] > 0:
+                c[t] = 1/c[t]
+                alpha[t] *= c[t]
+            else:
+                alpha[t] = [1/float(self.n)] * self.n
+                c[t] = 1.
 
         # Exporting the scaling constants to the global scope to be used in
         # backward computation
@@ -213,10 +246,20 @@ class HiddenMarkovModel(object):
         beta = numpy.zeros((T, self.n))
         beta[T-1] = [self.c[T-1]] * self.n
         for t in range(T-2, -1, -1):
-            beta[t] = [sum([beta[t+1][j] * self.A[i][j] * self.B[j][O[t+1]]
-                       for j in range(self.n)]) for i in range(self.n)] \
+            beta[t] = [sum([self.A[i][j] * (beta[t+1][j] * self.B[j][O[t+1]] if
+                       not self.S[j] else beta[t+1][j])
+                       for j in range(self.n)]) for i in range(self.n)]
             # Scaling
             beta[t] *= self.c[t]
+            #XXX
+            #if sum(beta[t]) == 0:
+
+            #    for i in range(self.n):
+            #        print("---------------")
+            #        print("i=", i)
+            #        for j in range(self.n):
+            #            print(self.A[i][j], beta[t+1][j], self.B[j][O[t+1]], self.S[j])
+            ##    print("Problem!!! at t=", t)
         return beta
 
     def generateSequence(self, length):
@@ -252,7 +295,7 @@ class HiddenMarkovModel(object):
         T = len(O)
         delta = numpy.zeros((T, self.n))
         delta[0] = [numpy.log(self.Pi[i]) + numpy.log(self.B[i][O[0]])
-                    for i in range(self.n)]
+                    for i in range(self.n) if self.B[i][O[0]] > 0]
         for t in range(1, T):
             delta[t] = [numpy.log(self.B[j][O[t]]) \
                         + max([delta[t-1][i] + numpy.log(self.A[i][j])

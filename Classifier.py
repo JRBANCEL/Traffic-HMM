@@ -31,7 +31,7 @@ import numpy
 import HiddenMarkovModel
 
 class Classifier(object):
-    def __init__(self, Q, E, PM=None, TM=None, EM=None):
+    def __init__(self, Q, E, PM=None, TM=None, EM=None, S=None):
         """
         Create a classifier with the following parameters
             Q: set of states (hidden) - Size n
@@ -42,6 +42,7 @@ class Classifier(object):
         self.PM = PM
         self.TM = TM
         self.EM = EM
+        self.S = S
 
         # Storing useful lengths for convenience
         self.n = len(Q)
@@ -62,7 +63,7 @@ class Classifier(object):
         else:
             self.classes[className] = HiddenMarkovModel.HiddenMarkovModel(
                                       self.Q, self.E, PM=self.PM, TM=self.TM,
-                                      EM=self.EM)
+                                      EM=self.EM, S=self.S)
 
     def resetClass(self, className):
         """
@@ -90,6 +91,7 @@ class Classifier(object):
         maxName = None
         for name, hmm in self.classes.items():
             score = hmm.viterbiScore(observations)
+            print(name, score)
             if score > maxScore:
                 maxScore = score
                 maxName = name
