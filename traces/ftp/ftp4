@@ -1,0 +1,213 @@
+21:33:44.606521 IP dhcp-140-247-103-184.fas.harvard.edu.49395 > ftp-prod-srv04.it.su.se.ftp: Flags [S], seq 3725101552, win 14600, options [mss 1460,sackOK,TS val 9831601 ecr 0,nop,wscale 6], length 0
+21:33:44.720883 IP ftp-prod-srv04.it.su.se.ftp > dhcp-140-247-103-184.fas.harvard.edu.49395: Flags [S.], seq 2009563841, ack 3725101553, win 5792, options [mss 1380,sackOK,TS val 941528525 ecr 9831601,nop,wscale 6], length 0
+21:33:44.720919 IP dhcp-140-247-103-184.fas.harvard.edu.49395 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 1, win 229, options [nop,nop,TS val 9831612 ecr 941528525], length 0
+21:33:44.852085 IP ftp-prod-srv04.it.su.se.ftp > dhcp-140-247-103-184.fas.harvard.edu.49395: Flags [P.], seq 1:48, ack 1, win 91, options [nop,nop,TS val 941528558 ecr 9831612], length 47
+21:33:44.852108 IP dhcp-140-247-103-184.fas.harvard.edu.49395 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 48, win 229, options [nop,nop,TS val 9831625 ecr 941528558], length 0
+21:33:44.852238 IP dhcp-140-247-103-184.fas.harvard.edu.49395 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 1:17, ack 48, win 229, options [nop,nop,TS val 9831625 ecr 941528558], length 16
+21:33:44.967035 IP ftp-prod-srv04.it.su.se.ftp > dhcp-140-247-103-184.fas.harvard.edu.49395: Flags [.], ack 17, win 91, options [nop,nop,TS val 941528586 ecr 9831625], length 0
+21:33:44.967053 IP ftp-prod-srv04.it.su.se.ftp > dhcp-140-247-103-184.fas.harvard.edu.49395: Flags [P.], seq 48:82, ack 17, win 91, options [nop,nop,TS val 941528586 ecr 9831625], length 34
+21:33:44.967193 IP dhcp-140-247-103-184.fas.harvard.edu.49395 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 17:42, ack 82, win 229, options [nop,nop,TS val 9831637 ecr 941528586], length 25
+21:33:45.086038 IP ftp-prod-srv04.it.su.se.ftp > dhcp-140-247-103-184.fas.harvard.edu.49395: Flags [P.], seq 82:105, ack 42, win 91, options [nop,nop,TS val 941528616 ecr 9831637], length 23
+21:33:45.086244 IP dhcp-140-247-103-184.fas.harvard.edu.49395 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 42:48, ack 105, win 229, options [nop,nop,TS val 9831649 ecr 941528616], length 6
+21:33:45.204414 IP ftp-prod-srv04.it.su.se.ftp > dhcp-140-247-103-184.fas.harvard.edu.49395: Flags [P.], seq 105:124, ack 48, win 91, options [nop,nop,TS val 941528646 ecr 9831649], length 19
+21:33:45.204564 IP dhcp-140-247-103-184.fas.harvard.edu.49395 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 48:53, ack 124, win 229, options [nop,nop,TS val 9831661 ecr 941528646], length 5
+21:33:45.318692 IP ftp-prod-srv04.it.su.se.ftp > dhcp-140-247-103-184.fas.harvard.edu.49395: Flags [P.], seq 124:133, ack 53, win 91, options [nop,nop,TS val 941528674 ecr 9831661], length 9
+21:33:45.318837 IP dhcp-140-247-103-184.fas.harvard.edu.49395 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 53:61, ack 133, win 229, options [nop,nop,TS val 9831672 ecr 941528674], length 8
+21:33:45.436062 IP ftp-prod-srv04.it.su.se.ftp > dhcp-140-247-103-184.fas.harvard.edu.49395: Flags [P.], seq 133:164, ack 61, win 91, options [nop,nop,TS val 941528703 ecr 9831672], length 31
+21:33:45.436221 IP dhcp-140-247-103-184.fas.harvard.edu.49395 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 61:67, ack 164, win 229, options [nop,nop,TS val 9831684 ecr 941528703], length 6
+21:33:45.551105 IP ftp-prod-srv04.it.su.se.ftp > dhcp-140-247-103-184.fas.harvard.edu.49395: Flags [P.], seq 164:214, ack 67, win 91, options [nop,nop,TS val 941528732 ecr 9831684], length 50
+21:33:45.583459 IP dhcp-140-247-103-184.fas.harvard.edu.49395 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 214, win 229, options [nop,nop,TS val 9831699 ecr 941528732], length 0
+21:33:45.669894 IP dhcp-140-247-103-184.fas.harvard.edu.49395 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 67:118, ack 214, win 229, options [nop,nop,TS val 9831707 ecr 941528732], length 51
+21:33:45.793054 IP ftp-prod-srv04.it.su.se.ftp > dhcp-140-247-103-184.fas.harvard.edu.49395: Flags [P.], seq 214:225, ack 118, win 91, options [nop,nop,TS val 941528791 ecr 9831707], length 11
+21:33:45.793078 IP dhcp-140-247-103-184.fas.harvard.edu.49395 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 225, win 229, options [nop,nop,TS val 9831719 ecr 941528791], length 0
+21:33:45.793225 IP dhcp-140-247-103-184.fas.harvard.edu.49395 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 118:168, ack 225, win 229, options [nop,nop,TS val 9831719 ecr 941528791], length 50
+21:33:45.911003 IP ftp-prod-srv04.it.su.se.ftp > dhcp-140-247-103-184.fas.harvard.edu.49395: Flags [P.], seq 225:258, ack 168, win 91, options [nop,nop,TS val 941528822 ecr 9831719], length 33
+21:33:45.911157 IP dhcp-140-247-103-184.fas.harvard.edu.49395 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 168:174, ack 258, win 229, options [nop,nop,TS val 9831731 ecr 941528822], length 6
+21:33:46.025971 IP ftp-prod-srv04.it.su.se.ftp > dhcp-140-247-103-184.fas.harvard.edu.49395: Flags [P.], seq 258:309, ack 174, win 91, options [nop,nop,TS val 941528851 ecr 9831731], length 51
+21:33:46.063432 IP dhcp-140-247-103-184.fas.harvard.edu.49395 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 309, win 229, options [nop,nop,TS val 9831747 ecr 941528851], length 0
+21:33:46.140553 IP dhcp-140-247-103-184.fas.harvard.edu.49395 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 174:225, ack 309, win 229, options [nop,nop,TS val 9831754 ecr 941528851], length 51
+21:33:46.264868 IP ftp-prod-srv04.it.su.se.ftp > dhcp-140-247-103-184.fas.harvard.edu.49395: Flags [P.], seq 309:335, ack 225, win 91, options [nop,nop,TS val 941528911 ecr 9831754], length 26
+21:33:46.264956 IP dhcp-140-247-103-184.fas.harvard.edu.49395 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 335, win 229, options [nop,nop,TS val 9831767 ecr 941528911], length 0
+21:33:46.265057 IP dhcp-140-247-103-184.fas.harvard.edu.49395 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 225:231, ack 335, win 229, options [nop,nop,TS val 9831767 ecr 941528911], length 6
+21:33:46.379647 IP ftp-prod-srv04.it.su.se.ftp > dhcp-140-247-103-184.fas.harvard.edu.49395: Flags [P.], seq 335:349, ack 231, win 91, options [nop,nop,TS val 941528939 ecr 9831767], length 14
+21:33:46.379665 IP ftp-prod-srv04.it.su.se.ftp > dhcp-140-247-103-184.fas.harvard.edu.49395: Flags [F.], seq 349, ack 231, win 91, options [nop,nop,TS val 941528939 ecr 9831767], length 0
+21:33:46.379765 IP dhcp-140-247-103-184.fas.harvard.edu.49395 > ftp-prod-srv04.it.su.se.ftp: Flags [F.], seq 231, ack 350, win 229, options [nop,nop,TS val 9831778 ecr 941528939], length 0
+21:33:46.494102 IP ftp-prod-srv04.it.su.se.ftp > dhcp-140-247-103-184.fas.harvard.edu.49395: Flags [.], ack 232, win 91, options [nop,nop,TS val 941528968 ecr 9831778], length 0
+21:33:51.564555 IP dhcp-140-247-103-184.fas.harvard.edu.49398 > ftp-prod-srv04.it.su.se.ftp: Flags [S], seq 3508979642, win 14600, options [mss 1460,sackOK,TS val 9832297 ecr 0,nop,wscale 6], length 0
+21:33:51.679010 IP ftp-prod-srv04.it.su.se.ftp > dhcp-140-247-103-184.fas.harvard.edu.49398: Flags [S.], seq 3827052502, ack 3508979643, win 5792, options [mss 1380,sackOK,TS val 941530265 ecr 9832297,nop,wscale 6], length 0
+21:33:51.679041 IP dhcp-140-247-103-184.fas.harvard.edu.49398 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 1, win 229, options [nop,nop,TS val 9832308 ecr 941530265], length 0
+21:33:51.807751 IP ftp-prod-srv04.it.su.se.ftp > dhcp-140-247-103-184.fas.harvard.edu.49398: Flags [P.], seq 1:48, ack 1, win 91, options [nop,nop,TS val 941530295 ecr 9832308], length 47
+21:33:51.807777 IP dhcp-140-247-103-184.fas.harvard.edu.49398 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 48, win 229, options [nop,nop,TS val 9832321 ecr 941530295], length 0
+21:33:51.807838 IP dhcp-140-247-103-184.fas.harvard.edu.49398 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 1:17, ack 48, win 229, options [nop,nop,TS val 9832321 ecr 941530295], length 16
+21:33:51.927392 IP ftp-prod-srv04.it.su.se.ftp > dhcp-140-247-103-184.fas.harvard.edu.49398: Flags [.], ack 17, win 91, options [nop,nop,TS val 941530326 ecr 9832321], length 0
+21:33:51.927408 IP ftp-prod-srv04.it.su.se.ftp > dhcp-140-247-103-184.fas.harvard.edu.49398: Flags [P.], seq 48:82, ack 17, win 91, options [nop,nop,TS val 941530326 ecr 9832321], length 34
+21:33:51.927535 IP dhcp-140-247-103-184.fas.harvard.edu.49398 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 17:42, ack 82, win 229, options [nop,nop,TS val 9832333 ecr 941530326], length 25
+21:33:52.046163 IP ftp-prod-srv04.it.su.se.ftp > dhcp-140-247-103-184.fas.harvard.edu.49398: Flags [P.], seq 82:105, ack 42, win 91, options [nop,nop,TS val 941530355 ecr 9832333], length 23
+21:33:52.046335 IP dhcp-140-247-103-184.fas.harvard.edu.49398 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 42:48, ack 105, win 229, options [nop,nop,TS val 9832345 ecr 941530355], length 6
+21:33:52.162618 IP ftp-prod-srv04.it.su.se.ftp > dhcp-140-247-103-184.fas.harvard.edu.49398: Flags [P.], seq 105:124, ack 48, win 91, options [nop,nop,TS val 941530385 ecr 9832345], length 19
+21:33:52.162767 IP dhcp-140-247-103-184.fas.harvard.edu.49398 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 48:53, ack 124, win 229, options [nop,nop,TS val 9832356 ecr 941530385], length 5
+21:33:52.277305 IP ftp-prod-srv04.it.su.se.ftp > dhcp-140-247-103-184.fas.harvard.edu.49398: Flags [P.], seq 124:133, ack 53, win 91, options [nop,nop,TS val 941530414 ecr 9832356], length 9
+21:33:52.277432 IP dhcp-140-247-103-184.fas.harvard.edu.49398 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 53:61, ack 133, win 229, options [nop,nop,TS val 9832368 ecr 941530414], length 8
+21:33:52.392089 IP ftp-prod-srv04.it.su.se.ftp > dhcp-140-247-103-184.fas.harvard.edu.49398: Flags [P.], seq 133:164, ack 61, win 91, options [nop,nop,TS val 941530442 ecr 9832368], length 31
+21:33:52.392209 IP dhcp-140-247-103-184.fas.harvard.edu.49398 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 61:67, ack 164, win 229, options [nop,nop,TS val 9832379 ecr 941530442], length 6
+21:33:52.514068 IP ftp-prod-srv04.it.su.se.ftp > dhcp-140-247-103-184.fas.harvard.edu.49398: Flags [P.], seq 164:215, ack 67, win 91, options [nop,nop,TS val 941530472 ecr 9832379], length 51
+21:33:52.553431 IP dhcp-140-247-103-184.fas.harvard.edu.49398 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 215, win 229, options [nop,nop,TS val 9832396 ecr 941530472], length 0
+21:33:52.630095 IP dhcp-140-247-103-184.fas.harvard.edu.49398 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 67:118, ack 215, win 229, options [nop,nop,TS val 9832403 ecr 941530472], length 51
+21:33:52.745386 IP ftp-prod-srv04.it.su.se.ftp > dhcp-140-247-103-184.fas.harvard.edu.49398: Flags [P.], seq 215:226, ack 118, win 91, options [nop,nop,TS val 941530531 ecr 9832403], length 11
+21:33:52.745404 IP dhcp-140-247-103-184.fas.harvard.edu.49398 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 226, win 229, options [nop,nop,TS val 9832415 ecr 941530531], length 0
+21:33:52.745518 IP dhcp-140-247-103-184.fas.harvard.edu.49398 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 118:168, ack 226, win 229, options [nop,nop,TS val 9832415 ecr 941530531], length 50
+21:33:52.903540 IP ftp-prod-srv04.it.su.se.ftp > dhcp-140-247-103-184.fas.harvard.edu.49398: Flags [.], ack 168, win 91, options [nop,nop,TS val 941530570 ecr 9832415], length 0
+21:33:52.922153 IP ftp-prod-srv04.it.su.se.ftp > dhcp-140-247-103-184.fas.harvard.edu.49398: Flags [P.], seq 226:259, ack 168, win 91, options [nop,nop,TS val 941530575 ecr 9832415], length 33
+21:33:52.922273 IP dhcp-140-247-103-184.fas.harvard.edu.49398 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 168:174, ack 259, win 229, options [nop,nop,TS val 9832432 ecr 941530575], length 6
+21:33:53.037266 IP ftp-prod-srv04.it.su.se.ftp > dhcp-140-247-103-184.fas.harvard.edu.49398: Flags [.], ack 174, win 91, options [nop,nop,TS val 941530604 ecr 9832432], length 0
+21:33:53.037894 IP ftp-prod-srv04.it.su.se.ftp > dhcp-140-247-103-184.fas.harvard.edu.49398: Flags [P.], seq 259:310, ack 174, win 91, options [nop,nop,TS val 941530604 ecr 9832432], length 51
+21:33:53.073448 IP dhcp-140-247-103-184.fas.harvard.edu.49398 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 310, win 229, options [nop,nop,TS val 9832448 ecr 941530604], length 0
+21:33:53.153583 IP dhcp-140-247-103-184.fas.harvard.edu.49398 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 174:225, ack 310, win 229, options [nop,nop,TS val 9832456 ecr 941530604], length 51
+21:33:53.309235 IP ftp-prod-srv04.it.su.se.ftp > dhcp-140-247-103-184.fas.harvard.edu.49398: Flags [.], ack 225, win 91, options [nop,nop,TS val 941530671 ecr 9832456], length 0
+21:33:53.350001 IP ftp-prod-srv04.it.su.se.ftp > dhcp-140-247-103-184.fas.harvard.edu.49398: Flags [P.], seq 310:336, ack 225, win 91, options [nop,nop,TS val 941530682 ecr 9832456], length 26
+21:33:53.350109 IP dhcp-140-247-103-184.fas.harvard.edu.49398 > ftp-prod-srv04.it.su.se.ftp: Flags [.], ack 336, win 229, options [nop,nop,TS val 9832475 ecr 941530682], length 0
+21:33:53.350175 IP dhcp-140-247-103-184.fas.harvard.edu.49398 > ftp-prod-srv04.it.su.se.ftp: Flags [P.], seq 225:231, ack 336, win 229, options [nop,nop,TS val 9832475 ecr 941530682], length 6
+21:33:53.464377 IP ftp-prod-srv04.it.su.se.ftp > dhcp-140-247-103-184.fas.harvard.edu.49398: Flags [.], ack 231, win 91, options [nop,nop,TS val 941530711 ecr 9832475], length 0
+21:33:53.464392 IP ftp-prod-srv04.it.su.se.ftp > dhcp-140-247-103-184.fas.harvard.edu.49398: Flags [P.], seq 336:350, ack 231, win 91, options [nop,nop,TS val 941530711 ecr 9832475], length 14
+21:33:53.464400 IP ftp-prod-srv04.it.su.se.ftp > dhcp-140-247-103-184.fas.harvard.edu.49398: Flags [F.], seq 350, ack 231, win 91, options [nop,nop,TS val 941530711 ecr 9832475], length 0
+21:33:53.464542 IP dhcp-140-247-103-184.fas.harvard.edu.49398 > ftp-prod-srv04.it.su.se.ftp: Flags [F.], seq 231, ack 351, win 229, options [nop,nop,TS val 9832487 ecr 941530711], length 0
+21:33:53.578985 IP ftp-prod-srv04.it.su.se.ftp > dhcp-140-247-103-184.fas.harvard.edu.49398: Flags [.], ack 232, win 91, options [nop,nop,TS val 941530740 ecr 9832487], length 0
+21:34:39.911407 IP dhcp-140-247-103-184.fas.harvard.edu.37159 > 168-62-46-20.servicebus.windows.net.ftp: Flags [S], seq 845425053, win 14600, options [mss 1460,sackOK,TS val 9837131 ecr 0,nop,wscale 6], length 0
+21:34:39.925201 IP 168-62-46-20.servicebus.windows.net.ftp > dhcp-140-247-103-184.fas.harvard.edu.37159: Flags [S.], seq 3222121467, ack 845425054, win 8192, options [mss 1380,nop,wscale 8,sackOK,TS val 91959451 ecr 9837131], length 0
+21:34:39.925233 IP dhcp-140-247-103-184.fas.harvard.edu.37159 > 168-62-46-20.servicebus.windows.net.ftp: Flags [.], ack 1, win 229, options [nop,nop,TS val 9837133 ecr 91959451], length 0
+21:34:39.939159 IP 168-62-46-20.servicebus.windows.net.ftp > dhcp-140-247-103-184.fas.harvard.edu.37159: Flags [P.], seq 1:28, ack 1, win 513, options [nop,nop,TS val 91959452 ecr 9837133], length 27
+21:34:39.939175 IP dhcp-140-247-103-184.fas.harvard.edu.37159 > 168-62-46-20.servicebus.windows.net.ftp: Flags [.], ack 28, win 229, options [nop,nop,TS val 9837134 ecr 91959452], length 0
+21:34:39.939261 IP dhcp-140-247-103-184.fas.harvard.edu.37159 > 168-62-46-20.servicebus.windows.net.ftp: Flags [P.], seq 1:17, ack 28, win 229, options [nop,nop,TS val 9837134 ecr 91959452], length 16
+21:34:39.953075 IP 168-62-46-20.servicebus.windows.net.ftp > dhcp-140-247-103-184.fas.harvard.edu.37159: Flags [P.], seq 28:51, ack 17, win 512, options [nop,nop,TS val 91959454 ecr 9837134], length 23
+21:34:39.953187 IP dhcp-140-247-103-184.fas.harvard.edu.37159 > 168-62-46-20.servicebus.windows.net.ftp: Flags [P.], seq 17:42, ack 51, win 229, options [nop,nop,TS val 9837135 ecr 91959454], length 25
+21:34:39.966946 IP 168-62-46-20.servicebus.windows.net.ftp > dhcp-140-247-103-184.fas.harvard.edu.37159: Flags [P.], seq 51:76, ack 42, win 512, options [nop,nop,TS val 91959455 ecr 9837135], length 25
+21:34:39.967063 IP dhcp-140-247-103-184.fas.harvard.edu.37159 > 168-62-46-20.servicebus.windows.net.ftp: Flags [P.], seq 42:48, ack 76, win 229, options [nop,nop,TS val 9837137 ecr 91959455], length 6
+21:34:39.981096 IP 168-62-46-20.servicebus.windows.net.ftp > dhcp-140-247-103-184.fas.harvard.edu.37159: Flags [P.], seq 76:90, ack 48, win 512, options [nop,nop,TS val 91959457 ecr 9837137], length 14
+21:34:39.981111 IP 168-62-46-20.servicebus.windows.net.ftp > dhcp-140-247-103-184.fas.harvard.edu.37159: Flags [F.], seq 90, ack 48, win 512, options [nop,nop,TS val 91959457 ecr 9837137], length 0
+21:34:39.981200 IP dhcp-140-247-103-184.fas.harvard.edu.37159 > 168-62-46-20.servicebus.windows.net.ftp: Flags [F.], seq 48, ack 91, win 229, options [nop,nop,TS val 9837138 ecr 91959457], length 0
+21:34:39.994566 IP 168-62-46-20.servicebus.windows.net.ftp > dhcp-140-247-103-184.fas.harvard.edu.37159: Flags [.], ack 49, win 512, options [nop,nop,TS val 91959458 ecr 9837138], length 0
+21:34:58.429866 IP dhcp-140-247-103-184.fas.harvard.edu.37160 > 168-62-46-20.servicebus.windows.net.ftp: Flags [S], seq 2392638734, win 14600, options [mss 1460,sackOK,TS val 9838983 ecr 0,nop,wscale 6], length 0
+21:34:58.443612 IP 168-62-46-20.servicebus.windows.net.ftp > dhcp-140-247-103-184.fas.harvard.edu.37160: Flags [S.], seq 3363616103, ack 2392638735, win 8192, options [mss 1380,nop,wscale 8,sackOK,TS val 91961303 ecr 9838983], length 0
+21:34:58.443643 IP dhcp-140-247-103-184.fas.harvard.edu.37160 > 168-62-46-20.servicebus.windows.net.ftp: Flags [.], ack 1, win 229, options [nop,nop,TS val 9838985 ecr 91961303], length 0
+21:34:58.457958 IP 168-62-46-20.servicebus.windows.net.ftp > dhcp-140-247-103-184.fas.harvard.edu.37160: Flags [P.], seq 1:28, ack 1, win 513, options [nop,nop,TS val 91961304 ecr 9838985], length 27
+21:34:58.457978 IP dhcp-140-247-103-184.fas.harvard.edu.37160 > 168-62-46-20.servicebus.windows.net.ftp: Flags [.], ack 28, win 229, options [nop,nop,TS val 9838986 ecr 91961304], length 0
+21:34:58.458097 IP dhcp-140-247-103-184.fas.harvard.edu.37160 > 168-62-46-20.servicebus.windows.net.ftp: Flags [P.], seq 1:27, ack 28, win 229, options [nop,nop,TS val 9838986 ecr 91961304], length 26
+21:34:58.472063 IP 168-62-46-20.servicebus.windows.net.ftp > dhcp-140-247-103-184.fas.harvard.edu.37160: Flags [P.], seq 28:51, ack 27, win 512, options [nop,nop,TS val 91961306 ecr 9838986], length 23
+21:34:58.472188 IP dhcp-140-247-103-184.fas.harvard.edu.37160 > 168-62-46-20.servicebus.windows.net.ftp: Flags [P.], seq 27:47, ack 51, win 229, options [nop,nop,TS val 9838987 ecr 91961306], length 20
+21:34:58.544001 IP 168-62-46-20.servicebus.windows.net.ftp > dhcp-140-247-103-184.fas.harvard.edu.37160: Flags [.], ack 47, win 512, options [nop,nop,TS val 91961313 ecr 9838987], length 0
+21:34:58.693786 IP 168-62-46-20.servicebus.windows.net.ftp > dhcp-140-247-103-184.fas.harvard.edu.37160: Flags [P.], seq 51:76, ack 47, win 512, options [nop,nop,TS val 91961327 ecr 9838987], length 25
+21:34:58.693958 IP dhcp-140-247-103-184.fas.harvard.edu.37160 > 168-62-46-20.servicebus.windows.net.ftp: Flags [P.], seq 47:53, ack 76, win 229, options [nop,nop,TS val 9839010 ecr 91961327], length 6
+21:34:58.711926 IP 168-62-46-20.servicebus.windows.net.ftp > dhcp-140-247-103-184.fas.harvard.edu.37160: Flags [P.], seq 76:90, ack 53, win 512, options [nop,nop,TS val 91961330 ecr 9839010], length 14
+21:34:58.711943 IP 168-62-46-20.servicebus.windows.net.ftp > dhcp-140-247-103-184.fas.harvard.edu.37160: Flags [F.], seq 90, ack 53, win 512, options [nop,nop,TS val 91961330 ecr 9839010], length 0
+21:34:58.712032 IP dhcp-140-247-103-184.fas.harvard.edu.37160 > 168-62-46-20.servicebus.windows.net.ftp: Flags [F.], seq 53, ack 91, win 229, options [nop,nop,TS val 9839011 ecr 91961330], length 0
+21:34:58.725315 IP 168-62-46-20.servicebus.windows.net.ftp > dhcp-140-247-103-184.fas.harvard.edu.37160: Flags [.], ack 54, win 512, options [nop,nop,TS val 91961331 ecr 9839011], length 0
+21:35:19.963560 IP dhcp-140-247-103-184.fas.harvard.edu.52314 > sagres.c3sl.ufpr.br.ftp: Flags [S], seq 4204846702, win 14600, options [mss 1460,sackOK,TS val 9841137 ecr 0,nop,wscale 6], length 0
+21:35:20.122850 IP sagres.c3sl.ufpr.br.ftp > dhcp-140-247-103-184.fas.harvard.edu.52314: Flags [S.], seq 3432369385, ack 4204846703, win 17896, options [mss 1380,sackOK,TS val 87795982 ecr 9841137,nop,wscale 8], length 0
+21:35:20.122879 IP dhcp-140-247-103-184.fas.harvard.edu.52314 > sagres.c3sl.ufpr.br.ftp: Flags [.], ack 1, win 229, options [nop,nop,TS val 9841152 ecr 87795982], length 0
+21:35:20.286201 IP sagres.c3sl.ufpr.br.ftp > dhcp-140-247-103-184.fas.harvard.edu.52314: Flags [P.], seq 1:313, ack 1, win 70, options [nop,nop,TS val 87795998 ecr 9841152], length 312
+21:35:20.286223 IP dhcp-140-247-103-184.fas.harvard.edu.52314 > sagres.c3sl.ufpr.br.ftp: Flags [.], ack 313, win 245, options [nop,nop,TS val 9841169 ecr 87795998], length 0
+21:35:20.286356 IP dhcp-140-247-103-184.fas.harvard.edu.52314 > sagres.c3sl.ufpr.br.ftp: Flags [P.], seq 1:17, ack 313, win 245, options [nop,nop,TS val 9841169 ecr 87795998], length 16
+21:35:20.445789 IP sagres.c3sl.ufpr.br.ftp > dhcp-140-247-103-184.fas.harvard.edu.52314: Flags [.], ack 17, win 70, options [nop,nop,TS val 87796014 ecr 9841169], length 0
+21:35:20.446952 IP sagres.c3sl.ufpr.br.ftp > dhcp-140-247-103-184.fas.harvard.edu.52314: Flags [P.], seq 313:343, ack 17, win 70, options [nop,nop,TS val 87796014 ecr 9841169], length 30
+21:35:20.447030 IP dhcp-140-247-103-184.fas.harvard.edu.52314 > sagres.c3sl.ufpr.br.ftp: Flags [P.], seq 17:23, ack 343, win 245, options [nop,nop,TS val 9841185 ecr 87796014], length 6
+21:35:20.607270 IP sagres.c3sl.ufpr.br.ftp > dhcp-140-247-103-184.fas.harvard.edu.52314: Flags [P.], seq 343:362, ack 23, win 70, options [nop,nop,TS val 87796030 ecr 9841185], length 19
+21:35:20.607361 IP dhcp-140-247-103-184.fas.harvard.edu.52314 > sagres.c3sl.ufpr.br.ftp: Flags [P.], seq 23:28, ack 362, win 245, options [nop,nop,TS val 9841201 ecr 87796030], length 5
+21:35:20.784517 IP sagres.c3sl.ufpr.br.ftp > dhcp-140-247-103-184.fas.harvard.edu.52314: Flags [P.], seq 362:396, ack 28, win 70, options [nop,nop,TS val 87796046 ecr 9841201], length 34
+21:35:20.784665 IP dhcp-140-247-103-184.fas.harvard.edu.52314 > sagres.c3sl.ufpr.br.ftp: Flags [P.], seq 28:36, ack 396, win 245, options [nop,nop,TS val 9841219 ecr 87796046], length 8
+21:35:20.964917 IP sagres.c3sl.ufpr.br.ftp > dhcp-140-247-103-184.fas.harvard.edu.52314: Flags [P.], seq 396:426, ack 36, win 70, options [nop,nop,TS val 87796066 ecr 9841219], length 30
+21:35:20.965059 IP dhcp-140-247-103-184.fas.harvard.edu.52314 > sagres.c3sl.ufpr.br.ftp: Flags [P.], seq 36:42, ack 426, win 245, options [nop,nop,TS val 9841237 ecr 87796066], length 6
+21:35:21.124772 IP sagres.c3sl.ufpr.br.ftp > dhcp-140-247-103-184.fas.harvard.edu.52314: Flags [P.], seq 426:476, ack 42, win 70, options [nop,nop,TS val 87796082 ecr 9841237], length 50
+21:35:21.163437 IP dhcp-140-247-103-184.fas.harvard.edu.52314 > sagres.c3sl.ufpr.br.ftp: Flags [.], ack 476, win 245, options [nop,nop,TS val 9841257 ecr 87796082], length 0
+21:35:21.285547 IP dhcp-140-247-103-184.fas.harvard.edu.52314 > sagres.c3sl.ufpr.br.ftp: Flags [P.], seq 42:59, ack 476, win 245, options [nop,nop,TS val 9841269 ecr 87796082], length 17
+21:35:21.445463 IP sagres.c3sl.ufpr.br.ftp > dhcp-140-247-103-184.fas.harvard.edu.52314: Flags [P.], seq 476:515, ack 59, win 70, options [nop,nop,TS val 87796114 ecr 9841269], length 39
+21:35:21.445491 IP dhcp-140-247-103-184.fas.harvard.edu.52314 > sagres.c3sl.ufpr.br.ftp: Flags [.], ack 515, win 245, options [nop,nop,TS val 9841285 ecr 87796114], length 0
+21:35:21.445630 IP dhcp-140-247-103-184.fas.harvard.edu.52314 > sagres.c3sl.ufpr.br.ftp: Flags [P.], seq 59:65, ack 515, win 245, options [nop,nop,TS val 9841285 ecr 87796114], length 6
+21:35:21.605940 IP sagres.c3sl.ufpr.br.ftp > dhcp-140-247-103-184.fas.harvard.edu.52314: Flags [P.], seq 515:564, ack 65, win 70, options [nop,nop,TS val 87796130 ecr 9841285], length 49
+21:35:21.643417 IP dhcp-140-247-103-184.fas.harvard.edu.52314 > sagres.c3sl.ufpr.br.ftp: Flags [.], ack 564, win 245, options [nop,nop,TS val 9841305 ecr 87796130], length 0
+21:35:21.766291 IP dhcp-140-247-103-184.fas.harvard.edu.52314 > sagres.c3sl.ufpr.br.ftp: Flags [P.], seq 65:82, ack 564, win 245, options [nop,nop,TS val 9841317 ecr 87796130], length 17
+21:35:21.926045 IP sagres.c3sl.ufpr.br.ftp > dhcp-140-247-103-184.fas.harvard.edu.52314: Flags [P.], seq 564:605, ack 82, win 70, options [nop,nop,TS val 87796162 ecr 9841317], length 41
+21:35:21.926066 IP dhcp-140-247-103-184.fas.harvard.edu.52314 > sagres.c3sl.ufpr.br.ftp: Flags [.], ack 605, win 245, options [nop,nop,TS val 9841333 ecr 87796162], length 0
+21:35:21.926188 IP dhcp-140-247-103-184.fas.harvard.edu.52314 > sagres.c3sl.ufpr.br.ftp: Flags [P.], seq 82:91, ack 605, win 245, options [nop,nop,TS val 9841333 ecr 87796162], length 9
+21:35:22.086092 IP sagres.c3sl.ufpr.br.ftp > dhcp-140-247-103-184.fas.harvard.edu.52314: Flags [P.], seq 605:635, ack 91, win 70, options [nop,nop,TS val 87796178 ecr 9841333], length 30
+21:35:22.086116 IP sagres.c3sl.ufpr.br.ftp > dhcp-140-247-103-184.fas.harvard.edu.52314: Flags [P.], seq 635:675, ack 91, win 70, options [nop,nop,TS val 87796178 ecr 9841333], length 40
+21:35:22.086195 IP dhcp-140-247-103-184.fas.harvard.edu.52314 > sagres.c3sl.ufpr.br.ftp: Flags [.], ack 675, win 245, options [nop,nop,TS val 9841349 ecr 87796178], length 0
+21:35:22.086248 IP dhcp-140-247-103-184.fas.harvard.edu.52314 > sagres.c3sl.ufpr.br.ftp: Flags [P.], seq 91:97, ack 675, win 245, options [nop,nop,TS val 9841349 ecr 87796178], length 6
+21:35:22.246090 IP sagres.c3sl.ufpr.br.ftp > dhcp-140-247-103-184.fas.harvard.edu.52314: Flags [P.], seq 675:742, ack 97, win 70, options [nop,nop,TS val 87796194 ecr 9841349], length 67
+21:35:22.246244 IP dhcp-140-247-103-184.fas.harvard.edu.52314 > sagres.c3sl.ufpr.br.ftp: Flags [F.], seq 97, ack 742, win 245, options [nop,nop,TS val 9841365 ecr 87796194], length 0
+21:35:22.246885 IP sagres.c3sl.ufpr.br.ftp > dhcp-140-247-103-184.fas.harvard.edu.52314: Flags [F.], seq 742, ack 97, win 70, options [nop,nop,TS val 87796194 ecr 9841349], length 0
+21:35:22.246902 IP dhcp-140-247-103-184.fas.harvard.edu.52314 > sagres.c3sl.ufpr.br.ftp: Flags [.], ack 743, win 245, options [nop,nop,TS val 9841365 ecr 87796194], length 0
+21:35:22.405210 IP sagres.c3sl.ufpr.br.ftp > dhcp-140-247-103-184.fas.harvard.edu.52314: Flags [.], ack 98, win 70, options [nop,nop,TS val 87796210 ecr 9841365], length 0
+21:35:26.313906 IP dhcp-140-247-103-184.fas.harvard.edu.52317 > sagres.c3sl.ufpr.br.ftp: Flags [S], seq 3005058230, win 14600, options [mss 1460,sackOK,TS val 9841772 ecr 0,nop,wscale 6], length 0
+21:35:26.475379 IP sagres.c3sl.ufpr.br.ftp > dhcp-140-247-103-184.fas.harvard.edu.52317: Flags [S.], seq 1899419628, ack 3005058231, win 17896, options [mss 1380,sackOK,TS val 87796617 ecr 9841772,nop,wscale 8], length 0
+21:35:26.475412 IP dhcp-140-247-103-184.fas.harvard.edu.52317 > sagres.c3sl.ufpr.br.ftp: Flags [.], ack 1, win 229, options [nop,nop,TS val 9841788 ecr 87796617], length 0
+21:35:26.642991 IP sagres.c3sl.ufpr.br.ftp > dhcp-140-247-103-184.fas.harvard.edu.52317: Flags [P.], seq 1:313, ack 1, win 70, options [nop,nop,TS val 87796634 ecr 9841788], length 312
+21:35:26.643082 IP dhcp-140-247-103-184.fas.harvard.edu.52317 > sagres.c3sl.ufpr.br.ftp: Flags [.], ack 313, win 245, options [nop,nop,TS val 9841804 ecr 87796634], length 0
+21:35:26.643168 IP dhcp-140-247-103-184.fas.harvard.edu.52317 > sagres.c3sl.ufpr.br.ftp: Flags [P.], seq 1:17, ack 313, win 245, options [nop,nop,TS val 9841804 ecr 87796634], length 16
+21:35:26.839727 IP sagres.c3sl.ufpr.br.ftp > dhcp-140-247-103-184.fas.harvard.edu.52317: Flags [.], ack 17, win 70, options [nop,nop,TS val 87796649 ecr 9841804], length 0
+21:35:26.839748 IP sagres.c3sl.ufpr.br.ftp > dhcp-140-247-103-184.fas.harvard.edu.52317: Flags [P.], seq 313:343, ack 17, win 70, options [nop,nop,TS val 87796650 ecr 9841804], length 30
+21:35:26.839866 IP dhcp-140-247-103-184.fas.harvard.edu.52317 > sagres.c3sl.ufpr.br.ftp: Flags [P.], seq 17:23, ack 343, win 245, options [nop,nop,TS val 9841824 ecr 87796650], length 6
+21:35:27.003699 IP sagres.c3sl.ufpr.br.ftp > dhcp-140-247-103-184.fas.harvard.edu.52317: Flags [P.], seq 343:362, ack 23, win 70, options [nop,nop,TS val 87796670 ecr 9841824], length 19
+21:35:27.003830 IP dhcp-140-247-103-184.fas.harvard.edu.52317 > sagres.c3sl.ufpr.br.ftp: Flags [P.], seq 23:28, ack 362, win 245, options [nop,nop,TS val 9841841 ecr 87796670], length 5
+21:35:27.163124 IP sagres.c3sl.ufpr.br.ftp > dhcp-140-247-103-184.fas.harvard.edu.52317: Flags [P.], seq 362:396, ack 28, win 70, options [nop,nop,TS val 87796686 ecr 9841841], length 34
+21:35:27.163295 IP dhcp-140-247-103-184.fas.harvard.edu.52317 > sagres.c3sl.ufpr.br.ftp: Flags [P.], seq 28:36, ack 396, win 245, options [nop,nop,TS val 9841856 ecr 87796686], length 8
+21:35:27.322414 IP sagres.c3sl.ufpr.br.ftp > dhcp-140-247-103-184.fas.harvard.edu.52317: Flags [P.], seq 396:426, ack 36, win 70, options [nop,nop,TS val 87796701 ecr 9841856], length 30
+21:35:27.322553 IP dhcp-140-247-103-184.fas.harvard.edu.52317 > sagres.c3sl.ufpr.br.ftp: Flags [P.], seq 36:42, ack 426, win 245, options [nop,nop,TS val 9841872 ecr 87796701], length 6
+21:35:27.481746 IP sagres.c3sl.ufpr.br.ftp > dhcp-140-247-103-184.fas.harvard.edu.52317: Flags [P.], seq 426:475, ack 42, win 70, options [nop,nop,TS val 87796717 ecr 9841872], length 49
+21:35:27.513436 IP dhcp-140-247-103-184.fas.harvard.edu.52317 > sagres.c3sl.ufpr.br.ftp: Flags [.], ack 475, win 245, options [nop,nop,TS val 9841892 ecr 87796717], length 0
+21:35:27.641716 IP dhcp-140-247-103-184.fas.harvard.edu.52317 > sagres.c3sl.ufpr.br.ftp: Flags [P.], seq 42:67, ack 475, win 245, options [nop,nop,TS val 9841904 ecr 87796717], length 25
+21:35:27.801809 IP sagres.c3sl.ufpr.br.ftp > dhcp-140-247-103-184.fas.harvard.edu.52317: Flags [P.], seq 475:514, ack 67, win 70, options [nop,nop,TS val 87796749 ecr 9841904], length 39
+21:35:27.801838 IP dhcp-140-247-103-184.fas.harvard.edu.52317 > sagres.c3sl.ufpr.br.ftp: Flags [.], ack 514, win 245, options [nop,nop,TS val 9841920 ecr 87796749], length 0
+21:35:27.802066 IP dhcp-140-247-103-184.fas.harvard.edu.52317 > sagres.c3sl.ufpr.br.ftp: Flags [P.], seq 67:73, ack 514, win 245, options [nop,nop,TS val 9841920 ecr 87796749], length 6
+21:35:27.961360 IP sagres.c3sl.ufpr.br.ftp > dhcp-140-247-103-184.fas.harvard.edu.52317: Flags [P.], seq 514:564, ack 73, win 70, options [nop,nop,TS val 87796765 ecr 9841920], length 50
+21:35:27.993434 IP dhcp-140-247-103-184.fas.harvard.edu.52317 > sagres.c3sl.ufpr.br.ftp: Flags [.], ack 564, win 245, options [nop,nop,TS val 9841940 ecr 87796765], length 0
+21:35:28.120846 IP dhcp-140-247-103-184.fas.harvard.edu.52317 > sagres.c3sl.ufpr.br.ftp: Flags [P.], seq 73:98, ack 564, win 245, options [nop,nop,TS val 9841952 ecr 87796765], length 25
+21:35:28.280764 IP sagres.c3sl.ufpr.br.ftp > dhcp-140-247-103-184.fas.harvard.edu.52317: Flags [P.], seq 564:613, ack 98, win 70, options [nop,nop,TS val 87796797 ecr 9841952], length 49
+21:35:28.280794 IP dhcp-140-247-103-184.fas.harvard.edu.52317 > sagres.c3sl.ufpr.br.ftp: Flags [.], ack 613, win 245, options [nop,nop,TS val 9841968 ecr 87796797], length 0
+21:35:28.281007 IP dhcp-140-247-103-184.fas.harvard.edu.52317 > sagres.c3sl.ufpr.br.ftp: Flags [P.], seq 98:107, ack 613, win 245, options [nop,nop,TS val 9841968 ecr 87796797], length 9
+21:35:28.440948 IP sagres.c3sl.ufpr.br.ftp > dhcp-140-247-103-184.fas.harvard.edu.52317: Flags [P.], seq 613:643, ack 107, win 70, options [nop,nop,TS val 87796813 ecr 9841968], length 30
+21:35:28.441340 IP sagres.c3sl.ufpr.br.ftp > dhcp-140-247-103-184.fas.harvard.edu.52317: Flags [P.], seq 643:682, ack 107, win 70, options [nop,nop,TS val 87796813 ecr 9841968], length 39
+21:35:28.441539 IP dhcp-140-247-103-184.fas.harvard.edu.52317 > sagres.c3sl.ufpr.br.ftp: Flags [.], ack 682, win 245, options [nop,nop,TS val 9841984 ecr 87796813], length 0
+21:35:28.441561 IP dhcp-140-247-103-184.fas.harvard.edu.52317 > sagres.c3sl.ufpr.br.ftp: Flags [P.], seq 107:113, ack 682, win 245, options [nop,nop,TS val 9841984 ecr 87796813], length 6
+21:35:28.603471 IP sagres.c3sl.ufpr.br.ftp > dhcp-140-247-103-184.fas.harvard.edu.52317: Flags [P.], seq 682:749, ack 113, win 70, options [nop,nop,TS val 87796829 ecr 9841984], length 67
+21:35:28.603494 IP sagres.c3sl.ufpr.br.ftp > dhcp-140-247-103-184.fas.harvard.edu.52317: Flags [F.], seq 749, ack 113, win 70, options [nop,nop,TS val 87796829 ecr 9841984], length 0
+21:35:28.603640 IP dhcp-140-247-103-184.fas.harvard.edu.52317 > sagres.c3sl.ufpr.br.ftp: Flags [F.], seq 113, ack 750, win 245, options [nop,nop,TS val 9842001 ecr 87796829], length 0
+21:35:28.765888 IP sagres.c3sl.ufpr.br.ftp > dhcp-140-247-103-184.fas.harvard.edu.52317: Flags [.], ack 114, win 70, options [nop,nop,TS val 87796846 ecr 9842001], length 0
+21:35:30.028595 IP dhcp-140-247-103-184.fas.harvard.edu.52320 > sagres.c3sl.ufpr.br.ftp: Flags [S], seq 620655321, win 14600, options [mss 1460,sackOK,TS val 9842143 ecr 0,nop,wscale 6], length 0
+21:35:30.187927 IP sagres.c3sl.ufpr.br.ftp > dhcp-140-247-103-184.fas.harvard.edu.52320: Flags [S.], seq 3680719491, ack 620655322, win 17896, options [mss 1380,sackOK,TS val 87796988 ecr 9842143,nop,wscale 8], length 0
+21:35:30.187963 IP dhcp-140-247-103-184.fas.harvard.edu.52320 > sagres.c3sl.ufpr.br.ftp: Flags [.], ack 1, win 229, options [nop,nop,TS val 9842159 ecr 87796988], length 0
+21:35:30.349086 IP sagres.c3sl.ufpr.br.ftp > dhcp-140-247-103-184.fas.harvard.edu.52320: Flags [P.], seq 1:313, ack 1, win 70, options [nop,nop,TS val 87797004 ecr 9842159], length 312
+21:35:30.349116 IP dhcp-140-247-103-184.fas.harvard.edu.52320 > sagres.c3sl.ufpr.br.ftp: Flags [.], ack 313, win 245, options [nop,nop,TS val 9842175 ecr 87797004], length 0
+21:35:30.349240 IP dhcp-140-247-103-184.fas.harvard.edu.52320 > sagres.c3sl.ufpr.br.ftp: Flags [P.], seq 1:17, ack 313, win 245, options [nop,nop,TS val 9842175 ecr 87797004], length 16
+21:35:30.509334 IP sagres.c3sl.ufpr.br.ftp > dhcp-140-247-103-184.fas.harvard.edu.52320: Flags [.], ack 17, win 70, options [nop,nop,TS val 87797020 ecr 9842175], length 0
+21:35:30.510270 IP sagres.c3sl.ufpr.br.ftp > dhcp-140-247-103-184.fas.harvard.edu.52320: Flags [P.], seq 313:343, ack 17, win 70, options [nop,nop,TS val 87797020 ecr 9842175], length 30
+21:35:30.510402 IP dhcp-140-247-103-184.fas.harvard.edu.52320 > sagres.c3sl.ufpr.br.ftp: Flags [P.], seq 17:23, ack 343, win 245, options [nop,nop,TS val 9842191 ecr 87797020], length 6
+21:35:30.669982 IP sagres.c3sl.ufpr.br.ftp > dhcp-140-247-103-184.fas.harvard.edu.52320: Flags [P.], seq 343:362, ack 23, win 70, options [nop,nop,TS val 87797036 ecr 9842191], length 19
+21:35:30.670119 IP dhcp-140-247-103-184.fas.harvard.edu.52320 > sagres.c3sl.ufpr.br.ftp: Flags [P.], seq 23:28, ack 362, win 245, options [nop,nop,TS val 9842207 ecr 87797036], length 5
+21:35:30.830251 IP sagres.c3sl.ufpr.br.ftp > dhcp-140-247-103-184.fas.harvard.edu.52320: Flags [P.], seq 362:396, ack 28, win 70, options [nop,nop,TS val 87797052 ecr 9842207], length 34
+21:35:30.830397 IP dhcp-140-247-103-184.fas.harvard.edu.52320 > sagres.c3sl.ufpr.br.ftp: Flags [P.], seq 28:36, ack 396, win 245, options [nop,nop,TS val 9842223 ecr 87797052], length 8
+21:35:30.989620 IP sagres.c3sl.ufpr.br.ftp > dhcp-140-247-103-184.fas.harvard.edu.52320: Flags [P.], seq 396:426, ack 36, win 70, options [nop,nop,TS val 87797068 ecr 9842223], length 30
+21:35:30.989698 IP dhcp-140-247-103-184.fas.harvard.edu.52320 > sagres.c3sl.ufpr.br.ftp: Flags [P.], seq 36:42, ack 426, win 245, options [nop,nop,TS val 9842239 ecr 87797068], length 6
+21:35:31.149792 IP sagres.c3sl.ufpr.br.ftp > dhcp-140-247-103-184.fas.harvard.edu.52320: Flags [P.], seq 426:476, ack 42, win 70, options [nop,nop,TS val 87797084 ecr 9842239], length 50
+21:35:31.183434 IP dhcp-140-247-103-184.fas.harvard.edu.52320 > sagres.c3sl.ufpr.br.ftp: Flags [.], ack 476, win 245, options [nop,nop,TS val 9842259 ecr 87797084], length 0
+21:35:31.309211 IP dhcp-140-247-103-184.fas.harvard.edu.52320 > sagres.c3sl.ufpr.br.ftp: Flags [P.], seq 42:76, ack 476, win 245, options [nop,nop,TS val 9842271 ecr 87797084], length 34
+21:35:31.471984 IP sagres.c3sl.ufpr.br.ftp > dhcp-140-247-103-184.fas.harvard.edu.52320: Flags [P.], seq 476:515, ack 76, win 70, options [nop,nop,TS val 87797116 ecr 9842271], length 39
+21:35:31.472004 IP dhcp-140-247-103-184.fas.harvard.edu.52320 > sagres.c3sl.ufpr.br.ftp: Flags [.], ack 515, win 245, options [nop,nop,TS val 9842287 ecr 87797116], length 0
+21:35:31.472128 IP dhcp-140-247-103-184.fas.harvard.edu.52320 > sagres.c3sl.ufpr.br.ftp: Flags [P.], seq 76:82, ack 515, win 245, options [nop,nop,TS val 9842287 ecr 87797116], length 6
+21:35:31.633868 IP sagres.c3sl.ufpr.br.ftp > dhcp-140-247-103-184.fas.harvard.edu.52320: Flags [P.], seq 515:565, ack 82, win 70, options [nop,nop,TS val 87797132 ecr 9842287], length 50
+21:35:31.673435 IP dhcp-140-247-103-184.fas.harvard.edu.52320 > sagres.c3sl.ufpr.br.ftp: Flags [.], ack 565, win 245, options [nop,nop,TS val 9842308 ecr 87797132], length 0
+21:35:31.795541 IP dhcp-140-247-103-184.fas.harvard.edu.52320 > sagres.c3sl.ufpr.br.ftp: Flags [P.], seq 82:116, ack 565, win 245, options [nop,nop,TS val 9842320 ecr 87797132], length 34
+21:35:31.955662 IP sagres.c3sl.ufpr.br.ftp > dhcp-140-247-103-184.fas.harvard.edu.52320: Flags [P.], seq 565:623, ack 116, win 70, options [nop,nop,TS val 87797165 ecr 9842320], length 58
+21:35:31.955681 IP dhcp-140-247-103-184.fas.harvard.edu.52320 > sagres.c3sl.ufpr.br.ftp: Flags [.], ack 623, win 245, options [nop,nop,TS val 9842336 ecr 87797165], length 0
+21:35:31.955804 IP dhcp-140-247-103-184.fas.harvard.edu.52320 > sagres.c3sl.ufpr.br.ftp: Flags [P.], seq 116:125, ack 623, win 245, options [nop,nop,TS val 9842336 ecr 87797165], length 9
+21:35:32.115236 IP sagres.c3sl.ufpr.br.ftp > dhcp-140-247-103-184.fas.harvard.edu.52320: Flags [P.], seq 623:653, ack 125, win 70, options [nop,nop,TS val 87797181 ecr 9842336], length 30
+21:35:32.153423 IP dhcp-140-247-103-184.fas.harvard.edu.52320 > sagres.c3sl.ufpr.br.ftp: Flags [.], ack 653, win 245, options [nop,nop,TS val 9842356 ecr 87797181], length 0
+21:35:32.941649 IP sagres.c3sl.ufpr.br.ftp > dhcp-140-247-103-184.fas.harvard.edu.52320: Flags [P.], seq 653:695, ack 125, win 70, options [nop,nop,TS val 87797263 ecr 9842356], length 42
+21:35:32.941676 IP dhcp-140-247-103-184.fas.harvard.edu.52320 > sagres.c3sl.ufpr.br.ftp: Flags [.], ack 695, win 245, options [nop,nop,TS val 9842434 ecr 87797263], length 0
+21:35:33.101904 IP dhcp-140-247-103-184.fas.harvard.edu.52320 > sagres.c3sl.ufpr.br.ftp: Flags [P.], seq 125:131, ack 695, win 245, options [nop,nop,TS val 9842450 ecr 87797263], length 6
+21:35:33.261189 IP sagres.c3sl.ufpr.br.ftp > dhcp-140-247-103-184.fas.harvard.edu.52320: Flags [P.], seq 695:762, ack 131, win 70, options [nop,nop,TS val 87797295 ecr 9842450], length 67
+21:35:33.261217 IP dhcp-140-247-103-184.fas.harvard.edu.52320 > sagres.c3sl.ufpr.br.ftp: Flags [.], ack 762, win 245, options [nop,nop,TS val 9842466 ecr 87797295], length 0
+21:35:33.261356 IP dhcp-140-247-103-184.fas.harvard.edu.52320 > sagres.c3sl.ufpr.br.ftp: Flags [F.], seq 131, ack 762, win 245, options [nop,nop,TS val 9842466 ecr 87797295], length 0
+21:35:33.262141 IP sagres.c3sl.ufpr.br.ftp > dhcp-140-247-103-184.fas.harvard.edu.52320: Flags [F.], seq 762, ack 131, win 70, options [nop,nop,TS val 87797295 ecr 9842450], length 0
+21:35:33.262156 IP dhcp-140-247-103-184.fas.harvard.edu.52320 > sagres.c3sl.ufpr.br.ftp: Flags [.], ack 763, win 245, options [nop,nop,TS val 9842466 ecr 87797295], length 0
+21:35:33.421297 IP sagres.c3sl.ufpr.br.ftp > dhcp-140-247-103-184.fas.harvard.edu.52320: Flags [.], ack 132, win 70, options [nop,nop,TS val 87797311 ecr 9842466], length 0
+

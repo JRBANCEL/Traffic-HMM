@@ -1,0 +1,591 @@
+22:44:39.764385 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [P.], seq 547042965:547043045, ack 3249035525, win 1316, options [nop,nop,TS val 10257117 ecr 1773883297], length 80
+22:44:39.803432 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], ack 80, win 1002, options [nop,nop,TS val 1773901654 ecr 10257117], length 0
+22:44:39.934069 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 1:120, ack 80, win 1002, options [nop,nop,TS val 1773901784 ecr 10257117], length 119
+22:44:39.934090 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 120, win 1315, options [nop,nop,TS val 10257134 ecr 1773901784], length 0
+22:44:39.935542 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [P.], seq 80:122, ack 120, win 1316, options [nop,nop,TS val 10257134 ecr 1773901784], length 42
+22:44:39.974832 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], ack 122, win 1002, options [nop,nop,TS val 1773901825 ecr 10257134], length 0
+22:44:40.122124 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 120:464, ack 122, win 1002, options [nop,nop,TS val 1773901972 ecr 10257134], length 344
+22:44:40.123024 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [P.], seq 122:177, ack 464, win 1316, options [nop,nop,TS val 10257152 ecr 1773901972], length 55
+22:44:40.162124 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], ack 177, win 1002, options [nop,nop,TS val 1773902012 ecr 10257152], length 0
+22:44:40.814961 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 464:1832, ack 177, win 1002, options [nop,nop,TS val 1773902665 ecr 10257152], length 1368
+22:44:40.814986 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 1832:1889, ack 177, win 1002, options [nop,nop,TS val 1773902665 ecr 10257152], length 57
+22:44:40.814991 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 1889:3257, ack 177, win 1002, options [nop,nop,TS val 1773902665 ecr 10257152], length 1368
+22:44:40.814995 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 3257:3314, ack 177, win 1002, options [nop,nop,TS val 1773902665 ecr 10257152], length 57
+22:44:40.814998 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 3314:4682, ack 177, win 1002, options [nop,nop,TS val 1773902665 ecr 10257152], length 1368
+22:44:40.815001 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 4682:4739, ack 177, win 1002, options [nop,nop,TS val 1773902665 ecr 10257152], length 57
+22:44:40.815023 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 4739:6107, ack 177, win 1002, options [nop,nop,TS val 1773902665 ecr 10257152], length 1368
+22:44:40.815034 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 7475:7589, ack 177, win 1002, options [nop,nop,TS val 1773902665 ecr 10257152], length 114
+22:44:40.815048 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 6107, win 1245, options [nop,nop,TS val 10257222 ecr 1773902665,nop,nop,sack 1 {7475:7589}], length 0
+22:44:40.815056 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 8957:9014, ack 177, win 1002, options [nop,nop,TS val 1773902665 ecr 10257152], length 57
+22:44:40.815062 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 6107, win 1245, options [nop,nop,TS val 10257222 ecr 1773902665,nop,nop,sack 2 {8957:9014}{7475:7589}], length 0
+22:44:40.815068 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 6107:7475, ack 177, win 1002, options [nop,nop,TS val 1773902665 ecr 10257152], length 1368
+22:44:40.815074 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 7589, win 1227, options [nop,nop,TS val 10257222 ecr 1773902665,nop,nop,sack 1 {8957:9014}], length 0
+22:44:40.815079 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 7589:8957, ack 177, win 1002, options [nop,nop,TS val 1773902665 ecr 10257152], length 1368
+22:44:40.815085 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 9014, win 1213, options [nop,nop,TS val 10257222 ecr 1773902665], length 0
+22:44:40.815089 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 9014:10382, ack 177, win 1002, options [nop,nop,TS val 1773902665 ecr 10257152], length 1368
+22:44:40.815093 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 10382, win 1198, options [nop,nop,TS val 10257222 ecr 1773902665], length 0
+22:44:40.815098 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 10382:10904, ack 177, win 1002, options [nop,nop,TS val 1773902665 ecr 10257152], length 522
+22:44:40.815104 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 10904, win 1190, options [nop,nop,TS val 10257222 ecr 1773902665], length 0
+22:44:40.815191 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 10904:12272, ack 177, win 1002, options [nop,nop,TS val 1773902665 ecr 10257152], length 1368
+22:44:40.815200 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 12272, win 1170, options [nop,nop,TS val 10257222 ecr 1773902665], length 0
+22:44:40.815207 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 12272:12329, ack 177, win 1002, options [nop,nop,TS val 1773902665 ecr 10257152], length 57
+22:44:40.815213 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 12329, win 1170, options [nop,nop,TS val 10257222 ecr 1773902665], length 0
+22:44:40.815218 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 12329:13697, ack 177, win 1002, options [nop,nop,TS val 1773902665 ecr 10257152], length 1368
+22:44:40.815224 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 13697, win 1152, options [nop,nop,TS val 10257222 ecr 1773902665], length 0
+22:44:40.815228 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 13697:13754, ack 177, win 1002, options [nop,nop,TS val 1773902665 ecr 10257152], length 57
+22:44:40.815233 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 13754, win 1152, options [nop,nop,TS val 10257222 ecr 1773902665], length 0
+22:44:40.854636 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 13754:15122, ack 177, win 1002, options [nop,nop,TS val 1773902705 ecr 10257222], length 1368
+22:44:40.854657 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 15122, win 1302, options [nop,nop,TS val 10257226 ecr 1773902705], length 0
+22:44:40.854663 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 15122:16490, ack 177, win 1002, options [nop,nop,TS val 1773902705 ecr 10257222], length 1368
+22:44:40.854668 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 16490, win 1288, options [nop,nop,TS val 10257226 ecr 1773902705], length 0
+22:44:40.854671 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 16490:17858, ack 177, win 1002, options [nop,nop,TS val 1773902705 ecr 10257222], length 1368
+22:44:40.854676 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 17858, win 1273, options [nop,nop,TS val 10257226 ecr 1773902705], length 0
+22:44:40.854680 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 17858:19226, ack 177, win 1002, options [nop,nop,TS val 1773902705 ecr 10257222], length 1368
+22:44:40.854682 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 19226, win 1259, options [nop,nop,TS val 10257226 ecr 1773902705], length 0
+22:44:40.854688 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 19226:20594, ack 177, win 1002, options [nop,nop,TS val 1773902705 ecr 10257222], length 1368
+22:44:40.854692 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 20594, win 1244, options [nop,nop,TS val 10257226 ecr 1773902705], length 0
+22:44:40.854695 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 20594:21962, ack 177, win 1002, options [nop,nop,TS val 1773902705 ecr 10257222], length 1368
+22:44:40.854698 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 21962, win 1230, options [nop,nop,TS val 10257226 ecr 1773902705], length 0
+22:44:40.854702 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 21962:23330, ack 177, win 1002, options [nop,nop,TS val 1773902705 ecr 10257222], length 1368
+22:44:40.854706 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 23330, win 1216, options [nop,nop,TS val 10257226 ecr 1773902705], length 0
+22:44:40.854710 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 23330:24698, ack 177, win 1002, options [nop,nop,TS val 1773902705 ecr 10257222], length 1368
+22:44:40.854714 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 24698:26066, ack 177, win 1002, options [nop,nop,TS val 1773902705 ecr 10257222], length 1368
+22:44:40.854717 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 26066:27434, ack 177, win 1002, options [nop,nop,TS val 1773902705 ecr 10257222], length 1368
+22:44:40.854720 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 27434:28802, ack 177, win 1002, options [nop,nop,TS val 1773902705 ecr 10257222], length 1368
+22:44:40.854723 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 28802:30170, ack 177, win 1002, options [nop,nop,TS val 1773902705 ecr 10257222], length 1368
+22:44:40.854840 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 30170:31538, ack 177, win 1002, options [nop,nop,TS val 1773902705 ecr 10257222], length 1368
+22:44:40.854846 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 31538:32906, ack 177, win 1002, options [nop,nop,TS val 1773902705 ecr 10257222], length 1368
+22:44:40.854851 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 32906:34274, ack 177, win 1002, options [nop,nop,TS val 1773902705 ecr 10257222], length 1368
+22:44:40.854854 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 34274:35642, ack 177, win 1002, options [nop,nop,TS val 1773902705 ecr 10257222], length 1368
+22:44:40.854856 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 35642:37010, ack 177, win 1002, options [nop,nop,TS val 1773902705 ecr 10257222], length 1368
+22:44:40.854859 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 37010:38378, ack 177, win 1002, options [nop,nop,TS val 1773902705 ecr 10257222], length 1368
+22:44:40.854862 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 38378:39746, ack 177, win 1002, options [nop,nop,TS val 1773902705 ecr 10257222], length 1368
+22:44:40.854865 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 39746:41114, ack 177, win 1002, options [nop,nop,TS val 1773902705 ecr 10257222], length 1368
+22:44:40.854983 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 41114, win 1029, options [nop,nop,TS val 10257226 ecr 1773902705], length 0
+22:44:40.855085 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 42482:43850, ack 177, win 1002, options [nop,nop,TS val 1773902705 ecr 10257222], length 1368
+22:44:40.855098 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 41114, win 1029, options [nop,nop,TS val 10257226 ecr 1773902705,nop,nop,sack 1 {42482:43850}], length 0
+22:44:40.855104 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 41114:42482, ack 177, win 1002, options [nop,nop,TS val 1773902705 ecr 10257222], length 1368
+22:44:40.855109 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 43850, win 1014, options [nop,nop,TS val 10257226 ecr 1773902705], length 0
+22:44:40.855114 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 43850:45218, ack 177, win 1002, options [nop,nop,TS val 1773902705 ecr 10257222], length 1368
+22:44:40.855117 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 45218, win 1000, options [nop,nop,TS val 10257226 ecr 1773902705], length 0
+22:44:40.893870 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 45218:46586, ack 177, win 1002, options [nop,nop,TS val 1773902744 ecr 10257226], length 1368
+22:44:40.893896 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 46586, win 1302, options [nop,nop,TS val 10257230 ecr 1773902744], length 0
+22:44:40.893908 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 46586:47735, ack 177, win 1002, options [nop,nop,TS val 1773902744 ecr 10257226], length 1149
+22:44:40.893913 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 47735, win 1288, options [nop,nop,TS val 10257230 ecr 1773902744], length 0
+22:44:41.374978 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [P.], seq 177:265, ack 47735, win 1335, options [nop,nop,TS val 10257278 ecr 1773902744], length 88
+22:44:41.414076 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], ack 265, win 1002, options [nop,nop,TS val 1773903264 ecr 10257278], length 0
+22:44:41.544201 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 47735:47857, ack 265, win 1002, options [nop,nop,TS val 1773903394 ecr 10257278], length 122
+22:44:41.544222 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 47857, win 1335, options [nop,nop,TS val 10257295 ecr 1773903394], length 0
+22:44:41.547503 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [P.], seq 265:315, ack 47857, win 1335, options [nop,nop,TS val 10257295 ecr 1773903394], length 50
+22:44:41.586587 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], ack 315, win 1002, options [nop,nop,TS val 1773903437 ecr 10257295], length 0
+22:44:41.737887 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 47857:48204, ack 315, win 1002, options [nop,nop,TS val 1773903588 ecr 10257295], length 347
+22:44:41.738697 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [P.], seq 315:370, ack 48204, win 1377, options [nop,nop,TS val 10257314 ecr 1773903588], length 55
+22:44:41.777727 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], ack 370, win 1002, options [nop,nop,TS val 1773903628 ecr 10257314], length 0
+22:44:42.103590 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 48204:49572, ack 370, win 1002, options [nop,nop,TS val 1773903954 ecr 10257314], length 1368
+22:44:42.103606 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 49572:49861, ack 370, win 1002, options [nop,nop,TS val 1773903954 ecr 10257314], length 289
+22:44:42.103615 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 49861, win 1378, options [nop,nop,TS val 10257351 ecr 1773903954], length 0
+22:44:42.564087 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [P.], seq 370:453, ack 49861, win 1407, options [nop,nop,TS val 10257397 ecr 1773903954], length 83
+22:44:42.603609 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], ack 453, win 1002, options [nop,nop,TS val 1773904453 ecr 10257397], length 0
+22:44:42.733424 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 49861:49980, ack 453, win 1002, options [nop,nop,TS val 1773904584 ecr 10257397], length 119
+22:44:42.734953 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [P.], seq 453:498, ack 49980, win 1407, options [nop,nop,TS val 10257414 ecr 1773904584], length 45
+22:44:42.774061 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], ack 498, win 1002, options [nop,nop,TS val 1773904624 ecr 10257414], length 0
+22:44:43.195058 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 49980:50324, ack 498, win 1002, options [nop,nop,TS val 1773905045 ecr 10257414], length 344
+22:44:43.195730 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [P.], seq 498:547, ack 50324, win 1407, options [nop,nop,TS val 10257460 ecr 1773905045], length 49
+22:44:43.234898 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], ack 547, win 1002, options [nop,nop,TS val 1773905085 ecr 10257460], length 0
+22:44:43.494517 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 50324:50639, ack 547, win 1002, options [nop,nop,TS val 1773905344 ecr 10257460], length 315
+22:44:43.494534 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 50733:50781, ack 547, win 1002, options [nop,nop,TS val 1773905344 ecr 10257460], length 48
+22:44:43.494543 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 50639, win 1403, options [nop,nop,TS val 10257490 ecr 1773905344,nop,nop,sack 1 {50733:50781}], length 0
+22:44:43.494550 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 50639:50733, ack 547, win 1002, options [nop,nop,TS val 1773905344 ecr 10257460], length 94
+22:44:43.494556 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 50781, win 1401, options [nop,nop,TS val 10257490 ecr 1773905344], length 0
+22:44:43.494565 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 50781:50829, ack 547, win 1002, options [nop,nop,TS val 1773905344 ecr 10257460], length 48
+22:44:43.494569 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 50829, win 1401, options [nop,nop,TS val 10257490 ecr 1773905344], length 0
+22:44:43.494574 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 50829:50869, ack 547, win 1002, options [nop,nop,TS val 1773905344 ecr 10257460], length 40
+22:44:43.494578 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 50869, win 1401, options [nop,nop,TS val 10257490 ecr 1773905344], length 0
+22:44:43.498219 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [P.], seq 547:775, ack 50869, win 1407, options [nop,nop,TS val 10257490 ecr 1773905344], length 228
+22:44:43.537361 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], ack 775, win 1002, options [nop,nop,TS val 1773905388 ecr 10257490], length 0
+22:44:43.839787 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 50869:52237, ack 775, win 1002, options [nop,nop,TS val 1773905690 ecr 10257490], length 1368
+22:44:43.839811 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 52237:52294, ack 775, win 1002, options [nop,nop,TS val 1773905690 ecr 10257490], length 57
+22:44:43.839815 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 52294:53662, ack 775, win 1002, options [nop,nop,TS val 1773905690 ecr 10257490], length 1368
+22:44:43.839819 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 53662:53719, ack 775, win 1002, options [nop,nop,TS val 1773905690 ecr 10257490], length 57
+22:44:43.839821 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 53719:55040, ack 775, win 1002, options [nop,nop,TS val 1773905690 ecr 10257490], length 1321
+22:44:43.839824 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 55040:56408, ack 775, win 1002, options [nop,nop,TS val 1773905690 ecr 10257490], length 1368
+22:44:43.839827 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 56408:56465, ack 775, win 1002, options [nop,nop,TS val 1773905690 ecr 10257490], length 57
+22:44:43.839830 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 56465:57833, ack 775, win 1002, options [nop,nop,TS val 1773905690 ecr 10257490], length 1368
+22:44:43.839832 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 57833:59201, ack 775, win 1002, options [nop,nop,TS val 1773905690 ecr 10257490], length 1368
+22:44:43.839836 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 59201:59282, ack 775, win 1002, options [nop,nop,TS val 1773905690 ecr 10257490], length 81
+22:44:43.840077 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 59282, win 1307, options [nop,nop,TS val 10257524 ecr 1773905690], length 0
+22:44:43.841856 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [P.], seq 775:830, ack 59282, win 1407, options [nop,nop,TS val 10257524 ecr 1773905690], length 55
+22:44:43.881159 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], ack 830, win 1002, options [nop,nop,TS val 1773905731 ecr 10257524], length 0
+22:44:44.021115 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 59282:59487, ack 830, win 1002, options [nop,nop,TS val 1773905871 ecr 10257524], length 205
+22:44:44.021136 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 59487:59584, ack 830, win 1002, options [nop,nop,TS val 1773905871 ecr 10257524], length 97
+22:44:44.021229 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 59584:59645, ack 830, win 1002, options [nop,nop,TS val 1773905872 ecr 10257524], length 61
+22:44:44.021236 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 59645:59706, ack 830, win 1002, options [nop,nop,TS val 1773905872 ecr 10257524], length 61
+22:44:44.021403 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 59706:59805, ack 830, win 1002, options [nop,nop,TS val 1773905872 ecr 10257524], length 99
+22:44:44.021459 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 59805:59867, ack 830, win 1002, options [nop,nop,TS val 1773905872 ecr 10257524], length 62
+22:44:44.021466 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 59867:59929, ack 830, win 1002, options [nop,nop,TS val 1773905872 ecr 10257524], length 62
+22:44:44.021538 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 59929:59991, ack 830, win 1002, options [nop,nop,TS val 1773905872 ecr 10257524], length 62
+22:44:44.021611 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 59991:60053, ack 830, win 1002, options [nop,nop,TS val 1773905872 ecr 10257524], length 62
+22:44:44.021697 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 60053:60115, ack 830, win 1002, options [nop,nop,TS val 1773905872 ecr 10257524], length 62
+22:44:44.021728 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 60115, win 1407, options [nop,nop,TS val 10257542 ecr 1773905871], length 0
+22:44:44.021750 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 60115:60177, ack 830, win 1002, options [nop,nop,TS val 1773905872 ecr 10257524], length 62
+22:44:44.021807 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 60177:60239, ack 830, win 1002, options [nop,nop,TS val 1773905872 ecr 10257524], length 62
+22:44:44.021821 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 60239, win 1407, options [nop,nop,TS val 10257542 ecr 1773905872], length 0
+22:44:44.021863 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 60239:60279, ack 830, win 1002, options [nop,nop,TS val 1773905872 ecr 10257524], length 40
+22:44:44.053446 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 60279, win 1407, options [nop,nop,TS val 10257546 ecr 1773905872], length 0
+22:44:44.386387 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [P.], seq 830:914, ack 60279, win 1407, options [nop,nop,TS val 10257579 ecr 1773905872], length 84
+22:44:44.425450 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], ack 914, win 1002, options [nop,nop,TS val 1773906276 ecr 10257579], length 0
+22:44:44.555619 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 60279:60400, ack 914, win 1002, options [nop,nop,TS val 1773906406 ecr 10257579], length 121
+22:44:44.555643 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 60400, win 1406, options [nop,nop,TS val 10257596 ecr 1773906406], length 0
+22:44:44.557114 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [P.], seq 914:960, ack 60400, win 1407, options [nop,nop,TS val 10257596 ecr 1773906406], length 46
+22:44:44.596167 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], ack 960, win 1002, options [nop,nop,TS val 1773906447 ecr 10257596], length 0
+22:44:45.042025 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 60400:60746, ack 960, win 1002, options [nop,nop,TS val 1773906892 ecr 10257596], length 346
+22:44:45.042803 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [P.], seq 960:1015, ack 60746, win 1407, options [nop,nop,TS val 10257644 ecr 1773906892], length 55
+22:44:45.081877 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], ack 1015, win 1002, options [nop,nop,TS val 1773906932 ecr 10257644], length 0
+22:44:45.281031 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 60746:62114, ack 1015, win 1002, options [nop,nop,TS val 1773907131 ecr 10257644], length 1368
+22:44:45.281046 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 62114:62171, ack 1015, win 1002, options [nop,nop,TS val 1773907131 ecr 10257644], length 57
+22:44:45.281050 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 62171:63539, ack 1015, win 1002, options [nop,nop,TS val 1773907131 ecr 10257644], length 1368
+22:44:45.281053 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 63539:63596, ack 1015, win 1002, options [nop,nop,TS val 1773907131 ecr 10257644], length 57
+22:44:45.281056 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 63596:64669, ack 1015, win 1002, options [nop,nop,TS val 1773907131 ecr 10257644], length 1073
+22:44:45.281059 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 64669:66037, ack 1015, win 1002, options [nop,nop,TS val 1773907131 ecr 10257644], length 1368
+22:44:45.281062 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 66037:66094, ack 1015, win 1002, options [nop,nop,TS val 1773907131 ecr 10257644], length 57
+22:44:45.281139 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 66094:67462, ack 1015, win 1002, options [nop,nop,TS val 1773907131 ecr 10257644], length 1368
+22:44:45.281147 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 68830:68944, ack 1015, win 1002, options [nop,nop,TS val 1773907131 ecr 10257644], length 114
+22:44:45.281155 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 67462, win 1321, options [nop,nop,TS val 10257668 ecr 1773907131,nop,nop,sack 1 {68830:68944}], length 0
+22:44:45.281160 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 67462:68830, ack 1015, win 1002, options [nop,nop,TS val 1773907131 ecr 10257644], length 1368
+22:44:45.281165 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 68944, win 1307, options [nop,nop,TS val 10257668 ecr 1773907131], length 0
+22:44:45.281169 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 70312:70369, ack 1015, win 1002, options [nop,nop,TS val 1773907131 ecr 10257644], length 57
+22:44:45.281172 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 68944, win 1307, options [nop,nop,TS val 10257668 ecr 1773907131,nop,nop,sack 1 {70312:70369}], length 0
+22:44:45.281176 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 68944:70312, ack 1015, win 1002, options [nop,nop,TS val 1773907131 ecr 10257644], length 1368
+22:44:45.281180 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 70369, win 1289, options [nop,nop,TS val 10257668 ecr 1773907131], length 0
+22:44:45.281183 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 70369:71737, ack 1015, win 1002, options [nop,nop,TS val 1773907131 ecr 10257644], length 1368
+22:44:45.281187 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 71737, win 1275, options [nop,nop,TS val 10257668 ecr 1773907131], length 0
+22:44:45.281190 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 71737:71794, ack 1015, win 1002, options [nop,nop,TS val 1773907131 ecr 10257644], length 57
+22:44:45.281193 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 71794, win 1275, options [nop,nop,TS val 10257668 ecr 1773907131], length 0
+22:44:45.281198 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 71794:72182, ack 1015, win 1002, options [nop,nop,TS val 1773907131 ecr 10257644], length 388
+22:44:45.281202 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 72182, win 1269, options [nop,nop,TS val 10257668 ecr 1773907131], length 0
+22:44:45.281205 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 72182:72321, ack 1015, win 1002, options [nop,nop,TS val 1773907131 ecr 10257644], length 139
+22:44:45.281208 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 72321, win 1267, options [nop,nop,TS val 10257668 ecr 1773907131], length 0
+22:44:45.281212 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 72321:72422, ack 1015, win 1002, options [nop,nop,TS val 1773907132 ecr 10257644], length 101
+22:44:45.281215 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 72422, win 1266, options [nop,nop,TS val 10257668 ecr 1773907132], length 0
+22:44:45.281219 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 72422:72561, ack 1015, win 1002, options [nop,nop,TS val 1773907132 ecr 10257644], length 139
+22:44:45.281222 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 72561, win 1264, options [nop,nop,TS val 10257668 ecr 1773907132], length 0
+22:44:45.281226 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 72561:72624, ack 1015, win 1002, options [nop,nop,TS val 1773907132 ecr 10257644], length 63
+22:44:45.281228 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 72624, win 1264, options [nop,nop,TS val 10257668 ecr 1773907132], length 0
+22:44:45.281258 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 72624:72788, ack 1015, win 1002, options [nop,nop,TS val 1773907132 ecr 10257644], length 164
+22:44:45.281270 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 72788, win 1262, options [nop,nop,TS val 10257668 ecr 1773907132], length 0
+22:44:45.281322 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 72788:72851, ack 1015, win 1002, options [nop,nop,TS val 1773907132 ecr 10257644], length 63
+22:44:45.281329 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 72851, win 1262, options [nop,nop,TS val 10257668 ecr 1773907132], length 0
+22:44:45.281455 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 72851:72914, ack 1015, win 1002, options [nop,nop,TS val 1773907132 ecr 10257644], length 63
+22:44:45.281463 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 72914, win 1262, options [nop,nop,TS val 10257668 ecr 1773907132], length 0
+22:44:45.281467 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 72914:72977, ack 1015, win 1002, options [nop,nop,TS val 1773907132 ecr 10257644], length 63
+22:44:45.281470 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 72977, win 1262, options [nop,nop,TS val 10257668 ecr 1773907132], length 0
+22:44:45.320351 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 72977:74345, ack 1015, win 1002, options [nop,nop,TS val 1773907171 ecr 10257668], length 1368
+22:44:45.320372 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 74345, win 1393, options [nop,nop,TS val 10257672 ecr 1773907171], length 0
+22:44:45.320379 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 74345:75286, ack 1015, win 1002, options [nop,nop,TS val 1773907171 ecr 10257668], length 941
+22:44:45.320384 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 75286, win 1379, options [nop,nop,TS val 10257672 ecr 1773907171], length 0
+22:44:45.408296 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 75286:76654, ack 1015, win 1002, options [nop,nop,TS val 1773907258 ecr 10257672], length 1368
+22:44:45.408312 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 76654, win 1393, options [nop,nop,TS val 10257681 ecr 1773907258], length 0
+22:44:45.408321 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 76654:76711, ack 1015, win 1002, options [nop,nop,TS val 1773907258 ecr 10257672], length 57
+22:44:45.408326 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 76711:78079, ack 1015, win 1002, options [nop,nop,TS val 1773907258 ecr 10257672], length 1368
+22:44:45.408331 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 78079:78136, ack 1015, win 1002, options [nop,nop,TS val 1773907258 ecr 10257672], length 57
+22:44:45.408336 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 78136:79504, ack 1015, win 1002, options [nop,nop,TS val 1773907258 ecr 10257672], length 1368
+22:44:45.408339 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 79504:80683, ack 1015, win 1002, options [nop,nop,TS val 1773907258 ecr 10257672], length 1179
+22:44:45.408552 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 80683, win 1343, options [nop,nop,TS val 10257681 ecr 1773907258], length 0
+22:44:45.747761 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [P.], seq 1015:1105, ack 80683, win 1407, options [nop,nop,TS val 10257715 ecr 1773907258], length 90
+22:44:45.786944 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], ack 1105, win 1002, options [nop,nop,TS val 1773907637 ecr 10257715], length 0
+22:44:46.225380 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 80683:80808, ack 1105, win 1002, options [nop,nop,TS val 1773908076 ecr 10257715], length 125
+22:44:46.225408 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 80808, win 1406, options [nop,nop,TS val 10257763 ecr 1773908076], length 0
+22:44:46.227250 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [P.], seq 1105:1157, ack 80808, win 1407, options [nop,nop,TS val 10257763 ecr 1773908076], length 52
+22:44:46.266364 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], ack 1157, win 1002, options [nop,nop,TS val 1773908117 ecr 10257763], length 0
+22:44:46.404099 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 80808:81158, ack 1157, win 1002, options [nop,nop,TS val 1773908254 ecr 10257763], length 350
+22:44:46.404747 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [P.], seq 1157:1206, ack 81158, win 1407, options [nop,nop,TS val 10257781 ecr 1773908254], length 49
+22:44:46.444187 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], ack 1206, win 1002, options [nop,nop,TS val 1773908294 ecr 10257781], length 0
+22:44:46.576428 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 81158:81416, ack 1206, win 1002, options [nop,nop,TS val 1773908427 ecr 10257781], length 258
+22:44:46.576450 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 81416:81529, ack 1206, win 1002, options [nop,nop,TS val 1773908427 ecr 10257781], length 113
+22:44:46.576454 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 81529:81576, ack 1206, win 1002, options [nop,nop,TS val 1773908427 ecr 10257781], length 47
+22:44:46.576541 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 81576:81623, ack 1206, win 1002, options [nop,nop,TS val 1773908427 ecr 10257781], length 47
+22:44:46.576553 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 81623:81692, ack 1206, win 1002, options [nop,nop,TS val 1773908427 ecr 10257781], length 69
+22:44:46.576660 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 81692:81761, ack 1206, win 1002, options [nop,nop,TS val 1773908427 ecr 10257781], length 69
+22:44:46.576824 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 81761:81896, ack 1206, win 1002, options [nop,nop,TS val 1773908427 ecr 10257781], length 135
+22:44:46.576830 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 81896:81965, ack 1206, win 1002, options [nop,nop,TS val 1773908427 ecr 10257781], length 69
+22:44:46.577020 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 81965:82034, ack 1206, win 1002, options [nop,nop,TS val 1773908427 ecr 10257781], length 69
+22:44:46.577027 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 82034:82103, ack 1206, win 1002, options [nop,nop,TS val 1773908427 ecr 10257781], length 69
+22:44:46.577030 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 82103:82216, ack 1206, win 1002, options [nop,nop,TS val 1773908427 ecr 10257781], length 113
+22:44:46.577230 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 82216:82285, ack 1206, win 1002, options [nop,nop,TS val 1773908427 ecr 10257781], length 69
+22:44:46.577241 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 82285:82376, ack 1206, win 1002, options [nop,nop,TS val 1773908428 ecr 10257781], length 91
+22:44:46.577250 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 82376:82423, ack 1206, win 1002, options [nop,nop,TS val 1773908428 ecr 10257781], length 47
+22:44:46.577315 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 82423:82492, ack 1206, win 1002, options [nop,nop,TS val 1773908428 ecr 10257781], length 69
+22:44:46.577393 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 82492:82561, ack 1206, win 1002, options [nop,nop,TS val 1773908428 ecr 10257781], length 69
+22:44:46.577400 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 82561:82608, ack 1206, win 1002, options [nop,nop,TS val 1773908428 ecr 10257781], length 47
+22:44:46.577468 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 82608, win 1385, options [nop,nop,TS val 10257798 ecr 1773908427], length 0
+22:44:46.577638 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 82608:82765, ack 1206, win 1002, options [nop,nop,TS val 1773908428 ecr 10257781], length 157
+22:44:46.577649 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 82765:82834, ack 1206, win 1002, options [nop,nop,TS val 1773908428 ecr 10257781], length 69
+22:44:46.577658 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 82834:82881, ack 1206, win 1002, options [nop,nop,TS val 1773908428 ecr 10257781], length 47
+22:44:46.577723 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 82881:82928, ack 1206, win 1002, options [nop,nop,TS val 1773908428 ecr 10257781], length 47
+22:44:46.577728 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 82928:82997, ack 1206, win 1002, options [nop,nop,TS val 1773908428 ecr 10257781], length 69
+22:44:46.577915 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 82997:83132, ack 1206, win 1002, options [nop,nop,TS val 1773908428 ecr 10257781], length 135
+22:44:46.578068 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 83132:83289, ack 1206, win 1002, options [nop,nop,TS val 1773908428 ecr 10257781], length 157
+22:44:46.578203 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 83289, win 1407, options [nop,nop,TS val 10257798 ecr 1773908428], length 0
+22:44:46.616647 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 83289:83631, ack 1206, win 1002, options [nop,nop,TS val 1773908467 ecr 10257798], length 342
+22:44:46.653455 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 83631, win 1407, options [nop,nop,TS val 10257806 ecr 1773908467], length 0
+22:44:46.703279 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 83631:84302, ack 1206, win 1002, options [nop,nop,TS val 1773908554 ecr 10257806], length 671
+22:44:46.703302 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 84302, win 1397, options [nop,nop,TS val 10257810 ecr 1773908554], length 0
+22:44:46.707904 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [P.], seq 1206:1384, ack 84302, win 1407, options [nop,nop,TS val 10257811 ecr 1773908554], length 178
+22:44:46.746997 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], ack 1384, win 1002, options [nop,nop,TS val 1773908597 ecr 10257811], length 0
+22:44:47.323807 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 84302:85670, ack 1384, win 1002, options [nop,nop,TS val 1773909174 ecr 10257811], length 1368
+22:44:47.323824 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 85670:85727, ack 1384, win 1002, options [nop,nop,TS val 1773909174 ecr 10257811], length 57
+22:44:47.323829 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 85727:87095, ack 1384, win 1002, options [nop,nop,TS val 1773909174 ecr 10257811], length 1368
+22:44:47.323832 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 87095:87873, ack 1384, win 1002, options [nop,nop,TS val 1773909174 ecr 10257811], length 778
+22:44:47.323932 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 87873, win 1361, options [nop,nop,TS val 10257873 ecr 1773909174], length 0
+22:44:47.324255 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 87873:88585, ack 1384, win 1002, options [nop,nop,TS val 1773909175 ecr 10257811], length 712
+22:44:47.325909 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [P.], seq 1384:1439, ack 88585, win 1407, options [nop,nop,TS val 10257873 ecr 1773909175], length 55
+22:44:47.365024 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], ack 1439, win 1002, options [nop,nop,TS val 1773909215 ecr 10257873], length 0
+22:44:47.554110 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 88585:89033, ack 1439, win 1002, options [nop,nop,TS val 1773909404 ecr 10257873], length 448
+22:44:47.554131 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 89033:89191, ack 1439, win 1002, options [nop,nop,TS val 1773909404 ecr 10257873], length 158
+22:44:47.554135 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 89191:89252, ack 1439, win 1002, options [nop,nop,TS val 1773909404 ecr 10257873], length 61
+22:44:47.554309 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 89252:89313, ack 1439, win 1002, options [nop,nop,TS val 1773909405 ecr 10257873], length 61
+22:44:47.554322 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 89313:89410, ack 1439, win 1002, options [nop,nop,TS val 1773909405 ecr 10257873], length 97
+22:44:47.554621 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 89410, win 1407, options [nop,nop,TS val 10257896 ecr 1773909404], length 0
+22:44:47.681301 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 89410:90778, ack 1439, win 1002, options [nop,nop,TS val 1773909531 ecr 10257896], length 1368
+22:44:47.681323 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 90778:90835, ack 1439, win 1002, options [nop,nop,TS val 1773909531 ecr 10257896], length 57
+22:44:47.681328 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 90835:92203, ack 1439, win 1002, options [nop,nop,TS val 1773909531 ecr 10257896], length 1368
+22:44:47.681331 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 92203:92730, ack 1439, win 1002, options [nop,nop,TS val 1773909531 ecr 10257896], length 527
+22:44:47.681471 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 92730, win 1361, options [nop,nop,TS val 10257908 ecr 1773909531], length 0
+22:44:50.843913 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [P.], seq 1439:1495, ack 92730, win 1407, options [nop,nop,TS val 10258225 ecr 1773909531], length 56
+22:44:50.883074 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], ack 1495, win 1002, options [nop,nop,TS val 1773912733 ecr 10258225], length 0
+22:44:51.341254 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 92730:94098, ack 1495, win 1002, options [nop,nop,TS val 1773913191 ecr 10258225], length 1368
+22:44:51.341278 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 94098:95466, ack 1495, win 1002, options [nop,nop,TS val 1773913191 ecr 10258225], length 1368
+22:44:51.341283 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 95466:95580, ack 1495, win 1002, options [nop,nop,TS val 1773913191 ecr 10258225], length 114
+22:44:51.341287 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 95580:96883, ack 1495, win 1002, options [nop,nop,TS val 1773913191 ecr 10258225], length 1303
+22:44:51.341290 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 96883:98251, ack 1495, win 1002, options [nop,nop,TS val 1773913191 ecr 10258225], length 1368
+22:44:51.341293 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 98251:98308, ack 1495, win 1002, options [nop,nop,TS val 1773913191 ecr 10258225], length 57
+22:44:51.341296 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 98308:99676, ack 1495, win 1002, options [nop,nop,TS val 1773913191 ecr 10258225], length 1368
+22:44:51.341299 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 101044:101158, ack 1495, win 1002, options [nop,nop,TS val 1773913191 ecr 10258225], length 114
+22:44:51.341310 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 99676, win 1324, options [nop,nop,TS val 10258274 ecr 1773913191,nop,nop,sack 1 {101044:101158}], length 0
+22:44:51.341317 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 101158:102526, ack 1495, win 1002, options [nop,nop,TS val 1773913191 ecr 10258225], length 1368
+22:44:51.341322 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 99676, win 1324, options [nop,nop,TS val 10258274 ecr 1773913191,nop,nop,sack 1 {101044:102526}], length 0
+22:44:51.341325 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 102526:103170, ack 1495, win 1002, options [nop,nop,TS val 1773913191 ecr 10258225], length 644
+22:44:51.341329 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 99676, win 1324, options [nop,nop,TS val 10258274 ecr 1773913191,nop,nop,sack 1 {101044:103170}], length 0
+22:44:51.341333 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 99676:101044, ack 1495, win 1002, options [nop,nop,TS val 1773913191 ecr 10258225], length 1368
+22:44:51.341337 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 103170, win 1281, options [nop,nop,TS val 10258274 ecr 1773913191], length 0
+22:44:51.341452 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 103170:104538, ack 1495, win 1002, options [nop,nop,TS val 1773913192 ecr 10258225], length 1368
+22:44:51.341462 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 104538, win 1267, options [nop,nop,TS val 10258274 ecr 1773913192], length 0
+22:44:51.341467 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 104538:104595, ack 1495, win 1002, options [nop,nop,TS val 1773913192 ecr 10258225], length 57
+22:44:51.341472 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 104595, win 1267, options [nop,nop,TS val 10258274 ecr 1773913192], length 0
+22:44:51.341476 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 104595:105963, ack 1495, win 1002, options [nop,nop,TS val 1773913192 ecr 10258225], length 1368
+22:44:51.341479 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 105963, win 1249, options [nop,nop,TS val 10258274 ecr 1773913192], length 0
+22:44:51.341482 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 105963:106020, ack 1495, win 1002, options [nop,nop,TS val 1773913192 ecr 10258225], length 57
+22:44:51.341487 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 106020, win 1249, options [nop,nop,TS val 10258274 ecr 1773913192], length 0
+22:44:51.341590 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 106020:107388, ack 1495, win 1002, options [nop,nop,TS val 1773913192 ecr 10258225], length 1368
+22:44:51.341598 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 107388, win 1231, options [nop,nop,TS val 10258274 ecr 1773913192], length 0
+22:44:51.341605 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 107388:108756, ack 1495, win 1002, options [nop,nop,TS val 1773913192 ecr 10258225], length 1368
+22:44:51.341609 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 108756, win 1217, options [nop,nop,TS val 10258274 ecr 1773913192], length 0
+22:44:51.341652 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 108756:110116, ack 1495, win 1002, options [nop,nop,TS val 1773913192 ecr 10258225], length 1360
+22:44:51.341657 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 110116, win 1202, options [nop,nop,TS val 10258274 ecr 1773913192], length 0
+22:44:51.341660 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 110116:110565, ack 1495, win 1002, options [nop,nop,TS val 1773913192 ecr 10258225], length 449
+22:44:51.341662 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 110565, win 1195, options [nop,nop,TS val 10258274 ecr 1773913192], length 0
+22:44:51.379949 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [P.], seq 1495:1561, ack 110565, win 1407, options [nop,nop,TS val 10258278 ecr 1773913192], length 66
+22:44:51.419852 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], ack 1561, win 1002, options [nop,nop,TS val 1773913270 ecr 10258278], length 0
+22:44:52.243924 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 110565:110605, ack 1561, win 1002, options [nop,nop,TS val 1773914094 ecr 10258278], length 40
+22:44:52.243951 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 110605, win 1407, options [nop,nop,TS val 10258365 ecr 1773914094], length 0
+22:44:53.267282 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [P.], seq 1561:1620, ack 110605, win 1407, options [nop,nop,TS val 10258467 ecr 1773914094], length 59
+22:44:53.306350 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], ack 1620, win 1002, options [nop,nop,TS val 1773915157 ecr 10258467], length 0
+22:44:54.087131 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 110605:110707, ack 1620, win 1002, options [nop,nop,TS val 1773915937 ecr 10258467], length 102
+22:44:54.087160 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 110707, win 1406, options [nop,nop,TS val 10258549 ecr 1773915937], length 0
+22:44:54.089898 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [P.], seq 1620:1710, ack 110707, win 1407, options [nop,nop,TS val 10258549 ecr 1773915937], length 90
+22:44:54.128958 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], ack 1710, win 1002, options [nop,nop,TS val 1773915979 ecr 10258549], length 0
+22:44:54.273239 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 110707:110835, ack 1710, win 1002, options [nop,nop,TS val 1773916124 ecr 10258549], length 128
+22:44:54.275525 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [P.], seq 1710:1779, ack 110835, win 1407, options [nop,nop,TS val 10258568 ecr 1773916124], length 69
+22:44:54.314618 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], ack 1779, win 1002, options [nop,nop,TS val 1773916165 ecr 10258568], length 0
+22:44:54.449810 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 110835:110875, ack 1779, win 1002, options [nop,nop,TS val 1773916300 ecr 10258568], length 40
+22:44:54.450367 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [P.], seq 1779:1816, ack 110875, win 1407, options [nop,nop,TS val 10258585 ecr 1773916300], length 37
+22:44:54.489997 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], ack 1816, win 1002, options [nop,nop,TS val 1773916340 ecr 10258585], length 0
+22:44:54.786392 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 110875:110915, ack 1816, win 1002, options [nop,nop,TS val 1773916637 ecr 10258585], length 40
+22:44:54.792994 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [P.], seq 1816:1868, ack 110915, win 1407, options [nop,nop,TS val 10258619 ecr 1773916637], length 52
+22:44:54.832081 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], ack 1868, win 1002, options [nop,nop,TS val 1773916682 ecr 10258619], length 0
+22:44:55.038047 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 110915:111266, ack 1868, win 1002, options [nop,nop,TS val 1773916888 ecr 10258619], length 351
+22:44:55.038889 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [P.], seq 1868:2022, ack 111266, win 1407, options [nop,nop,TS val 10258644 ecr 1773916888], length 154
+22:44:55.077961 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], ack 2022, win 1002, options [nop,nop,TS val 1773916928 ecr 10258644], length 0
+22:44:55.348605 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 111266:111728, ack 2022, win 1002, options [nop,nop,TS val 1773917199 ecr 10258644], length 462
+22:44:55.383443 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 111728, win 1407, options [nop,nop,TS val 10258679 ecr 1773917199], length 0
+22:44:55.709573 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [P.], seq 2022:2074, ack 111728, win 1407, options [nop,nop,TS val 10258711 ecr 1773917199], length 52
+22:44:55.748609 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], ack 2074, win 1002, options [nop,nop,TS val 1773917599 ecr 10258711], length 0
+22:44:56.155490 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 111728:112078, ack 2074, win 1002, options [nop,nop,TS val 1773918006 ecr 10258711], length 350
+22:44:56.155513 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 112078, win 1402, options [nop,nop,TS val 10258756 ecr 1773918006], length 0
+22:44:56.157203 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [P.], seq 2074:2133, ack 112078, win 1407, options [nop,nop,TS val 10258756 ecr 1773918006], length 59
+22:44:56.196396 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], ack 2133, win 1002, options [nop,nop,TS val 1773918047 ecr 10258756], length 0
+22:44:56.529127 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 112078:112180, ack 2133, win 1002, options [nop,nop,TS val 1773918379 ecr 10258756], length 102
+22:44:56.530727 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [P.], seq 2133:2202, ack 112180, win 1407, options [nop,nop,TS val 10258793 ecr 1773918379], length 69
+22:44:56.569883 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], ack 2202, win 1002, options [nop,nop,TS val 1773918420 ecr 10258793], length 0
+22:44:56.699060 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 112180:112220, ack 2202, win 1002, options [nop,nop,TS val 1773918549 ecr 10258793], length 40
+22:44:56.699838 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [P.], seq 2202:2239, ack 112220, win 1407, options [nop,nop,TS val 10258810 ecr 1773918549], length 37
+22:44:56.739043 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], ack 2239, win 1002, options [nop,nop,TS val 1773918589 ecr 10258810], length 0
+22:44:57.165117 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 112220:112260, ack 2239, win 1002, options [nop,nop,TS val 1773919015 ecr 10258810], length 40
+22:44:57.166677 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [P.], seq 2239:2291, ack 112260, win 1407, options [nop,nop,TS val 10258857 ecr 1773919015], length 52
+22:44:57.206207 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], ack 2291, win 1002, options [nop,nop,TS val 1773919056 ecr 10258857], length 0
+22:44:57.357264 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 112260:112611, ack 2291, win 1002, options [nop,nop,TS val 1773919208 ecr 10258857], length 351
+22:44:57.357930 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [P.], seq 2291:2445, ack 112611, win 1407, options [nop,nop,TS val 10258876 ecr 1773919208], length 154
+22:44:57.397226 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], ack 2445, win 1002, options [nop,nop,TS val 1773919247 ecr 10258876], length 0
+22:44:57.534459 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 112611:113072, ack 2445, win 1002, options [nop,nop,TS val 1773919385 ecr 10258876], length 461
+22:44:57.573397 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 113072, win 1407, options [nop,nop,TS val 10258898 ecr 1773919385], length 0
+22:44:57.912006 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [P.], seq 2445:2497, ack 113072, win 1407, options [nop,nop,TS val 10258931 ecr 1773919385], length 52
+22:44:57.951153 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], ack 2497, win 1002, options [nop,nop,TS val 1773919801 ecr 10258931], length 0
+22:44:58.107478 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 113072:113422, ack 2497, win 1002, options [nop,nop,TS val 1773919958 ecr 10258931], length 350
+22:44:58.107497 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 113422, win 1402, options [nop,nop,TS val 10258951 ecr 1773919958], length 0
+22:44:58.109154 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [P.], seq 2497:2556, ack 113422, win 1407, options [nop,nop,TS val 10258951 ecr 1773919958], length 59
+22:44:58.148371 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], ack 2556, win 1002, options [nop,nop,TS val 1773919999 ecr 10258951], length 0
+22:44:58.618706 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 113422:113524, ack 2556, win 1002, options [nop,nop,TS val 1773920469 ecr 10258951], length 102
+22:44:58.620930 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [P.], seq 2556:2625, ack 113524, win 1407, options [nop,nop,TS val 10259002 ecr 1773920469], length 69
+22:44:58.660031 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], ack 2625, win 1002, options [nop,nop,TS val 1773920510 ecr 10259002], length 0
+22:44:58.814184 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 113524:113564, ack 2625, win 1002, options [nop,nop,TS val 1773920664 ecr 10259002], length 40
+22:44:58.814893 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [P.], seq 2625:2662, ack 113564, win 1407, options [nop,nop,TS val 10259022 ecr 1773920664], length 37
+22:44:58.853974 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], ack 2662, win 1002, options [nop,nop,TS val 1773920704 ecr 10259022], length 0
+22:44:58.983256 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 113564:113604, ack 2662, win 1002, options [nop,nop,TS val 1773920834 ecr 10259022], length 40
+22:44:58.985261 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [P.], seq 2662:2714, ack 113604, win 1407, options [nop,nop,TS val 10259039 ecr 1773920834], length 52
+22:44:59.024395 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], ack 2714, win 1002, options [nop,nop,TS val 1773920875 ecr 10259039], length 0
+22:44:59.167474 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 113604:113955, ack 2714, win 1002, options [nop,nop,TS val 1773921018 ecr 10259039], length 351
+22:44:59.168112 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [P.], seq 2714:2868, ack 113955, win 1407, options [nop,nop,TS val 10259057 ecr 1773921018], length 154
+22:44:59.207706 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], ack 2868, win 1002, options [nop,nop,TS val 1773921058 ecr 10259057], length 0
+22:44:59.610622 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 113955:114404, ack 2868, win 1002, options [nop,nop,TS val 1773921461 ecr 10259057], length 449
+22:44:59.643388 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 114404, win 1407, options [nop,nop,TS val 10259105 ecr 1773921461], length 0
+22:44:59.874694 IP dhcp-140-247-103-184.fas.harvard.edu.44757 > excas-snat.seas.harvard.edu.imaps: Flags [P.], seq 1853631629:1853631703, ack 313715084, win 9426, length 74
+22:44:59.875662 IP excas-snat.seas.harvard.edu.imaps > dhcp-140-247-103-184.fas.harvard.edu.44757: Flags [P.], seq 1:54, ack 74, win 5064, length 53
+22:44:59.875684 IP dhcp-140-247-103-184.fas.harvard.edu.44757 > excas-snat.seas.harvard.edu.imaps: Flags [.], ack 54, win 9426, length 0
+22:44:59.876239 IP dhcp-140-247-103-184.fas.harvard.edu.44757 > excas-snat.seas.harvard.edu.imaps: Flags [P.], seq 74:148, ack 54, win 9426, length 74
+22:44:59.877061 IP excas-snat.seas.harvard.edu.imaps > dhcp-140-247-103-184.fas.harvard.edu.44757: Flags [P.], seq 54:107, ack 148, win 5064, length 53
+22:44:59.878267 IP dhcp-140-247-103-184.fas.harvard.edu.44757 > excas-snat.seas.harvard.edu.imaps: Flags [P.], seq 148:254, ack 107, win 9426, length 106
+22:44:59.879445 IP excas-snat.seas.harvard.edu.imaps > dhcp-140-247-103-184.fas.harvard.edu.44757: Flags [P.], seq 107:176, ack 254, win 5064, length 69
+22:44:59.880837 IP excas-snat.seas.harvard.edu.imaps > dhcp-140-247-103-184.fas.harvard.edu.44757: Flags [.], seq 176:2936, ack 254, win 5064, length 2760
+22:44:59.880848 IP dhcp-140-247-103-184.fas.harvard.edu.44757 > excas-snat.seas.harvard.edu.imaps: Flags [.], ack 2936, win 9426, length 0
+22:44:59.881622 IP excas-snat.seas.harvard.edu.imaps > dhcp-140-247-103-184.fas.harvard.edu.44757: Flags [.], seq 2936:8456, ack 254, win 5064, length 5520
+22:44:59.881639 IP dhcp-140-247-103-184.fas.harvard.edu.44757 > excas-snat.seas.harvard.edu.imaps: Flags [.], ack 8456, win 9426, length 0
+22:44:59.882320 IP excas-snat.seas.harvard.edu.imaps > dhcp-140-247-103-184.fas.harvard.edu.44757: Flags [.], seq 8456:12596, ack 254, win 5064, length 4140
+22:44:59.882331 IP dhcp-140-247-103-184.fas.harvard.edu.44757 > excas-snat.seas.harvard.edu.imaps: Flags [.], ack 12596, win 9426, length 0
+22:44:59.882382 IP excas-snat.seas.harvard.edu.imaps > dhcp-140-247-103-184.fas.harvard.edu.44757: Flags [.], seq 12596:15356, ack 254, win 5064, length 2760
+22:44:59.882398 IP dhcp-140-247-103-184.fas.harvard.edu.44757 > excas-snat.seas.harvard.edu.imaps: Flags [.], ack 15356, win 9426, length 0
+22:44:59.882977 IP excas-snat.seas.harvard.edu.imaps > dhcp-140-247-103-184.fas.harvard.edu.44757: Flags [.], seq 15356:20876, ack 254, win 5064, length 5520
+22:44:59.882991 IP dhcp-140-247-103-184.fas.harvard.edu.44757 > excas-snat.seas.harvard.edu.imaps: Flags [.], ack 20876, win 9426, length 0
+22:44:59.883055 IP excas-snat.seas.harvard.edu.imaps > dhcp-140-247-103-184.fas.harvard.edu.44757: Flags [P.], seq 20876:23241, ack 254, win 5064, length 2365
+22:44:59.883065 IP dhcp-140-247-103-184.fas.harvard.edu.44757 > excas-snat.seas.harvard.edu.imaps: Flags [.], ack 23241, win 9426, length 0
+22:44:59.894328 IP dhcp-140-247-103-184.fas.harvard.edu.44757 > excas-snat.seas.harvard.edu.imaps: Flags [P.], seq 254:376, ack 23241, win 9426, length 122
+22:44:59.899870 IP excas-snat.seas.harvard.edu.imaps > dhcp-140-247-103-184.fas.harvard.edu.44757: Flags [P.], seq 23241:23374, ack 376, win 5064, length 133
+22:44:59.903633 IP dhcp-140-247-103-184.fas.harvard.edu.44757 > excas-snat.seas.harvard.edu.imaps: Flags [P.], seq 376:498, ack 23374, win 9426, length 122
+22:44:59.906650 IP excas-snat.seas.harvard.edu.imaps > dhcp-140-247-103-184.fas.harvard.edu.44757: Flags [P.], seq 23374:23507, ack 498, win 5064, length 133
+22:44:59.909122 IP dhcp-140-247-103-184.fas.harvard.edu.44757 > excas-snat.seas.harvard.edu.imaps: Flags [P.], seq 498:620, ack 23507, win 9426, length 122
+22:44:59.911660 IP excas-snat.seas.harvard.edu.imaps > dhcp-140-247-103-184.fas.harvard.edu.44757: Flags [P.], seq 23507:23640, ack 620, win 5064, length 133
+22:44:59.914629 IP dhcp-140-247-103-184.fas.harvard.edu.44757 > excas-snat.seas.harvard.edu.imaps: Flags [P.], seq 620:742, ack 23640, win 9426, length 122
+22:44:59.928179 IP excas-snat.seas.harvard.edu.imaps > dhcp-140-247-103-184.fas.harvard.edu.44757: Flags [P.], seq 23640:23773, ack 742, win 5064, length 133
+22:44:59.931844 IP dhcp-140-247-103-184.fas.harvard.edu.44757 > excas-snat.seas.harvard.edu.imaps: Flags [P.], seq 742:880, ack 23773, win 9426, length 138
+22:44:59.934547 IP excas-snat.seas.harvard.edu.imaps > dhcp-140-247-103-184.fas.harvard.edu.44757: Flags [P.], seq 23773:23906, ack 880, win 5064, length 133
+22:44:59.939014 IP dhcp-140-247-103-184.fas.harvard.edu.44757 > excas-snat.seas.harvard.edu.imaps: Flags [P.], seq 880:1002, ack 23906, win 9426, length 122
+22:44:59.941836 IP excas-snat.seas.harvard.edu.imaps > dhcp-140-247-103-184.fas.harvard.edu.44757: Flags [P.], seq 23906:24039, ack 1002, win 5064, length 133
+22:44:59.945924 IP dhcp-140-247-103-184.fas.harvard.edu.44757 > excas-snat.seas.harvard.edu.imaps: Flags [P.], seq 1002:1140, ack 24039, win 9426, length 138
+22:44:59.948949 IP excas-snat.seas.harvard.edu.imaps > dhcp-140-247-103-184.fas.harvard.edu.44757: Flags [P.], seq 24039:24172, ack 1140, win 5064, length 133
+22:44:59.983462 IP dhcp-140-247-103-184.fas.harvard.edu.44757 > excas-snat.seas.harvard.edu.imaps: Flags [.], ack 24172, win 9426, length 0
+22:45:00.198892 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [P.], seq 2868:2920, ack 114404, win 1407, options [nop,nop,TS val 10259160 ecr 1773921461], length 52
+22:45:00.238027 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], ack 2920, win 1002, options [nop,nop,TS val 1773922088 ecr 10259160], length 0
+22:45:00.382507 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 114404:114754, ack 2920, win 1002, options [nop,nop,TS val 1773922233 ecr 10259160], length 350
+22:45:00.382524 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 114754, win 1402, options [nop,nop,TS val 10259178 ecr 1773922233], length 0
+22:45:00.383790 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [P.], seq 2920:2976, ack 114754, win 1407, options [nop,nop,TS val 10259179 ecr 1773922233], length 56
+22:45:00.422924 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], ack 2976, win 1002, options [nop,nop,TS val 1773922273 ecr 10259179], length 0
+22:45:00.565168 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 114754:116122, ack 2976, win 1002, options [nop,nop,TS val 1773922415 ecr 10259179], length 1368
+22:45:00.565190 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 116122:116179, ack 2976, win 1002, options [nop,nop,TS val 1773922415 ecr 10259179], length 57
+22:45:00.565194 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 116179:117547, ack 2976, win 1002, options [nop,nop,TS val 1773922415 ecr 10259179], length 1368
+22:45:00.565199 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 117547:117604, ack 2976, win 1002, options [nop,nop,TS val 1773922415 ecr 10259179], length 57
+22:45:00.565202 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 117604:118972, ack 2976, win 1002, options [nop,nop,TS val 1773922415 ecr 10259179], length 1368
+22:45:00.565206 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 118972:119029, ack 2976, win 1002, options [nop,nop,TS val 1773922415 ecr 10259179], length 57
+22:45:00.565209 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 119029:120397, ack 2976, win 1002, options [nop,nop,TS val 1773922415 ecr 10259179], length 1368
+22:45:00.565213 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 120397:120454, ack 2976, win 1002, options [nop,nop,TS val 1773922415 ecr 10259179], length 57
+22:45:00.565217 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 120454:121822, ack 2976, win 1002, options [nop,nop,TS val 1773922415 ecr 10259179], length 1368
+22:45:00.565220 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 121822:123190, ack 2976, win 1002, options [nop,nop,TS val 1773922415 ecr 10259179], length 1368
+22:45:00.565223 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 123190:123304, ack 2976, win 1002, options [nop,nop,TS val 1773922415 ecr 10259179], length 114
+22:45:00.565324 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 123304:124672, ack 2976, win 1002, options [nop,nop,TS val 1773922415 ecr 10259179], length 1368
+22:45:00.565332 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 124672:124729, ack 2976, win 1002, options [nop,nop,TS val 1773922415 ecr 10259179], length 57
+22:45:00.565336 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 124729:126097, ack 2976, win 1002, options [nop,nop,TS val 1773922415 ecr 10259179], length 1368
+22:45:00.565340 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 126097:126154, ack 2976, win 1002, options [nop,nop,TS val 1773922415 ecr 10259179], length 57
+22:45:00.565453 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 126154, win 1268, options [nop,nop,TS val 10259197 ecr 1773922415], length 0
+22:45:00.604724 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 126154:127522, ack 2976, win 1002, options [nop,nop,TS val 1773922455 ecr 10259197], length 1368
+22:45:00.604741 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 127522:128890, ack 2976, win 1002, options [nop,nop,TS val 1773922455 ecr 10259197], length 1368
+22:45:00.604749 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 128890, win 1378, options [nop,nop,TS val 10259201 ecr 1773922455], length 0
+22:45:00.604825 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 128890:130258, ack 2976, win 1002, options [nop,nop,TS val 1773922455 ecr 10259197], length 1368
+22:45:00.604838 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 130258:131626, ack 2976, win 1002, options [nop,nop,TS val 1773922455 ecr 10259197], length 1368
+22:45:00.604845 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 131626:132318, ack 2976, win 1002, options [nop,nop,TS val 1773922455 ecr 10259197], length 692
+22:45:00.604934 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 132318, win 1350, options [nop,nop,TS val 10259201 ecr 1773922455], length 0
+22:45:00.628527 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [P.], seq 2976:3042, ack 132318, win 1407, options [nop,nop,TS val 10259203 ecr 1773922455], length 66
+22:45:00.668133 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], ack 3042, win 1002, options [nop,nop,TS val 1773922518 ecr 10259203], length 0
+22:45:00.997304 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 132318:132358, ack 3042, win 1002, options [nop,nop,TS val 1773922848 ecr 10259203], length 40
+22:45:01.033424 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 132358, win 1407, options [nop,nop,TS val 10259244 ecr 1773922848], length 0
+22:45:01.307107 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [P.], seq 3042:3098, ack 132358, win 1407, options [nop,nop,TS val 10259271 ecr 1773922848], length 56
+22:45:01.346171 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], ack 3098, win 1002, options [nop,nop,TS val 1773923197 ecr 10259271], length 0
+22:45:01.635134 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 132358:133726, ack 3098, win 1002, options [nop,nop,TS val 1773923485 ecr 10259271], length 1368
+22:45:01.635162 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 133726, win 1393, options [nop,nop,TS val 10259304 ecr 1773923485], length 0
+22:45:01.635169 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 133726:135094, ack 3098, win 1002, options [nop,nop,TS val 1773923485 ecr 10259271], length 1368
+22:45:01.635174 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 135094, win 1378, options [nop,nop,TS val 10259304 ecr 1773923485], length 0
+22:45:01.635178 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 135094:135208, ack 3098, win 1002, options [nop,nop,TS val 1773923485 ecr 10259271], length 114
+22:45:01.635182 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 135208, win 1377, options [nop,nop,TS val 10259304 ecr 1773923485], length 0
+22:45:01.635186 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 135208:136576, ack 3098, win 1002, options [nop,nop,TS val 1773923485 ecr 10259271], length 1368
+22:45:01.635190 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 136576, win 1360, options [nop,nop,TS val 10259304 ecr 1773923485], length 0
+22:45:01.635193 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 136576:136633, ack 3098, win 1002, options [nop,nop,TS val 1773923485 ecr 10259271], length 57
+22:45:01.635197 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 136633, win 1360, options [nop,nop,TS val 10259304 ecr 1773923485], length 0
+22:45:01.635200 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 136633:138001, ack 3098, win 1002, options [nop,nop,TS val 1773923485 ecr 10259271], length 1368
+22:45:01.635204 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 138001, win 1342, options [nop,nop,TS val 10259304 ecr 1773923485], length 0
+22:45:01.635208 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 138001:138058, ack 3098, win 1002, options [nop,nop,TS val 1773923485 ecr 10259271], length 57
+22:45:01.635212 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 138058, win 1342, options [nop,nop,TS val 10259304 ecr 1773923485], length 0
+22:45:01.635215 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 140794:140908, ack 3098, win 1002, options [nop,nop,TS val 1773923485 ecr 10259271], length 114
+22:45:01.635220 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 138058, win 1342, options [nop,nop,TS val 10259304 ecr 1773923485,nop,nop,sack 1 {140794:140908}], length 0
+22:45:01.635224 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 140908:142276, ack 3098, win 1002, options [nop,nop,TS val 1773923485 ecr 10259271], length 1368
+22:45:01.635228 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 138058, win 1342, options [nop,nop,TS val 10259304 ecr 1773923485,nop,nop,sack 1 {140794:142276}], length 0
+22:45:01.635233 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 138058:139426, ack 3098, win 1002, options [nop,nop,TS val 1773923485 ecr 10259271], length 1368
+22:45:01.635237 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 139426, win 1321, options [nop,nop,TS val 10259304 ecr 1773923485,nop,nop,sack 1 {140794:142276}], length 0
+22:45:01.635241 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 142276:142798, ack 3098, win 1002, options [nop,nop,TS val 1773923485 ecr 10259271], length 522
+22:45:01.635244 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 139426, win 1321, options [nop,nop,TS val 10259304 ecr 1773923485,nop,nop,sack 1 {140794:142798}], length 0
+22:45:01.635247 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 139426:140794, ack 3098, win 1002, options [nop,nop,TS val 1773923485 ecr 10259271], length 1368
+22:45:01.635252 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 142798, win 1278, options [nop,nop,TS val 10259304 ecr 1773923485], length 0
+22:45:01.635479 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 142798:144166, ack 3098, win 1002, options [nop,nop,TS val 1773923485 ecr 10259271], length 1368
+22:45:01.635487 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 144166, win 1263, options [nop,nop,TS val 10259304 ecr 1773923485], length 0
+22:45:01.635493 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 145591:145648, ack 3098, win 1002, options [nop,nop,TS val 1773923485 ecr 10259271], length 57
+22:45:01.635499 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 144166, win 1263, options [nop,nop,TS val 10259304 ecr 1773923485,nop,nop,sack 1 {145591:145648}], length 0
+22:45:01.635502 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 144166:144223, ack 3098, win 1002, options [nop,nop,TS val 1773923485 ecr 10259271], length 57
+22:45:01.635507 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 144223, win 1263, options [nop,nop,TS val 10259304 ecr 1773923485,nop,nop,sack 1 {145591:145648}], length 0
+22:45:01.635511 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 145648:147016, ack 3098, win 1002, options [nop,nop,TS val 1773923485 ecr 10259271], length 1368
+22:45:01.635514 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 144223, win 1263, options [nop,nop,TS val 10259304 ecr 1773923485,nop,nop,sack 1 {145591:147016}], length 0
+22:45:01.635590 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 148384:149744, ack 3098, win 1002, options [nop,nop,TS val 1773923485 ecr 10259271], length 1360
+22:45:01.635600 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 144223, win 1263, options [nop,nop,TS val 10259304 ecr 1773923485,nop,nop,sack 2 {148384:149744}{145591:147016}], length 0
+22:45:01.635605 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 149744:150438, ack 3098, win 1002, options [nop,nop,TS val 1773923485 ecr 10259271], length 694
+22:45:01.635610 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 144223, win 1263, options [nop,nop,TS val 10259304 ecr 1773923485,nop,nop,sack 2 {148384:150438}{145591:147016}], length 0
+22:45:01.635614 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 144223:145591, ack 3098, win 1002, options [nop,nop,TS val 1773923485 ecr 10259271], length 1368
+22:45:01.635621 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 147016, win 1220, options [nop,nop,TS val 10259304 ecr 1773923485,nop,nop,sack 1 {148384:150438}], length 0
+22:45:01.635625 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 147016:148384, ack 3098, win 1002, options [nop,nop,TS val 1773923485 ecr 10259271], length 1368
+22:45:01.635630 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 150438, win 1185, options [nop,nop,TS val 10259304 ecr 1773923485], length 0
+22:45:01.674723 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 144223:145591, ack 3098, win 1002, options [nop,nop,TS val 1773923525 ecr 10259304], length 1368
+22:45:01.674748 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 150438, win 1407, options [nop,nop,TS val 10259308 ecr 1773923485,nop,nop,sack 1 {144223:145591}], length 0
+22:45:01.674759 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 147016:148384, ack 3098, win 1002, options [nop,nop,TS val 1773923525 ecr 10259304], length 1368
+22:45:01.674765 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 150438, win 1407, options [nop,nop,TS val 10259308 ecr 1773923485,nop,nop,sack 1 {147016:148384}], length 0
+22:45:01.675185 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [P.], seq 3098:3164, ack 150438, win 1407, options [nop,nop,TS val 10259308 ecr 1773923485], length 66
+22:45:01.714463 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], ack 3164, win 1002, options [nop,nop,TS val 1773923564 ecr 10259308], length 0
+22:45:02.311812 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 150438:150478, ack 3164, win 1002, options [nop,nop,TS val 1773924162 ecr 10259308], length 40
+22:45:02.311839 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 150478, win 1407, options [nop,nop,TS val 10259371 ecr 1773924162], length 0
+22:45:02.408360 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [P.], seq 3164:3223, ack 150478, win 1407, options [nop,nop,TS val 10259381 ecr 1773924162], length 59
+22:45:02.448038 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], ack 3223, win 1002, options [nop,nop,TS val 1773924298 ecr 10259381], length 0
+22:45:02.884179 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 150478:150580, ack 3223, win 1002, options [nop,nop,TS val 1773924735 ecr 10259381], length 102
+22:45:02.884212 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 150580, win 1406, options [nop,nop,TS val 10259429 ecr 1773924735], length 0
+22:45:02.887112 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [P.], seq 3223:3292, ack 150580, win 1407, options [nop,nop,TS val 10259429 ecr 1773924735], length 69
+22:45:02.926408 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], ack 3292, win 1002, options [nop,nop,TS val 1773924777 ecr 10259429], length 0
+22:45:03.055501 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 150580:150620, ack 3292, win 1002, options [nop,nop,TS val 1773924906 ecr 10259429], length 40
+22:45:03.056035 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [P.], seq 3292:3329, ack 150620, win 1407, options [nop,nop,TS val 10259446 ecr 1773924906], length 37
+22:45:03.095459 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], ack 3329, win 1002, options [nop,nop,TS val 1773924946 ecr 10259446], length 0
+22:45:03.224158 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 150620:150660, ack 3329, win 1002, options [nop,nop,TS val 1773925074 ecr 10259446], length 40
+22:45:03.225962 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [P.], seq 3329:3381, ack 150660, win 1407, options [nop,nop,TS val 10259463 ecr 1773925074], length 52
+22:45:03.265131 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], ack 3381, win 1002, options [nop,nop,TS val 1773925115 ecr 10259463], length 0
+22:45:03.409155 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 150660:151011, ack 3381, win 1002, options [nop,nop,TS val 1773925259 ecr 10259463], length 351
+22:45:03.409928 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [P.], seq 3381:3535, ack 151011, win 1407, options [nop,nop,TS val 10259481 ecr 1773925259], length 154
+22:45:03.449052 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], ack 3535, win 1002, options [nop,nop,TS val 1773925299 ecr 10259481], length 0
+22:45:03.585474 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 151011:151444, ack 3535, win 1002, options [nop,nop,TS val 1773925436 ecr 10259481], length 433
+22:45:03.585494 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 151444:151484, ack 3535, win 1002, options [nop,nop,TS val 1773925436 ecr 10259481], length 40
+22:45:03.585734 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 151484, win 1407, options [nop,nop,TS val 10259499 ecr 1773925436], length 0
+22:45:03.907866 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [P.], seq 3535:3587, ack 151484, win 1407, options [nop,nop,TS val 10259531 ecr 1773925436], length 52
+22:45:03.946995 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], ack 3587, win 1002, options [nop,nop,TS val 1773925797 ecr 10259531], length 0
+22:45:04.445247 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 151484:151834, ack 3587, win 1002, options [nop,nop,TS val 1773926295 ecr 10259531], length 350
+22:45:04.446988 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [P.], seq 3587:3646, ack 151834, win 1407, options [nop,nop,TS val 10259585 ecr 1773926295], length 59
+22:45:04.486153 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], ack 3646, win 1002, options [nop,nop,TS val 1773926336 ecr 10259585], length 0
+22:45:04.903374 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 151834:151936, ack 3646, win 1002, options [nop,nop,TS val 1773926754 ecr 10259585], length 102
+22:45:04.905508 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [P.], seq 3646:3715, ack 151936, win 1407, options [nop,nop,TS val 10259631 ecr 1773926754], length 69
+22:45:04.945024 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], ack 3715, win 1002, options [nop,nop,TS val 1773926795 ecr 10259631], length 0
+22:45:05.497232 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 151936:151976, ack 3715, win 1002, options [nop,nop,TS val 1773927348 ecr 10259631], length 40
+22:45:05.498378 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [P.], seq 3715:3752, ack 151976, win 1407, options [nop,nop,TS val 10259690 ecr 1773927348], length 37
+22:45:05.537464 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], ack 3752, win 1002, options [nop,nop,TS val 1773927388 ecr 10259690], length 0
+22:45:05.666484 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 151976:152016, ack 3752, win 1002, options [nop,nop,TS val 1773927517 ecr 10259690], length 40
+22:45:05.669040 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [P.], seq 3752:3804, ack 152016, win 1407, options [nop,nop,TS val 10259707 ecr 1773927517], length 52
+22:45:05.708612 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], ack 3804, win 1002, options [nop,nop,TS val 1773927559 ecr 10259707], length 0
+22:45:05.850689 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 152016:152367, ack 3804, win 1002, options [nop,nop,TS val 1773927701 ecr 10259707], length 351
+22:45:05.851406 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [P.], seq 3804:3958, ack 152367, win 1407, options [nop,nop,TS val 10259725 ecr 1773927701], length 154
+22:45:05.890531 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], ack 3958, win 1002, options [nop,nop,TS val 1773927741 ecr 10259725], length 0
+22:45:06.027157 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 152367:152792, ack 3958, win 1002, options [nop,nop,TS val 1773927877 ecr 10259725], length 425
+22:45:06.027173 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 152792:152832, ack 3958, win 1002, options [nop,nop,TS val 1773927877 ecr 10259725], length 40
+22:45:06.027328 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 152832, win 1407, options [nop,nop,TS val 10259743 ecr 1773927877], length 0
+22:45:07.361347 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [P.], seq 3958:4040, ack 152832, win 1407, options [nop,nop,TS val 10259876 ecr 1773927877], length 82
+22:45:07.400423 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], ack 4040, win 1002, options [nop,nop,TS val 1773929251 ecr 10259876], length 0
+22:45:07.548710 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 152832:152951, ack 4040, win 1002, options [nop,nop,TS val 1773929399 ecr 10259876], length 119
+22:45:07.550899 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [P.], seq 4040:4084, ack 152951, win 1407, options [nop,nop,TS val 10259895 ecr 1773929399], length 44
+22:45:07.590067 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], ack 4084, win 1002, options [nop,nop,TS val 1773929440 ecr 10259895], length 0
+22:45:07.745560 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 152951:153295, ack 4084, win 1002, options [nop,nop,TS val 1773929596 ecr 10259895], length 344
+22:45:07.746446 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [P.], seq 4084:4133, ack 153295, win 1407, options [nop,nop,TS val 10259915 ecr 1773929596], length 49
+22:45:07.785557 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], ack 4133, win 1002, options [nop,nop,TS val 1773929636 ecr 10259915], length 0
+22:45:07.915184 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 153295:153382, ack 4133, win 1002, options [nop,nop,TS val 1773929765 ecr 10259915], length 87
+22:45:07.915207 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 153382:153449, ack 4133, win 1002, options [nop,nop,TS val 1773929765 ecr 10259915], length 67
+22:45:07.915211 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 153449:153495, ack 4133, win 1002, options [nop,nop,TS val 1773929765 ecr 10259915], length 46
+22:45:07.915338 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 153495:153562, ack 4133, win 1002, options [nop,nop,TS val 1773929765 ecr 10259915], length 67
+22:45:07.915350 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 153562:153608, ack 4133, win 1002, options [nop,nop,TS val 1773929766 ecr 10259915], length 46
+22:45:07.915445 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 153608:153655, ack 4133, win 1002, options [nop,nop,TS val 1773929766 ecr 10259915], length 47
+22:45:07.915452 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 153655:153724, ack 4133, win 1002, options [nop,nop,TS val 1773929766 ecr 10259915], length 69
+22:45:07.915455 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 153724:153837, ack 4133, win 1002, options [nop,nop,TS val 1773929766 ecr 10259915], length 113
+22:45:07.915655 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 153837:153928, ack 4133, win 1002, options [nop,nop,TS val 1773929766 ecr 10259915], length 91
+22:45:07.915661 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 153928:154022, ack 4133, win 1002, options [nop,nop,TS val 1773929766 ecr 10259915], length 94
+22:45:07.915663 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 154022:154069, ack 4133, win 1002, options [nop,nop,TS val 1773929766 ecr 10259915], length 47
+22:45:07.915796 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 154069:154138, ack 4133, win 1002, options [nop,nop,TS val 1773929766 ecr 10259915], length 69
+22:45:07.916015 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 154138, win 1407, options [nop,nop,TS val 10259932 ecr 1773929765], length 0
+22:45:08.042362 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 154138:155506, ack 4133, win 1002, options [nop,nop,TS val 1773929892 ecr 10259932], length 1368
+22:45:08.042382 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 155506:155563, ack 4133, win 1002, options [nop,nop,TS val 1773929892 ecr 10259932], length 57
+22:45:08.042387 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 155563:156931, ack 4133, win 1002, options [nop,nop,TS val 1773929892 ecr 10259932], length 1368
+22:45:08.042391 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 156931:156988, ack 4133, win 1002, options [nop,nop,TS val 1773929892 ecr 10259932], length 57
+22:45:08.042395 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 156988:158356, ack 4133, win 1002, options [nop,nop,TS val 1773929893 ecr 10259932], length 1368
+22:45:08.042398 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 158356:158499, ack 4133, win 1002, options [nop,nop,TS val 1773929893 ecr 10259932], length 143
+22:45:08.042428 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 158499, win 1353, options [nop,nop,TS val 10259944 ecr 1773929892], length 0
+22:45:08.048230 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [P.], seq 4133:4301, ack 158499, win 1407, options [nop,nop,TS val 10259945 ecr 1773929892], length 168
+22:45:08.087439 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], ack 4301, win 1002, options [nop,nop,TS val 1773929938 ecr 10259945], length 0
+22:45:08.229343 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 158499:158908, ack 4301, win 1002, options [nop,nop,TS val 1773930079 ecr 10259945], length 409
+22:45:08.229512 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 158908:159482, ack 4301, win 1002, options [nop,nop,TS val 1773930079 ecr 10259945], length 574
+22:45:08.229526 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 159482:159922, ack 4301, win 1002, options [nop,nop,TS val 1773930079 ecr 10259945], length 440
+22:45:08.229541 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 159922, win 1385, options [nop,nop,TS val 10259963 ecr 1773930079], length 0
+22:45:08.229633 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 159922:160342, ack 4301, win 1002, options [nop,nop,TS val 1773930080 ecr 10259945], length 420
+22:45:08.229647 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 160342:160382, ack 4301, win 1002, options [nop,nop,TS val 1773930080 ecr 10259945], length 40
+22:45:08.229862 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 160382, win 1407, options [nop,nop,TS val 10259963 ecr 1773930080], length 0
+22:45:08.231522 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [P.], seq 4301:4356, ack 160382, win 1407, options [nop,nop,TS val 10259963 ecr 1773930080], length 55
+22:45:08.270685 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], ack 4356, win 1002, options [nop,nop,TS val 1773930121 ecr 10259963], length 0
+22:45:08.451623 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 160382:160476, ack 4356, win 1002, options [nop,nop,TS val 1773930302 ecr 10259963], length 94
+22:45:08.451640 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 160476:160536, ack 4356, win 1002, options [nop,nop,TS val 1773930302 ecr 10259963], length 60
+22:45:08.451899 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 160536, win 1407, options [nop,nop,TS val 10259985 ecr 1773930302], length 0
+22:45:08.452341 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 160536:160596, ack 4356, win 1002, options [nop,nop,TS val 1773930303 ecr 10259963], length 60
+22:45:08.452570 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 160596:160751, ack 4356, win 1002, options [nop,nop,TS val 1773930303 ecr 10259963], length 155
+22:45:08.452583 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 160751:160811, ack 4356, win 1002, options [nop,nop,TS val 1773930303 ecr 10259963], length 60
+22:45:08.452797 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 160811, win 1407, options [nop,nop,TS val 10259985 ecr 1773930303], length 0
+22:45:08.452841 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 160811:160907, ack 4356, win 1002, options [nop,nop,TS val 1773930303 ecr 10259963], length 96
+22:45:08.452853 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 160907:161148, ack 4356, win 1002, options [nop,nop,TS val 1773930303 ecr 10259963], length 241
+22:45:08.452857 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 161148:161209, ack 4356, win 1002, options [nop,nop,TS val 1773930303 ecr 10259963], length 61
+22:45:08.452999 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 161209, win 1407, options [nop,nop,TS val 10259985 ecr 1773930303], length 0
+22:45:08.453057 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 161209:161342, ack 4356, win 1002, options [nop,nop,TS val 1773930303 ecr 10259963], length 133
+22:45:08.453131 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 161342:161619, ack 4356, win 1002, options [nop,nop,TS val 1773930303 ecr 10259963], length 277
+22:45:08.453187 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 161619, win 1407, options [nop,nop,TS val 10259985 ecr 1773930303], length 0
+22:45:08.581116 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 161619:162987, ack 4356, win 1002, options [nop,nop,TS val 1773930431 ecr 10259985], length 1368
+22:45:08.581140 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 162987:163044, ack 4356, win 1002, options [nop,nop,TS val 1773930431 ecr 10259985], length 57
+22:45:08.581144 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 163044:164412, ack 4356, win 1002, options [nop,nop,TS val 1773930431 ecr 10259985], length 1368
+22:45:08.581148 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 164412:164469, ack 4356, win 1002, options [nop,nop,TS val 1773930431 ecr 10259985], length 57
+22:45:08.581151 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 164469:165837, ack 4356, win 1002, options [nop,nop,TS val 1773930431 ecr 10259985], length 1368
+22:45:08.581154 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 165837:165894, ack 4356, win 1002, options [nop,nop,TS val 1773930431 ecr 10259985], length 57
+22:45:08.581220 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 165894:167262, ack 4356, win 1002, options [nop,nop,TS val 1773930431 ecr 10259985], length 1368
+22:45:08.581229 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 167262:167319, ack 4356, win 1002, options [nop,nop,TS val 1773930431 ecr 10259985], length 57
+22:45:08.581233 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 167319:168515, ack 4356, win 1002, options [nop,nop,TS val 1773930431 ecr 10259985], length 1196
+22:45:08.581293 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 168515, win 1322, options [nop,nop,TS val 10259998 ecr 1773930431], length 0
+22:45:09.720338 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [P.], seq 4356:4412, ack 168515, win 1407, options [nop,nop,TS val 10260112 ecr 1773930431], length 56
+22:45:09.759395 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], ack 4412, win 1002, options [nop,nop,TS val 1773931610 ecr 10260112], length 0
+22:45:09.962205 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 168515:169883, ack 4412, win 1002, options [nop,nop,TS val 1773931812 ecr 10260112], length 1368
+22:45:09.962227 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 169883:169940, ack 4412, win 1002, options [nop,nop,TS val 1773931812 ecr 10260112], length 57
+22:45:09.962231 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 169940:171308, ack 4412, win 1002, options [nop,nop,TS val 1773931812 ecr 10260112], length 1368
+22:45:09.962235 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 171308:171365, ack 4412, win 1002, options [nop,nop,TS val 1773931812 ecr 10260112], length 57
+22:45:09.962238 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 171365:172424, ack 4412, win 1002, options [nop,nop,TS val 1773931812 ecr 10260112], length 1059
+22:45:09.962354 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 172424, win 1357, options [nop,nop,TS val 10260136 ecr 1773931812], length 0
+22:45:10.688244 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [P.], seq 4412:4468, ack 172424, win 1407, options [nop,nop,TS val 10260209 ecr 1773931812], length 56
+22:45:10.727455 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], ack 4468, win 1002, options [nop,nop,TS val 1773932578 ecr 10260209], length 0
+22:45:10.887814 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 172424:173792, ack 4468, win 1002, options [nop,nop,TS val 1773932738 ecr 10260209], length 1368
+22:45:10.887829 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 173792:173849, ack 4468, win 1002, options [nop,nop,TS val 1773932738 ecr 10260209], length 57
+22:45:10.887833 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 173849:175217, ack 4468, win 1002, options [nop,nop,TS val 1773932738 ecr 10260209], length 1368
+22:45:10.887838 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 175217:175575, ack 4468, win 1002, options [nop,nop,TS val 1773932738 ecr 10260209], length 358
+22:45:10.887841 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 175575:176943, ack 4468, win 1002, options [nop,nop,TS val 1773932738 ecr 10260209], length 1368
+22:45:10.887844 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 176943:177000, ack 4468, win 1002, options [nop,nop,TS val 1773932738 ecr 10260209], length 57
+22:45:10.887992 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 177000, win 1343, options [nop,nop,TS val 10260229 ecr 1773932738], length 0
+22:45:10.888018 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [.], seq 177000:178368, ack 4468, win 1002, options [nop,nop,TS val 1773932738 ecr 10260209], length 1368
+22:45:10.888022 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 178368:178425, ack 4468, win 1002, options [nop,nop,TS val 1773932738 ecr 10260209], length 57
+22:45:10.888026 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 178425, win 1343, options [nop,nop,TS val 10260229 ecr 1773932738], length 0
+22:45:10.888029 IP vb-in-f108.1e100.net.imaps > dhcp-140-247-103-184.fas.harvard.edu.50790: Flags [P.], seq 178425:179526, ack 4468, win 1002, options [nop,nop,TS val 1773932738 ecr 10260209], length 1101
+22:45:10.923447 IP dhcp-140-247-103-184.fas.harvard.edu.50790 > vb-in-f108.1e100.net.imaps: Flags [.], ack 179526, win 1407, options [nop,nop,TS val 10260233 ecr 1773932738], length 0
+

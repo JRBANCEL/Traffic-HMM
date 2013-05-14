@@ -1,0 +1,278 @@
+22:48:14.314092 IP dhcp-140-247-103-184.fas.harvard.edu.44259 > raspoutine.rezel.enst.fr.ssh: Flags [P.], seq 525716783:525716831, ack 2280485319, win 661, options [nop,nop,TS val 10278572 ecr 143207583], length 48
+22:48:14.419623 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44259: Flags [P.], seq 1:65, ack 48, win 435, options [nop,nop,TS val 143209468 ecr 10278572], length 64
+22:48:14.419654 IP dhcp-140-247-103-184.fas.harvard.edu.44259 > raspoutine.rezel.enst.fr.ssh: Flags [.], ack 65, win 661, options [nop,nop,TS val 10278582 ecr 143209468], length 0
+22:48:14.419801 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44259: Flags [P.], seq 65:161, ack 48, win 435, options [nop,nop,TS val 143209468 ecr 10278572], length 96
+22:48:14.419809 IP dhcp-140-247-103-184.fas.harvard.edu.44259 > raspoutine.rezel.enst.fr.ssh: Flags [.], ack 161, win 661, options [nop,nop,TS val 10278582 ecr 143209468], length 0
+22:48:15.249021 IP dhcp-140-247-103-184.fas.harvard.edu.44259 > raspoutine.rezel.enst.fr.ssh: Flags [P.], seq 48:96, ack 161, win 661, options [nop,nop,TS val 10278665 ecr 143209468], length 48
+22:48:15.354574 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44259: Flags [P.], seq 161:209, ack 96, win 435, options [nop,nop,TS val 143209701 ecr 10278665], length 48
+22:48:15.354603 IP dhcp-140-247-103-184.fas.harvard.edu.44259 > raspoutine.rezel.enst.fr.ssh: Flags [.], ack 209, win 661, options [nop,nop,TS val 10278676 ecr 143209701], length 0
+22:48:15.354613 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44259: Flags [P.], seq 209:273, ack 96, win 435, options [nop,nop,TS val 143209701 ecr 10278665], length 64
+22:48:15.354617 IP dhcp-140-247-103-184.fas.harvard.edu.44259 > raspoutine.rezel.enst.fr.ssh: Flags [.], ack 273, win 661, options [nop,nop,TS val 10278676 ecr 143209701], length 0
+22:48:15.354622 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44259: Flags [P.], seq 273:337, ack 96, win 435, options [nop,nop,TS val 143209701 ecr 10278665], length 64
+22:48:15.354625 IP dhcp-140-247-103-184.fas.harvard.edu.44259 > raspoutine.rezel.enst.fr.ssh: Flags [.], ack 337, win 661, options [nop,nop,TS val 10278676 ecr 143209701], length 0
+22:48:15.459965 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44259: Flags [P.], seq 337:641, ack 96, win 435, options [nop,nop,TS val 143209728 ecr 10278676], length 304
+22:48:15.459982 IP dhcp-140-247-103-184.fas.harvard.edu.44259 > raspoutine.rezel.enst.fr.ssh: Flags [.], ack 641, win 661, options [nop,nop,TS val 10278686 ecr 143209728], length 0
+22:48:15.504621 IP dhcp-140-247-103-184.fas.harvard.edu.44259 > raspoutine.rezel.enst.fr.ssh: Flags [P.], seq 96:144, ack 641, win 661, options [nop,nop,TS val 10278691 ecr 143209728], length 48
+22:48:15.610084 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44259: Flags [P.], seq 641:689, ack 144, win 435, options [nop,nop,TS val 143209765 ecr 10278691], length 48
+22:48:15.610108 IP dhcp-140-247-103-184.fas.harvard.edu.44259 > raspoutine.rezel.enst.fr.ssh: Flags [.], ack 689, win 661, options [nop,nop,TS val 10278701 ecr 143209765], length 0
+22:48:15.610217 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44259: Flags [P.], seq 689:849, ack 144, win 435, options [nop,nop,TS val 143209765 ecr 10278691], length 160
+22:48:15.610233 IP dhcp-140-247-103-184.fas.harvard.edu.44259 > raspoutine.rezel.enst.fr.ssh: Flags [.], ack 849, win 661, options [nop,nop,TS val 10278701 ecr 143209765], length 0
+22:48:15.610316 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44259: Flags [P.], seq 849:993, ack 144, win 435, options [nop,nop,TS val 143209765 ecr 10278691], length 144
+22:48:15.610331 IP dhcp-140-247-103-184.fas.harvard.edu.44259 > raspoutine.rezel.enst.fr.ssh: Flags [.], ack 993, win 661, options [nop,nop,TS val 10278701 ecr 143209765], length 0
+22:48:17.631759 IP dhcp-140-247-103-184.fas.harvard.edu.44259 > raspoutine.rezel.enst.fr.ssh: Flags [P.], seq 144:192, ack 993, win 661, options [nop,nop,TS val 10278903 ecr 143209765], length 48
+22:48:17.737379 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44259: Flags [P.], seq 993:1041, ack 192, win 435, options [nop,nop,TS val 143210297 ecr 10278903], length 48
+22:48:17.737414 IP dhcp-140-247-103-184.fas.harvard.edu.44259 > raspoutine.rezel.enst.fr.ssh: Flags [.], ack 1041, win 661, options [nop,nop,TS val 10278914 ecr 143210297], length 0
+22:48:17.739211 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44259: Flags [P.], seq 1041:1233, ack 192, win 435, options [nop,nop,TS val 143210297 ecr 10278903], length 192
+22:48:17.739227 IP dhcp-140-247-103-184.fas.harvard.edu.44259 > raspoutine.rezel.enst.fr.ssh: Flags [.], ack 1233, win 661, options [nop,nop,TS val 10278914 ecr 143210297], length 0
+22:48:17.739363 IP dhcp-140-247-103-184.fas.harvard.edu.44259 > raspoutine.rezel.enst.fr.ssh: Flags [P.], seq 192:224, ack 1233, win 661, options [nop,nop,TS val 10278914 ecr 143210297], length 32
+22:48:17.739412 IP dhcp-140-247-103-184.fas.harvard.edu.44259 > raspoutine.rezel.enst.fr.ssh: Flags [P.], seq 224:288, ack 1233, win 661, options [nop,nop,TS val 10278914 ecr 143210297], length 64
+22:48:17.739455 IP dhcp-140-247-103-184.fas.harvard.edu.44259 > raspoutine.rezel.enst.fr.ssh: Flags [F.], seq 288, ack 1233, win 661, options [nop,nop,TS val 10278914 ecr 143210297], length 0
+22:48:17.845140 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44259: Flags [.], ack 289, win 435, options [nop,nop,TS val 143210323 ecr 10278914], length 0
+22:48:17.846671 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44259: Flags [F.], seq 1233, ack 289, win 435, options [nop,nop,TS val 143210324 ecr 10278914], length 0
+22:48:17.846690 IP dhcp-140-247-103-184.fas.harvard.edu.44259 > raspoutine.rezel.enst.fr.ssh: Flags [.], ack 1234, win 661, options [nop,nop,TS val 10278925 ecr 143210324], length 0
+22:48:37.745923 IP dhcp-140-247-103-184.fas.harvard.edu.44262 > raspoutine.rezel.enst.fr.ssh: Flags [S], seq 679308487, win 14600, options [mss 1460,sackOK,TS val 10280915 ecr 0,nop,wscale 6], length 0
+22:48:37.851731 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [S.], seq 562233853, ack 679308488, win 5792, options [mss 1380,sackOK,TS val 143215326 ecr 10280915,nop,wscale 6], length 0
+22:48:37.851759 IP dhcp-140-247-103-184.fas.harvard.edu.44262 > raspoutine.rezel.enst.fr.ssh: Flags [.], ack 1, win 229, options [nop,nop,TS val 10280925 ecr 143215326], length 0
+22:48:37.852433 IP dhcp-140-247-103-184.fas.harvard.edu.44262 > raspoutine.rezel.enst.fr.ssh: Flags [P.], seq 1:22, ack 1, win 229, options [nop,nop,TS val 10280925 ecr 143215326], length 21
+22:48:37.957809 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 22, win 91, options [nop,nop,TS val 143215353 ecr 10280925], length 0
+22:48:37.972661 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [P.], seq 1:33, ack 22, win 91, options [nop,nop,TS val 143215356 ecr 10280925], length 32
+22:48:37.972716 IP dhcp-140-247-103-184.fas.harvard.edu.44262 > raspoutine.rezel.enst.fr.ssh: Flags [.], ack 33, win 229, options [nop,nop,TS val 10280937 ecr 143215356], length 0
+22:48:37.973122 IP dhcp-140-247-103-184.fas.harvard.edu.44262 > raspoutine.rezel.enst.fr.ssh: Flags [.], seq 22:1390, ack 33, win 229, options [nop,nop,TS val 10280937 ecr 143215356], length 1368
+22:48:37.973130 IP dhcp-140-247-103-184.fas.harvard.edu.44262 > raspoutine.rezel.enst.fr.ssh: Flags [P.], seq 1390:1854, ack 33, win 229, options [nop,nop,TS val 10280937 ecr 143215356], length 464
+22:48:38.078336 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [P.], seq 33:993, ack 22, win 91, options [nop,nop,TS val 143215383 ecr 10280937], length 960
+22:48:38.078811 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 1854, win 179, options [nop,nop,TS val 143215383 ecr 10280937], length 0
+22:48:38.078935 IP dhcp-140-247-103-184.fas.harvard.edu.44262 > raspoutine.rezel.enst.fr.ssh: Flags [P.], seq 1854:1934, ack 993, win 274, options [nop,nop,TS val 10280948 ecr 143215383], length 80
+22:48:38.189330 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [P.], seq 993:1649, ack 1934, win 179, options [nop,nop,TS val 143215410 ecr 10280948], length 656
+22:48:38.190437 IP dhcp-140-247-103-184.fas.harvard.edu.44262 > raspoutine.rezel.enst.fr.ssh: Flags [P.], seq 1934:1950, ack 1649, win 304, options [nop,nop,TS val 10280959 ecr 143215410], length 16
+22:48:38.335170 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 1950, win 179, options [nop,nop,TS val 143215447 ecr 10280959], length 0
+22:48:38.335187 IP dhcp-140-247-103-184.fas.harvard.edu.44262 > raspoutine.rezel.enst.fr.ssh: Flags [P.], seq 1950:1998, ack 1649, win 304, options [nop,nop,TS val 10280974 ecr 143215447], length 48
+22:48:38.440608 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 1998, win 179, options [nop,nop,TS val 143215473 ecr 10280974], length 0
+22:48:38.440626 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [P.], seq 1649:1697, ack 1998, win 179, options [nop,nop,TS val 143215473 ecr 10280974], length 48
+22:48:38.440782 IP dhcp-140-247-103-184.fas.harvard.edu.44262 > raspoutine.rezel.enst.fr.ssh: Flags [P.], seq 1998:2062, ack 1697, win 304, options [nop,nop,TS val 10280984 ecr 143215473], length 64
+22:48:38.548805 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [P.], seq 1697:1761, ack 2062, win 179, options [nop,nop,TS val 143215500 ecr 10280984], length 64
+22:48:38.548912 IP dhcp-140-247-103-184.fas.harvard.edu.44262 > raspoutine.rezel.enst.fr.ssh: Flags [P.], seq 2062:2430, ack 1761, win 304, options [nop,nop,TS val 10280995 ecr 143215500], length 368
+22:48:38.655319 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [P.], seq 1761:1825, ack 2430, win 222, options [nop,nop,TS val 143215527 ecr 10280995], length 64
+22:48:38.655499 IP dhcp-140-247-103-184.fas.harvard.edu.44262 > raspoutine.rezel.enst.fr.ssh: Flags [P.], seq 2430:2958, ack 1825, win 304, options [nop,nop,TS val 10281006 ecr 143215527], length 528
+22:48:38.761380 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [P.], seq 1825:1889, ack 2958, win 264, options [nop,nop,TS val 143215553 ecr 10281006], length 64
+22:48:38.793406 IP dhcp-140-247-103-184.fas.harvard.edu.44262 > raspoutine.rezel.enst.fr.ssh: Flags [.], ack 1889, win 304, options [nop,nop,TS val 10281020 ecr 143215553], length 0
+22:48:43.992614 IP dhcp-140-247-103-184.fas.harvard.edu.44262 > raspoutine.rezel.enst.fr.ssh: Flags [P.], seq 2958:3102, ack 1889, win 304, options [nop,nop,TS val 10281539 ecr 143215553], length 144
+22:48:44.111107 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [P.], seq 1889:1921, ack 3102, win 307, options [nop,nop,TS val 143216891 ecr 10281539], length 32
+22:48:44.111139 IP dhcp-140-247-103-184.fas.harvard.edu.44262 > raspoutine.rezel.enst.fr.ssh: Flags [.], ack 1921, win 304, options [nop,nop,TS val 10281551 ecr 143216891], length 0
+22:48:44.111409 IP dhcp-140-247-103-184.fas.harvard.edu.44262 > raspoutine.rezel.enst.fr.ssh: Flags [P.], seq 3102:3230, ack 1921, win 304, options [nop,nop,TS val 10281551 ecr 143216891], length 128
+22:48:44.217163 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [P.], seq 1921:1969, ack 3230, win 350, options [nop,nop,TS val 143216917 ecr 10281551], length 48
+22:48:44.217317 IP dhcp-140-247-103-184.fas.harvard.edu.44262 > raspoutine.rezel.enst.fr.ssh: Flags [P.], seq 3230:3294, ack 1969, win 304, options [nop,nop,TS val 10281562 ecr 143216917], length 64
+22:48:44.333832 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [P.], seq 1969:2049, ack 3294, win 350, options [nop,nop,TS val 143216946 ecr 10281562], length 80
+22:48:44.333847 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [P.], seq 2049:2097, ack 3294, win 350, options [nop,nop,TS val 143216946 ecr 10281562], length 48
+22:48:44.333953 IP dhcp-140-247-103-184.fas.harvard.edu.44262 > raspoutine.rezel.enst.fr.ssh: Flags [.], ack 2097, win 304, options [nop,nop,TS val 10281574 ecr 143216946], length 0
+22:48:44.334153 IP dhcp-140-247-103-184.fas.harvard.edu.44262 > raspoutine.rezel.enst.fr.ssh: Flags [P.], seq 3294:3390, ack 2097, win 304, options [nop,nop,TS val 10281574 ecr 143216946], length 96
+22:48:44.439916 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [P.], seq 2097:2145, ack 3390, win 350, options [nop,nop,TS val 143216973 ecr 10281574], length 48
+22:48:44.440377 IP dhcp-140-247-103-184.fas.harvard.edu.44262 > raspoutine.rezel.enst.fr.ssh: Flags [.], seq 3390:14334, ack 2145, win 304, options [nop,nop,TS val 10281584 ecr 143216973], length 10944
+22:48:44.546507 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 6126, win 440, options [nop,nop,TS val 143217000 ecr 10281584], length 0
+22:48:44.546535 IP dhcp-140-247-103-184.fas.harvard.edu.44262 > raspoutine.rezel.enst.fr.ssh: Flags [.], seq 14334:19806, ack 2145, win 304, options [nop,nop,TS val 10281595 ecr 143217000], length 5472
+22:48:44.546542 IP dhcp-140-247-103-184.fas.harvard.edu.44262 > raspoutine.rezel.enst.fr.ssh: Flags [P.], seq 19806:19822, ack 2145, win 304, options [nop,nop,TS val 10281595 ecr 143217000], length 16
+22:48:44.546547 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 8862, win 531, options [nop,nop,TS val 143217000 ecr 10281584], length 0
+22:48:44.546556 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 11598, win 621, options [nop,nop,TS val 143217000 ecr 10281584], length 0
+22:48:44.546560 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 14334, win 712, options [nop,nop,TS val 143217000 ecr 10281584], length 0
+22:48:44.546672 IP dhcp-140-247-103-184.fas.harvard.edu.44262 > raspoutine.rezel.enst.fr.ssh: Flags [.], seq 19822:30766, ack 2145, win 304, options [nop,nop,TS val 10281595 ecr 143217000], length 10944
+22:48:44.652429 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 17070, win 802, options [nop,nop,TS val 143217026 ecr 10281595], length 0
+22:48:44.652448 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 19822, win 893, options [nop,nop,TS val 143217026 ecr 10281595], length 0
+22:48:44.652463 IP dhcp-140-247-103-184.fas.harvard.edu.44262 > raspoutine.rezel.enst.fr.ssh: Flags [.], seq 30766:40342, ack 2145, win 304, options [nop,nop,TS val 10281605 ecr 143217026], length 9576
+22:48:44.652471 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 18438, win 848, options [nop,nop,TS val 143217026 ecr 10281595,nop,nop,sack 1 {3166693041:3166693057}], length 0
+22:48:44.652724 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 21190, win 914, options [nop,nop,TS val 143217026 ecr 10281595], length 0
+22:48:44.652738 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 22558, win 983, options [nop,nop,TS val 143217026 ecr 10281595], length 0
+22:48:44.652744 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 23926, win 982, options [nop,nop,TS val 143217026 ecr 10281595], length 0
+22:48:44.652753 IP dhcp-140-247-103-184.fas.harvard.edu.44262 > raspoutine.rezel.enst.fr.ssh: Flags [.], seq 40342:48550, ack 2145, win 304, options [nop,nop,TS val 10281605 ecr 143217026], length 8208
+22:48:44.652760 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 25294, win 961, options [nop,nop,TS val 143217026 ecr 10281595], length 0
+22:48:44.652766 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 26662, win 940, options [nop,nop,TS val 143217026 ecr 10281595], length 0
+22:48:44.652772 IP dhcp-140-247-103-184.fas.harvard.edu.44262 > raspoutine.rezel.enst.fr.ssh: Flags [P.], seq 48550:52654, ack 2145, win 304, options [nop,nop,TS val 10281605 ecr 143217026], length 4104
+22:48:44.652780 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 28030, win 919, options [nop,nop,TS val 143217026 ecr 10281595], length 0
+22:48:44.652785 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 30766, win 877, options [nop,nop,TS val 143217026 ecr 10281595], length 0
+22:48:44.652790 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 29398, win 898, options [nop,nop,TS val 143217026 ecr 10281595], length 0
+22:48:44.652924 IP dhcp-140-247-103-184.fas.harvard.edu.44262 > raspoutine.rezel.enst.fr.ssh: Flags [.], seq 52654:60862, ack 2145, win 304, options [nop,nop,TS val 10281605 ecr 143217026], length 8208
+22:48:44.758909 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 32134, win 1002, options [nop,nop,TS val 143217053 ecr 10281605], length 0
+22:48:44.758933 IP dhcp-140-247-103-184.fas.harvard.edu.44262 > raspoutine.rezel.enst.fr.ssh: Flags [.], seq 60862:63598, ack 2145, win 304, options [nop,nop,TS val 10281616 ecr 143217053], length 2736
+22:48:44.758942 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 33502, win 1002, options [nop,nop,TS val 143217053 ecr 10281605], length 0
+22:48:44.758948 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 34870, win 1002, options [nop,nop,TS val 143217053 ecr 10281605], length 0
+22:48:44.758953 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 34870, win 1002, options [nop,nop,TS val 143217053 ecr 10281605,nop,nop,sack 1 {3166709473:3166710841}], length 0
+22:48:44.759179 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 38974, win 961, options [nop,nop,TS val 143217053 ecr 10281605], length 0
+22:48:44.759194 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 34870, win 1002, options [nop,nop,TS val 143217053 ecr 10281605,nop,nop,sack 1 {3166709473:3166712209}], length 0
+22:48:44.759198 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 38974, win 1002, options [nop,nop,TS val 143217053 ecr 10281605,nop,nop,sack 1 {3166713577:3166714945}], length 0
+22:48:44.759439 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 38974, win 1002, options [nop,nop,TS val 143217053 ecr 10281605,nop,nop,sack 2 {3166717681:3166719049}{3166713577:3166714945}], length 0
+22:48:44.759452 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 38974, win 1002, options [nop,nop,TS val 143217053 ecr 10281605,nop,nop,sack 3 {3166721785:3166724521}{3166717681:3166720417}{3166713577:3166714945}], length 0
+22:48:44.759457 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 38974, win 1002, options [nop,nop,TS val 143217053 ecr 10281605,nop,nop,sack 3 {3166721785:3166723153}{3166717681:3166720417}{3166713577:3166714945}], length 0
+22:48:44.759460 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 38974, win 1002, options [nop,nop,TS val 143217053 ecr 10281605,nop,nop,sack 3 {3166721785:3166725889}{3166717681:3166720417}{3166713577:3166714945}], length 0
+22:48:44.759464 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 38974, win 1002, options [nop,nop,TS val 143217053 ecr 10281605,nop,nop,sack 2 {3166717681:3166720417}{3166713577:3166714945}], length 0
+22:48:44.759467 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 38974, win 1002, options [nop,nop,TS val 143217053 ecr 10281605,nop,nop,sack 3 {3166721785:3166727257}{3166717681:3166720417}{3166713577:3166714945}], length 0
+22:48:44.759470 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 38974, win 1002, options [nop,nop,TS val 143217053 ecr 10281605,nop,nop,sack 3 {3166721785:3166728625}{3166717681:3166720417}{3166713577:3166714945}], length 0
+22:48:44.759473 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 38974, win 1002, options [nop,nop,TS val 143217053 ecr 10281605,nop,nop,sack 3 {3166721785:3166729993}{3166717681:3166720417}{3166713577:3166714945}], length 0
+22:48:44.759477 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 38974, win 1002, options [nop,nop,TS val 143217053 ecr 10281605,nop,nop,sack 3 {3166731361:3166732729}{3166721785:3166729993}{3166717681:3166720417}], length 0
+22:48:44.759480 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 38974, win 1002, options [nop,nop,TS val 143217053 ecr 10281605,nop,nop,sack 3 {3166731361:3166734097}{3166721785:3166729993}{3166717681:3166720417}], length 0
+22:48:44.864775 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 38974, win 1002, options [nop,nop,TS val 143217080 ecr 10281605,nop,nop,sack 3 {3166731361:3166735465}{3166721785:3166729993}{3166717681:3166720417}], length 0
+22:48:44.864815 IP dhcp-140-247-103-184.fas.harvard.edu.44262 > raspoutine.rezel.enst.fr.ssh: Flags [.], seq 63598:67702, ack 2145, win 304, options [nop,nop,TS val 10281627 ecr 143217080], length 4104
+22:48:44.864834 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 38974, win 1002, options [nop,nop,TS val 143217080 ecr 10281605,nop,nop,sack 3 {3166731361:3166736833}{3166721785:3166729993}{3166717681:3166720417}], length 0
+22:48:44.970602 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 38974, win 1002, options [nop,nop,TS val 143217106 ecr 10281605,nop,nop,sack 3 {3166731361:3166738201}{3166721785:3166729993}{3166717681:3166720417}], length 0
+22:48:44.970778 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 38974, win 1002, options [nop,nop,TS val 143217106 ecr 10281605,nop,nop,sack 3 {3166731361:3166739569}{3166721785:3166729993}{3166717681:3166720417}], length 0
+22:48:44.970785 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 38974, win 1002, options [nop,nop,TS val 143217106 ecr 10281605,nop,nop,sack 3 {3166731361:3166740937}{3166721785:3166729993}{3166717681:3166720417}], length 0
+22:48:45.093445 IP dhcp-140-247-103-184.fas.harvard.edu.44262 > raspoutine.rezel.enst.fr.ssh: Flags [.], seq 38974:40342, ack 2145, win 304, options [nop,nop,TS val 10281650 ecr 143217106], length 1368
+22:48:45.199165 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 41710, win 960, options [nop,nop,TS val 143217163 ecr 10281650,nop,nop,sack 3 {3166731361:3166740937}{3166721785:3166729993}{3166717681:3166720417}], length 0
+22:48:45.199202 IP dhcp-140-247-103-184.fas.harvard.edu.44262 > raspoutine.rezel.enst.fr.ssh: Flags [.], seq 67702:70438, ack 2145, win 304, options [nop,nop,TS val 10281660 ecr 143217163], length 2736
+22:48:45.304969 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 41710, win 960, options [nop,nop,TS val 143217190 ecr 10281650,nop,nop,sack 3 {3166731361:3166742305}{3166721785:3166729993}{3166717681:3166720417}], length 0
+22:48:45.305000 IP dhcp-140-247-103-184.fas.harvard.edu.44262 > raspoutine.rezel.enst.fr.ssh: Flags [.], seq 41710:43078, ack 2145, win 304, options [nop,nop,TS val 10281671 ecr 143217163], length 1368
+22:48:45.305009 IP dhcp-140-247-103-184.fas.harvard.edu.44262 > raspoutine.rezel.enst.fr.ssh: Flags [.], seq 43078:44446, ack 2145, win 304, options [nop,nop,TS val 10281671 ecr 143217163], length 1368
+22:48:45.305013 IP dhcp-140-247-103-184.fas.harvard.edu.44262 > raspoutine.rezel.enst.fr.ssh: Flags [.], seq 44446:45814, ack 2145, win 304, options [nop,nop,TS val 10281671 ecr 143217163], length 1368
+22:48:45.305022 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 41710, win 960, options [nop,nop,TS val 143217190 ecr 10281650,nop,nop,sack 3 {3166731361:3166743673}{3166721785:3166729993}{3166717681:3166720417}], length 0
+22:48:45.410758 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 43078, win 939, options [nop,nop,TS val 143217216 ecr 10281671,nop,nop,sack 3 {3166731361:3166743673}{3166721785:3166729993}{3166717681:3166720417}], length 0
+22:48:45.410777 IP dhcp-140-247-103-184.fas.harvard.edu.44262 > raspoutine.rezel.enst.fr.ssh: Flags [.], seq 45814:47182, ack 2145, win 304, options [nop,nop,TS val 10281681 ecr 143217190], length 1368
+22:48:45.410784 IP dhcp-140-247-103-184.fas.harvard.edu.44262 > raspoutine.rezel.enst.fr.ssh: Flags [.], seq 47182:48550, ack 2145, win 304, options [nop,nop,TS val 10281681 ecr 143217190], length 1368
+22:48:45.410790 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 47182, win 875, options [nop,nop,TS val 143217216 ecr 10281671,nop,nop,sack 2 {3166731361:3166743673}{3166721785:3166729993}], length 0
+22:48:45.410800 IP dhcp-140-247-103-184.fas.harvard.edu.44262 > raspoutine.rezel.enst.fr.ssh: Flags [.], seq 48550:49918, ack 2145, win 304, options [nop,nop,TS val 10281681 ecr 143217216], length 1368
+22:48:45.410804 IP dhcp-140-247-103-184.fas.harvard.edu.44262 > raspoutine.rezel.enst.fr.ssh: Flags [.], seq 49918:51286, ack 2145, win 304, options [nop,nop,TS val 10281681 ecr 143217216], length 1368
+22:48:45.410807 IP dhcp-140-247-103-184.fas.harvard.edu.44262 > raspoutine.rezel.enst.fr.ssh: Flags [P.], seq 51286:52654, ack 2145, win 304, options [nop,nop,TS val 10281681 ecr 143217216], length 1368
+22:48:45.410812 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 47182, win 875, options [nop,nop,TS val 143217216 ecr 10281671,nop,nop,sack 3 {3166717681:3166719049}{3166731361:3166743673}{3166721785:3166729993}], length 0
+22:48:45.516464 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 47182, win 875, options [nop,nop,TS val 143217242 ecr 10281681,nop,nop,sack 3 {3166719049:3166720417}{3166731361:3166743673}{3166721785:3166729993}], length 0
+22:48:45.516480 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 56758, win 726, options [nop,nop,TS val 143217242 ecr 10281681,nop,nop,sack 1 {3166731361:3166743673}], length 0
+22:48:45.516495 IP dhcp-140-247-103-184.fas.harvard.edu.44262 > raspoutine.rezel.enst.fr.ssh: Flags [.], seq 56758:58126, ack 2145, win 304, options [nop,nop,TS val 10281692 ecr 143217242], length 1368
+22:48:45.516502 IP dhcp-140-247-103-184.fas.harvard.edu.44262 > raspoutine.rezel.enst.fr.ssh: Flags [.], seq 58126:59494, ack 2145, win 304, options [nop,nop,TS val 10281692 ecr 143217242], length 1368
+22:48:45.516505 IP dhcp-140-247-103-184.fas.harvard.edu.44262 > raspoutine.rezel.enst.fr.ssh: Flags [.], seq 59494:60862, ack 2145, win 304, options [nop,nop,TS val 10281692 ecr 143217242], length 1368
+22:48:45.516509 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 56758, win 726, options [nop,nop,TS val 143217242 ecr 10281681,nop,nop,sack 2 {3166721785:3166723153}{3166731361:3166743673}], length 0
+22:48:45.516515 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 56758, win 726, options [nop,nop,TS val 143217242 ecr 10281681,nop,nop,sack 2 {3166723153:3166724521}{3166731361:3166743673}], length 0
+22:48:45.516518 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 56758, win 726, options [nop,nop,TS val 143217242 ecr 10281681,nop,nop,sack 2 {3166724521:3166725889}{3166731361:3166743673}], length 0
+22:48:45.622254 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 70438, win 814, options [nop,nop,TS val 143217269 ecr 10281692], length 0
+22:48:45.622277 IP dhcp-140-247-103-184.fas.harvard.edu.44262 > raspoutine.rezel.enst.fr.ssh: Flags [.], seq 70438:74542, ack 2145, win 304, options [nop,nop,TS val 10281702 ecr 143217269], length 4104
+22:48:45.622287 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 70438, win 814, options [nop,nop,TS val 143217269 ecr 10281692,nop,nop,sack 1 {3166731361:3166732729}], length 0
+22:48:45.622294 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 70438, win 1002, options [nop,nop,TS val 143217269 ecr 10281692,nop,nop,sack 1 {3166732729:3166734097}], length 0
+22:48:45.728036 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 71806, win 1002, options [nop,nop,TS val 143217295 ecr 10281702], length 0
+22:48:45.728057 IP dhcp-140-247-103-184.fas.harvard.edu.44262 > raspoutine.rezel.enst.fr.ssh: Flags [.], seq 74542:77278, ack 2145, win 304, options [nop,nop,TS val 10281713 ecr 143217295], length 2736
+22:48:45.728066 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 73174, win 982, options [nop,nop,TS val 143217295 ecr 10281702], length 0
+22:48:45.728074 IP dhcp-140-247-103-184.fas.harvard.edu.44262 > raspoutine.rezel.enst.fr.ssh: Flags [.], seq 77278:80014, ack 2145, win 304, options [nop,nop,TS val 10281713 ecr 143217295], length 2736
+22:48:45.728079 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 74542, win 961, options [nop,nop,TS val 143217295 ecr 10281702], length 0
+22:48:45.728087 IP dhcp-140-247-103-184.fas.harvard.edu.44262 > raspoutine.rezel.enst.fr.ssh: Flags [.], seq 80014:82750, ack 2145, win 304, options [nop,nop,TS val 10281713 ecr 143217295], length 2736
+22:48:45.833858 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 75910, win 1002, options [nop,nop,TS val 143217322 ecr 10281713], length 0
+22:48:45.833873 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 77278, win 982, options [nop,nop,TS val 143217322 ecr 10281713], length 0
+22:48:45.833884 IP dhcp-140-247-103-184.fas.harvard.edu.44262 > raspoutine.rezel.enst.fr.ssh: Flags [.], seq 82750:88222, ack 2145, win 304, options [nop,nop,TS val 10281724 ecr 143217322], length 5472
+22:48:45.833893 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 80014, win 940, options [nop,nop,TS val 143217322 ecr 10281713], length 0
+22:48:45.833901 IP dhcp-140-247-103-184.fas.harvard.edu.44262 > raspoutine.rezel.enst.fr.ssh: Flags [.], seq 88222:90958, ack 2145, win 304, options [nop,nop,TS val 10281724 ecr 143217322], length 2736
+22:48:45.833906 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 78646, win 961, options [nop,nop,TS val 143217322 ecr 10281713], length 0
+22:48:45.833910 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 81382, win 919, options [nop,nop,TS val 143217322 ecr 10281713], length 0
+22:48:45.833914 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 82750, win 898, options [nop,nop,TS val 143217322 ecr 10281713], length 0
+22:48:45.833922 IP dhcp-140-247-103-184.fas.harvard.edu.44262 > raspoutine.rezel.enst.fr.ssh: Flags [.], seq 90958:97798, ack 2145, win 304, options [nop,nop,TS val 10281724 ecr 143217322], length 6840
+22:48:45.939825 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 84118, win 1002, options [nop,nop,TS val 143217348 ecr 10281724], length 0
+22:48:45.939840 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 85486, win 1002, options [nop,nop,TS val 143217348 ecr 10281724], length 0
+22:48:45.939845 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 89590, win 940, options [nop,nop,TS val 143217348 ecr 10281724], length 0
+22:48:45.939855 IP dhcp-140-247-103-184.fas.harvard.edu.44262 > raspoutine.rezel.enst.fr.ssh: Flags [.], seq 97798:103270, ack 2145, win 304, options [nop,nop,TS val 10281734 ecr 143217348], length 5472
+22:48:45.939861 IP dhcp-140-247-103-184.fas.harvard.edu.44262 > raspoutine.rezel.enst.fr.ssh: Flags [P.], seq 103270:104078, ack 2145, win 304, options [nop,nop,TS val 10281734 ecr 143217348], length 808
+22:48:45.939866 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 90958, win 1002, options [nop,nop,TS val 143217348 ecr 10281724], length 0
+22:48:45.939872 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 88222, win 961, options [nop,nop,TS val 143217348 ecr 10281724], length 0
+22:48:45.939874 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 86854, win 982, options [nop,nop,TS val 143217348 ecr 10281724], length 0
+22:48:45.940607 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 97798, win 1002, options [nop,nop,TS val 143217348 ecr 10281724], length 0
+22:48:46.045834 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 100534, win 1002, options [nop,nop,TS val 143217375 ecr 10281734], length 0
+22:48:46.045848 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 104078, win 1002, options [nop,nop,TS val 143217375 ecr 10281734], length 0
+22:48:46.046500 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [P.], seq 2145:2193, ack 104078, win 1002, options [nop,nop,TS val 143217375 ecr 10281734], length 48
+22:48:46.046516 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [P.], seq 2193:2241, ack 104078, win 1002, options [nop,nop,TS val 143217375 ecr 10281734], length 48
+22:48:46.046590 IP dhcp-140-247-103-184.fas.harvard.edu.44262 > raspoutine.rezel.enst.fr.ssh: Flags [.], ack 2241, win 304, options [nop,nop,TS val 10281745 ecr 143217375], length 0
+22:48:46.046751 IP dhcp-140-247-103-184.fas.harvard.edu.44262 > raspoutine.rezel.enst.fr.ssh: Flags [P.], seq 104078:104110, ack 2241, win 304, options [nop,nop,TS val 10281745 ecr 143217375], length 32
+22:48:46.152932 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [P.], seq 2241:2369, ack 104110, win 1002, options [nop,nop,TS val 143217401 ecr 10281745], length 128
+22:48:46.153066 IP dhcp-140-247-103-184.fas.harvard.edu.44262 > raspoutine.rezel.enst.fr.ssh: Flags [P.], seq 104110:104142, ack 2369, win 334, options [nop,nop,TS val 10281755 ecr 143217401], length 32
+22:48:46.153086 IP dhcp-140-247-103-184.fas.harvard.edu.44262 > raspoutine.rezel.enst.fr.ssh: Flags [P.], seq 104142:104206, ack 2369, win 334, options [nop,nop,TS val 10281755 ecr 143217401], length 64
+22:48:46.153114 IP dhcp-140-247-103-184.fas.harvard.edu.44262 > raspoutine.rezel.enst.fr.ssh: Flags [F.], seq 104206, ack 2369, win 334, options [nop,nop,TS val 10281755 ecr 143217401], length 0
+22:48:46.258508 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [.], ack 104207, win 1002, options [nop,nop,TS val 143217428 ecr 10281755], length 0
+22:48:46.260628 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44262: Flags [F.], seq 2369, ack 104207, win 1002, options [nop,nop,TS val 143217428 ecr 10281755], length 0
+22:48:46.260647 IP dhcp-140-247-103-184.fas.harvard.edu.44262 > raspoutine.rezel.enst.fr.ssh: Flags [.], ack 2370, win 334, options [nop,nop,TS val 10281766 ecr 143217428], length 0
+22:48:47.375130 IP dhcp-140-247-103-184.fas.harvard.edu.44263 > raspoutine.rezel.enst.fr.ssh: Flags [S], seq 2559108970, win 14600, options [mss 1460,sackOK,TS val 10281878 ecr 0,nop,wscale 6], length 0
+22:48:47.467562 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44263: Flags [S.], seq 706324717, ack 2559108971, win 5792, options [mss 1380,sackOK,TS val 143217731 ecr 10281878,nop,wscale 6], length 0
+22:48:47.467590 IP dhcp-140-247-103-184.fas.harvard.edu.44263 > raspoutine.rezel.enst.fr.ssh: Flags [.], ack 1, win 229, options [nop,nop,TS val 10281887 ecr 143217731], length 0
+22:48:47.468330 IP dhcp-140-247-103-184.fas.harvard.edu.44263 > raspoutine.rezel.enst.fr.ssh: Flags [P.], seq 1:22, ack 1, win 229, options [nop,nop,TS val 10281887 ecr 143217731], length 21
+22:48:47.560552 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44263: Flags [.], ack 22, win 91, options [nop,nop,TS val 143217754 ecr 10281887], length 0
+22:48:47.574862 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44263: Flags [P.], seq 1:33, ack 22, win 91, options [nop,nop,TS val 143217757 ecr 10281887], length 32
+22:48:47.574913 IP dhcp-140-247-103-184.fas.harvard.edu.44263 > raspoutine.rezel.enst.fr.ssh: Flags [.], ack 33, win 229, options [nop,nop,TS val 10281898 ecr 143217757], length 0
+22:48:47.575288 IP dhcp-140-247-103-184.fas.harvard.edu.44263 > raspoutine.rezel.enst.fr.ssh: Flags [.], seq 22:1390, ack 33, win 229, options [nop,nop,TS val 10281898 ecr 143217757], length 1368
+22:48:47.575295 IP dhcp-140-247-103-184.fas.harvard.edu.44263 > raspoutine.rezel.enst.fr.ssh: Flags [P.], seq 1390:1854, ack 33, win 229, options [nop,nop,TS val 10281898 ecr 143217757], length 464
+22:48:47.667207 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44263: Flags [P.], seq 33:993, ack 22, win 91, options [nop,nop,TS val 143217780 ecr 10281898], length 960
+22:48:47.667768 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44263: Flags [.], ack 1854, win 179, options [nop,nop,TS val 143217780 ecr 10281898], length 0
+22:48:47.667784 IP dhcp-140-247-103-184.fas.harvard.edu.44263 > raspoutine.rezel.enst.fr.ssh: Flags [P.], seq 1854:1934, ack 993, win 274, options [nop,nop,TS val 10281907 ecr 143217780], length 80
+22:48:47.764784 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44263: Flags [P.], seq 993:1649, ack 1934, win 179, options [nop,nop,TS val 143217805 ecr 10281907], length 656
+22:48:47.765819 IP dhcp-140-247-103-184.fas.harvard.edu.44263 > raspoutine.rezel.enst.fr.ssh: Flags [P.], seq 1934:1950, ack 1649, win 304, options [nop,nop,TS val 10281917 ecr 143217805], length 16
+22:48:47.897104 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44263: Flags [.], ack 1950, win 179, options [nop,nop,TS val 143217838 ecr 10281917], length 0
+22:48:47.897121 IP dhcp-140-247-103-184.fas.harvard.edu.44263 > raspoutine.rezel.enst.fr.ssh: Flags [P.], seq 1950:1998, ack 1649, win 304, options [nop,nop,TS val 10281930 ecr 143217838], length 48
+22:48:47.989190 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44263: Flags [.], ack 1998, win 179, options [nop,nop,TS val 143217861 ecr 10281930], length 0
+22:48:47.989201 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44263: Flags [P.], seq 1649:1697, ack 1998, win 179, options [nop,nop,TS val 143217861 ecr 10281930], length 48
+22:48:47.989272 IP dhcp-140-247-103-184.fas.harvard.edu.44263 > raspoutine.rezel.enst.fr.ssh: Flags [P.], seq 1998:2062, ack 1697, win 304, options [nop,nop,TS val 10281939 ecr 143217861], length 64
+22:48:48.083983 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44263: Flags [P.], seq 1697:1761, ack 2062, win 179, options [nop,nop,TS val 143217884 ecr 10281939], length 64
+22:48:48.084147 IP dhcp-140-247-103-184.fas.harvard.edu.44263 > raspoutine.rezel.enst.fr.ssh: Flags [P.], seq 2062:2430, ack 1761, win 304, options [nop,nop,TS val 10281949 ecr 143217884], length 368
+22:48:48.177264 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44263: Flags [P.], seq 1761:1825, ack 2430, win 222, options [nop,nop,TS val 143217908 ecr 10281949], length 64
+22:48:48.177377 IP dhcp-140-247-103-184.fas.harvard.edu.44263 > raspoutine.rezel.enst.fr.ssh: Flags [P.], seq 2430:2958, ack 1825, win 304, options [nop,nop,TS val 10281958 ecr 143217908], length 528
+22:48:48.269951 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44263: Flags [P.], seq 1825:1889, ack 2958, win 264, options [nop,nop,TS val 143217931 ecr 10281958], length 64
+22:48:48.313473 IP dhcp-140-247-103-184.fas.harvard.edu.44263 > raspoutine.rezel.enst.fr.ssh: Flags [.], ack 1889, win 304, options [nop,nop,TS val 10281972 ecr 143217931], length 0
+22:48:51.273055 IP dhcp-140-247-103-184.fas.harvard.edu.44263 > raspoutine.rezel.enst.fr.ssh: Flags [P.], seq 2958:3102, ack 1889, win 304, options [nop,nop,TS val 10282267 ecr 143217931], length 144
+22:48:51.378276 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44263: Flags [P.], seq 1889:1921, ack 3102, win 307, options [nop,nop,TS val 143218708 ecr 10282267], length 32
+22:48:51.378302 IP dhcp-140-247-103-184.fas.harvard.edu.44263 > raspoutine.rezel.enst.fr.ssh: Flags [.], ack 1921, win 304, options [nop,nop,TS val 10282278 ecr 143218708], length 0
+22:48:51.378515 IP dhcp-140-247-103-184.fas.harvard.edu.44263 > raspoutine.rezel.enst.fr.ssh: Flags [P.], seq 3102:3230, ack 1921, win 304, options [nop,nop,TS val 10282278 ecr 143218708], length 128
+22:48:51.470715 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44263: Flags [P.], seq 1921:1969, ack 3230, win 350, options [nop,nop,TS val 143218731 ecr 10282278], length 48
+22:48:51.470798 IP dhcp-140-247-103-184.fas.harvard.edu.44263 > raspoutine.rezel.enst.fr.ssh: Flags [P.], seq 3230:3294, ack 1969, win 304, options [nop,nop,TS val 10282287 ecr 143218731], length 64
+22:48:51.574011 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44263: Flags [P.], seq 1969:2049, ack 3294, win 350, options [nop,nop,TS val 143218757 ecr 10282287], length 80
+22:48:51.574039 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44263: Flags [P.], seq 2049:2097, ack 3294, win 350, options [nop,nop,TS val 143218757 ecr 10282287], length 48
+22:48:51.574129 IP dhcp-140-247-103-184.fas.harvard.edu.44263 > raspoutine.rezel.enst.fr.ssh: Flags [.], ack 2097, win 304, options [nop,nop,TS val 10282298 ecr 143218757], length 0
+22:48:51.574361 IP dhcp-140-247-103-184.fas.harvard.edu.44263 > raspoutine.rezel.enst.fr.ssh: Flags [P.], seq 3294:3390, ack 2097, win 304, options [nop,nop,TS val 10282298 ecr 143218757], length 96
+22:48:51.666756 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44263: Flags [P.], seq 2097:2145, ack 3390, win 350, options [nop,nop,TS val 143218780 ecr 10282298], length 48
+22:48:51.667299 IP dhcp-140-247-103-184.fas.harvard.edu.44263 > raspoutine.rezel.enst.fr.ssh: Flags [.], seq 3390:14334, ack 2145, win 304, options [nop,nop,TS val 10282307 ecr 143218780], length 10944
+22:48:51.759811 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44263: Flags [.], ack 6126, win 440, options [nop,nop,TS val 143218804 ecr 10282307], length 0
+22:48:51.759837 IP dhcp-140-247-103-184.fas.harvard.edu.44263 > raspoutine.rezel.enst.fr.ssh: Flags [.], seq 14334:19806, ack 2145, win 304, options [nop,nop,TS val 10282316 ecr 143218804], length 5472
+22:48:51.759844 IP dhcp-140-247-103-184.fas.harvard.edu.44263 > raspoutine.rezel.enst.fr.ssh: Flags [P.], seq 19806:19822, ack 2145, win 304, options [nop,nop,TS val 10282316 ecr 143218804], length 16
+22:48:51.759850 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44263: Flags [.], ack 8862, win 531, options [nop,nop,TS val 143218804 ecr 10282307], length 0
+22:48:51.759858 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44263: Flags [.], ack 11598, win 621, options [nop,nop,TS val 143218804 ecr 10282307], length 0
+22:48:51.759862 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44263: Flags [.], ack 14334, win 712, options [nop,nop,TS val 143218804 ecr 10282307], length 0
+22:48:51.759976 IP dhcp-140-247-103-184.fas.harvard.edu.44263 > raspoutine.rezel.enst.fr.ssh: Flags [.], seq 19822:30766, ack 2145, win 304, options [nop,nop,TS val 10282316 ecr 143218804], length 10944
+22:48:51.852571 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44263: Flags [.], ack 17070, win 802, options [nop,nop,TS val 143218827 ecr 10282316], length 0
+22:48:51.852598 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44263: Flags [.], ack 26662, win 938, options [nop,nop,TS val 143218827 ecr 10282316], length 0
+22:48:51.852620 IP dhcp-140-247-103-184.fas.harvard.edu.44263 > raspoutine.rezel.enst.fr.ssh: Flags [.], seq 30766:47182, ack 2145, win 304, options [nop,nop,TS val 10282325 ecr 143218827], length 16416
+22:48:51.852630 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44263: Flags [.], ack 19806, win 893, options [nop,nop,TS val 143218827 ecr 10282316], length 0
+22:48:51.852634 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44263: Flags [.], ack 21190, win 914, options [nop,nop,TS val 143218827 ecr 10282316], length 0
+22:48:51.852637 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44263: Flags [.], ack 29398, win 982, options [nop,nop,TS val 143218827 ecr 10282316], length 0
+22:48:51.892741 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44263: Flags [.], ack 30766, win 983, options [nop,nop,TS val 143218837 ecr 10282316], length 0
+22:48:51.892763 IP dhcp-140-247-103-184.fas.harvard.edu.44263 > raspoutine.rezel.enst.fr.ssh: Flags [.], seq 47182:51286, ack 2145, win 304, options [nop,nop,TS val 10282329 ecr 143218837], length 4104
+22:48:51.944984 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44263: Flags [.], ack 32134, win 1002, options [nop,nop,TS val 143218850 ecr 10282325], length 0
+22:48:51.945007 IP dhcp-140-247-103-184.fas.harvard.edu.44263 > raspoutine.rezel.enst.fr.ssh: Flags [P.], seq 51286:52654, ack 2145, win 304, options [nop,nop,TS val 10282335 ecr 143218850], length 1368
+22:48:51.945071 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44263: Flags [.], ack 34870, win 1002, options [nop,nop,TS val 143218850 ecr 10282325], length 0
+22:48:51.945206 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44263: Flags [.], ack 43078, win 1002, options [nop,nop,TS val 143218850 ecr 10282325], length 0
+22:48:51.945225 IP dhcp-140-247-103-184.fas.harvard.edu.44263 > raspoutine.rezel.enst.fr.ssh: Flags [.], seq 52654:63598, ack 2145, win 304, options [nop,nop,TS val 10282335 ecr 143218850], length 10944
+22:48:51.945697 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44263: Flags [.], ack 47182, win 1002, options [nop,nop,TS val 143218850 ecr 10282325], length 0
+22:48:51.985482 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44263: Flags [.], ack 51286, win 1002, options [nop,nop,TS val 143218860 ecr 10282329], length 0
+22:48:51.985520 IP dhcp-140-247-103-184.fas.harvard.edu.44263 > raspoutine.rezel.enst.fr.ssh: Flags [.], seq 63598:71806, ack 2145, win 304, options [nop,nop,TS val 10282339 ecr 143218860], length 8208
+22:48:52.037780 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44263: Flags [.], ack 54022, win 1002, options [nop,nop,TS val 143218873 ecr 10282335], length 0
+22:48:52.038318 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44263: Flags [.], ack 63598, win 1002, options [nop,nop,TS val 143218873 ecr 10282335], length 0
+22:48:52.038338 IP dhcp-140-247-103-184.fas.harvard.edu.44263 > raspoutine.rezel.enst.fr.ssh: Flags [.], seq 71806:85486, ack 2145, win 304, options [nop,nop,TS val 10282344 ecr 143218873], length 13680
+22:48:52.078184 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44263: Flags [.], ack 67702, win 1002, options [nop,nop,TS val 143218883 ecr 10282339], length 0
+22:48:52.078202 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44263: Flags [.], ack 71806, win 1002, options [nop,nop,TS val 143218883 ecr 10282339], length 0
+22:48:52.078215 IP dhcp-140-247-103-184.fas.harvard.edu.44263 > raspoutine.rezel.enst.fr.ssh: Flags [.], seq 85486:93694, ack 2145, win 304, options [nop,nop,TS val 10282348 ecr 143218883], length 8208
+22:48:52.131173 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44263: Flags [.], ack 81382, win 1002, options [nop,nop,TS val 143218897 ecr 10282344], length 0
+22:48:52.131189 IP dhcp-140-247-103-184.fas.harvard.edu.44263 > raspoutine.rezel.enst.fr.ssh: Flags [.], seq 93694:95062, ack 2145, win 304, options [nop,nop,TS val 10282353 ecr 143218897], length 1368
+22:48:52.131198 IP dhcp-140-247-103-184.fas.harvard.edu.44263 > raspoutine.rezel.enst.fr.ssh: Flags [.], seq 95062:103270, ack 2145, win 304, options [nop,nop,TS val 10282353 ecr 143218897], length 8208
+22:48:52.131205 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44263: Flags [.], ack 82750, win 982, options [nop,nop,TS val 143218897 ecr 10282344,nop,nop,sack 1 {3724511902:3724513270}], length 0
+22:48:52.131214 IP dhcp-140-247-103-184.fas.harvard.edu.44263 > raspoutine.rezel.enst.fr.ssh: Flags [P.], seq 103270:104078, ack 2145, win 304, options [nop,nop,TS val 10282353 ecr 143218897], length 808
+22:48:52.131219 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44263: Flags [.], ack 85486, win 961, options [nop,nop,TS val 143218897 ecr 10282344], length 0
+22:48:52.170822 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44263: Flags [.], ack 86854, win 1002, options [nop,nop,TS val 143218907 ecr 10282348], length 0
+22:48:52.170836 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44263: Flags [.], ack 88222, win 982, options [nop,nop,TS val 143218907 ecr 10282348], length 0
+22:48:52.170840 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44263: Flags [.], ack 89590, win 961, options [nop,nop,TS val 143218907 ecr 10282348], length 0
+22:48:52.170843 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44263: Flags [.], ack 90958, win 940, options [nop,nop,TS val 143218907 ecr 10282348], length 0
+22:48:52.170847 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44263: Flags [.], ack 92326, win 919, options [nop,nop,TS val 143218907 ecr 10282348], length 0
+22:48:52.170850 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44263: Flags [.], ack 93694, win 898, options [nop,nop,TS val 143218907 ecr 10282348], length 0
+22:48:52.223852 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44263: Flags [.], ack 95062, win 1002, options [nop,nop,TS val 143218920 ecr 10282353], length 0
+22:48:52.223872 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44263: Flags [.], ack 96430, win 982, options [nop,nop,TS val 143218920 ecr 10282353], length 0
+22:48:52.223877 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44263: Flags [.], ack 97798, win 961, options [nop,nop,TS val 143218920 ecr 10282353], length 0
+22:48:52.223880 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44263: Flags [.], ack 99166, win 940, options [nop,nop,TS val 143218920 ecr 10282353], length 0
+22:48:52.223884 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44263: Flags [.], ack 100534, win 919, options [nop,nop,TS val 143218920 ecr 10282353], length 0
+22:48:52.223887 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44263: Flags [.], ack 101902, win 898, options [nop,nop,TS val 143218920 ecr 10282353], length 0
+22:48:52.223890 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44263: Flags [.], ack 101902, win 898, options [nop,nop,TS val 143218920 ecr 10282353,nop,nop,sack 1 {3724531054:3724531862}], length 0
+22:48:52.223896 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44263: Flags [.], ack 104078, win 864, options [nop,nop,TS val 143218920 ecr 10282353], length 0
+22:48:52.224464 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44263: Flags [P.], seq 2145:2193, ack 104078, win 1002, options [nop,nop,TS val 143218920 ecr 10282353], length 48
+22:48:52.224480 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44263: Flags [P.], seq 2193:2241, ack 104078, win 1002, options [nop,nop,TS val 143218920 ecr 10282353], length 48
+22:48:52.224518 IP dhcp-140-247-103-184.fas.harvard.edu.44263 > raspoutine.rezel.enst.fr.ssh: Flags [.], ack 2241, win 304, options [nop,nop,TS val 10282363 ecr 143218920], length 0
+22:48:52.224676 IP dhcp-140-247-103-184.fas.harvard.edu.44263 > raspoutine.rezel.enst.fr.ssh: Flags [P.], seq 104078:104110, ack 2241, win 304, options [nop,nop,TS val 10282363 ecr 143218920], length 32
+22:48:52.317387 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44263: Flags [P.], seq 2241:2369, ack 104110, win 1002, options [nop,nop,TS val 143218943 ecr 10282363], length 128
+22:48:52.317516 IP dhcp-140-247-103-184.fas.harvard.edu.44263 > raspoutine.rezel.enst.fr.ssh: Flags [P.], seq 104110:104142, ack 2369, win 334, options [nop,nop,TS val 10282372 ecr 143218943], length 32
+22:48:52.317543 IP dhcp-140-247-103-184.fas.harvard.edu.44263 > raspoutine.rezel.enst.fr.ssh: Flags [P.], seq 104142:104206, ack 2369, win 334, options [nop,nop,TS val 10282372 ecr 143218943], length 64
+22:48:52.317579 IP dhcp-140-247-103-184.fas.harvard.edu.44263 > raspoutine.rezel.enst.fr.ssh: Flags [F.], seq 104206, ack 2369, win 334, options [nop,nop,TS val 10282372 ecr 143218943], length 0
+22:48:52.409794 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44263: Flags [.], ack 104207, win 1002, options [nop,nop,TS val 143218966 ecr 10282372], length 0
+22:48:52.411965 IP raspoutine.rezel.enst.fr.ssh > dhcp-140-247-103-184.fas.harvard.edu.44263: Flags [F.], seq 2369, ack 104207, win 1002, options [nop,nop,TS val 143218966 ecr 10282372], length 0
+22:48:52.411984 IP dhcp-140-247-103-184.fas.harvard.edu.44263 > raspoutine.rezel.enst.fr.ssh: Flags [.], ack 2370, win 334, options [nop,nop,TS val 10282381 ecr 143218966], length 0
+
