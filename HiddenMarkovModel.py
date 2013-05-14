@@ -129,13 +129,6 @@ class HiddenMarkovModel(object):
 
         # Log likelihood
         likelihood = -sum([numpy.log(c) for c in self.c])
-        #print(self.c)
-        #likelihood = 0
-        #for c in self.c:
-        #    if c == 0:
-        #        print("Problem!!!!")
-        #    else:
-        #        likelihood -= numpy.log(c)
         old_likelihood = likelihood - 1
 
         # Main Loop of updating until convergence of the likelihood
@@ -251,15 +244,10 @@ class HiddenMarkovModel(object):
                        for j in range(self.n)]) for i in range(self.n)]
             # Scaling
             beta[t] *= self.c[t]
-            #XXX
-            #if sum(beta[t]) == 0:
 
-            #    for i in range(self.n):
-            #        print("---------------")
-            #        print("i=", i)
-            #        for j in range(self.n):
-            #            print(self.A[i][j], beta[t+1][j], self.B[j][O[t+1]], self.S[j])
-            ##    print("Problem!!! at t=", t)
+            # Dealing with empty array
+            if not sum(beta[t]) > 0:
+                beta[t] = [1/float(self.n)] * self.n
         return beta
 
     def generateSequence(self, length):

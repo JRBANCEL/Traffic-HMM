@@ -83,7 +83,7 @@ class Classifier(object):
         else:
             raise Exception("No such class in the classifier")
 
-    def classify(self, observations):
+    def classify(self, observations, threshold=-3000):
         """
         Returns the class that is most likely to have generated the observations
         """
@@ -95,4 +95,6 @@ class Classifier(object):
             if score > maxScore:
                 maxScore = score
                 maxName = name
+        if maxScore < threshold:
+            return None
         return maxName

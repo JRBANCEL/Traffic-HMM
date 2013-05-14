@@ -35,6 +35,10 @@ import os
 import Classifier
 
 def getObservationsFromTrace(obsPath, samples, step):
+    """
+    This convert a tcpdump output to a sequence of observations
+    to feed Baum-Welch Algorithm
+    """
     obsFile = open(obsPath, 'r')
     observations = []
     for line in obsFile.readlines():
@@ -43,10 +47,8 @@ def getObservationsFromTrace(obsPath, samples, step):
         if m != None:
             # Real Size
             size = int(m.group(1))
-            #print("Real Size:", size)
             # Sampled Size
             size = min(int(size/step), samples - 1)
-            #print("Sampled Size:", size)
             # Find direction
             m = re.search("(ftp|http|ssh) > ", line)
             if m == None:
@@ -103,7 +105,6 @@ def train(path, maxSize=1000, step=10):
                      ])
     S = [False, False, False, True, False, False, False, True]
     classifier = Classifier.Classifier(Q, E, TM=TM, EM=EM, S=S)
-    #classifier = Classifier.Classifier(Q, E)
 
     # Training
     for className in classes:
@@ -128,8 +129,6 @@ def train(path, maxSize=1000, step=10):
     dump = open("HMM.dump", 'bw')
     pickle.dump(classifier, dump)
     dump.close()
-    #print("A", classifier.classes['ftp'].A, "B", classifier.classes['ftp'].B)
-    #print("A", classifier.classes['http'].A, "B", classifier.classes['http'].B)
 
 def classify(HMMpath, tracePath, maxSize=1000, step=10):
     samples = int(maxSize/step)

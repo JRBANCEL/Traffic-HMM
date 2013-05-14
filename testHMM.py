@@ -31,10 +31,10 @@ import numpy
 import HiddenMarkovModel
 
 # Parameters of the test
-training_sequences = [10, 10, 10]   # Number of training sequences
-training_length = [100, 100, 100]   # Length of the training sequences
+training_sequences = [50, 50, 50]   # Number of training sequences
+training_length = [300, 300, 300]   # Length of the training sequences
 testing_sequences = [10, 10, 10]    # Number of testing sequences
-testing_length = [100, 100, 100]    # Length of the testing sequences
+testing_length = [150, 150, 150]    # Length of the testing sequences
 
 # Set 1
 A = numpy.array([
@@ -62,7 +62,7 @@ A = numpy.array([
                 ])
 B = numpy.array([
                 [1/3., 0., 2/3.],
-                [1/4., 1/2., 1/4.],
+                [0., 1/2., 1/2.],
                 [1/4., 3/4., 0.]
                 ])
 Q = ["0", "1", "2"]
@@ -104,6 +104,19 @@ HMMT3.randomInitialization()
 for i, observation in enumerate(observations3):
     HMMT3.trainOnObservations(observation)
 
+#print("1")
+#print(HMMT1.A)
+#print(HMMT1.B)
+#print(HMMT1.Pi)
+#print("2")
+#print(HMMT2.A)
+#print(HMMT2.B)
+#print(HMMT2.Pi)
+#print("3")
+#print(HMMT3.A)
+#print(HMMT3.B)
+#print(HMMT3.Pi)
+
 # Testing Sets
 observations1 = [HMM1.generateSequence(testing_length[0])
                  for _ in range(testing_sequences[0])]
@@ -114,20 +127,33 @@ observations3 = [HMM3.generateSequence(testing_length[2])
 
 # Testing
 test = 0
-success = 0
+success = [0, 0, 0]
 for i, observation in enumerate(observations1):
+    print("------------------------------")
+    print(HMMT1.viterbiScore(observation))
+    print(HMMT2.viterbiScore(observation))
+    print(HMMT3.viterbiScore(observation))
     if HMMT1.viterbiScore(observation) > \
        max(HMMT2.viterbiScore(observation), HMMT3.viterbiScore(observation)):
-        success += 1
+        success[0] += 1
     test += 1
 for i, observation in enumerate(observations2):
+    print("------------------------------")
+    print(HMMT1.viterbiScore(observation))
+    print(HMMT2.viterbiScore(observation))
+    print(HMMT3.viterbiScore(observation))
     if HMMT2.viterbiScore(observation) > \
        max(HMMT3.viterbiScore(observation), HMMT1.viterbiScore(observation)):
-        success += 1
+        success[1] += 1
     test += 1
 for i, observation in enumerate(observations3):
+    print("------------------------------")
+    print(HMMT1.viterbiScore(observation))
+    print(HMMT2.viterbiScore(observation))
+    print(HMMT3.viterbiScore(observation))
     if HMMT3.viterbiScore(observation) > \
        max(HMMT2.viterbiScore(observation), HMMT1.viterbiScore(observation)):
-        success += 1
+        success[2] += 1
     test += 1
-print("Accuracy: %.2lf%%" % (success*100/float(test)))
+print(success)
+print("Accuracy: %.2lf%%" % (sum(success)*100/float(test)))
